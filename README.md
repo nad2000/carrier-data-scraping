@@ -38,9 +38,9 @@ Deliverables
 
 Upon task completion, you should provide us with the following:
 
-\1) The source HTML file(s) from the website or the XLS file(s) used
+1) The source HTML file(s) from the website or the XLS file(s) used
 
-\2) The XSLT stylesheet
+2) The XSLT stylesheet
 
 Issues to Deal With
 -------------------
@@ -93,6 +93,3 @@ names are misspelled, the country isn't specified, etc - see the example
 XSLT stylesheet for a template that handles this task. There may be
 several XSLT stylesheets associated with one carrier - if their schedule
 pages all have different formats, then each is a stylesheet.
-
-\
-
