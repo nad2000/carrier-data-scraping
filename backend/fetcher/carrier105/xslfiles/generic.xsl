@@ -8,18 +8,14 @@
 
     <xsl:template match="/">
         <schedules>
-            <xsl:apply-templates select="//table/tr[normalize-space(td[1]) = 'Vessel' or normalize-space(td[1]) = 'VESSEL']" mode="schedule" />
+            <xsl:apply-templates select="//tr[td[1] = 'VESSEL']" mode="schedule" />
         </schedules>
     </xsl:template>
 
     <xsl:template match="tr" mode="schedule">
-        <xsl:variable name="xp" select="count(preceding-sibling::tr)+1" />
-        <xsl:variable name="route0">
-            <xsl:choose>
-                <xsl:when test="$xp = 1"><xsl:value-of select="string(//p[1])" /></xsl:when>
-                <xsl:otherwise><xsl:value-of select="../tr[1]" /></xsl:otherwise>
-            </xsl:choose>
-        </xsl:variable>
+        <xsl:variable name="xp" select="count(preceding-sibling::tr)-1" />
+		<!-- Route: -->
+        <xsl:variable name="route0" select="/html/body/p[2]/span/." />
         <xsl:variable name="route" select="normalize-space($route0)" />
 
         <schedule>
@@ -101,8 +97,12 @@
                     </xsl:choose>
                 </xsl:when>
                 <!-- not first element when first port name is missed - fix up for rowspan -->
-                <xsl:when test="../../tr[$xp]/td[3]/@rowspan = 2 and $mxp != 1"><xsl:value-of select="../../tr[$xp+1]/td[$mxp - 1]" /></xsl:when>
-                <xsl:otherwise><xsl:value-of select="../../tr[$xp+1]/td[$mxp]" /></xsl:otherwise>
+                <xsl:when test="../../tr[$xp]/td[3]/@rowspan = 2 and $mxp != 1">
+					<xsl:value-of select="../../tr[$xp+1]/td[$mxp - 1]" />
+				</xsl:when>
+                <xsl:otherwise>
+					<xsl:value-of select="concat(../../tr[$xp+1]/td[$mxp+1],'; ', ../../tr[$xp+2]/td[$mxp+2])" />
+				</xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
         <xsl:variable name="pname" select="normalize-space($pname0)" />

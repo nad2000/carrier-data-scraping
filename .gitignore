@@ -1,4 +1,5 @@
 *~
+*.diff
 nohup.out
 *.log
 *.py[co]
