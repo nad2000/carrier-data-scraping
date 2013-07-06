@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>VOYAGE FREEPORT PT CORTES PT BARRIOS PT LIMON ALMIRANTE</route>
+    <vessel name="EURUS LONDON" voyage="316FS">
+      <port name="EURUS LIMA">26-Apr-13</port>
+      <port name="315FS">28-Apr-13</port>
+      <port name="19-Apr-13">29-Apr-13</port>
+      <port name="21-Apr-13">2-May-13</port>
+      <port name="22-Apr-13">3-May-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="317FS">
+      <port name="EURUS LIMA">3-May-13</port>
+      <port name="315FS">5-May-13</port>
+      <port name="19-Apr-13">6-May-13</port>
+      <port name="21-Apr-13">9-May-13</port>
+      <port name="22-Apr-13">10-May-13</port>
+    </vessel>
+    <vessel name="EURUS LIMA" voyage="318FS">
+      <port name="EURUS LIMA">10-May-13</port>
+      <port name="315FS">12-May-13</port>
+      <port name="19-Apr-13">13-May-13</port>
+      <port name="21-Apr-13">16-May-13</port>
+      <port name="22-Apr-13">17-May-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="319FS">
+      <port name="EURUS LIMA">17-May-13</port>
+      <port name="315FS">19-May-13</port>
+      <port name="19-Apr-13">20-May-13</port>
+      <port name="21-Apr-13">23-May-13</port>
+      <port name="22-Apr-13">24-May-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="320FS">
+      <port name="EURUS LIMA">24-May-13</port>
+      <port name="315FS">26-May-13</port>
+      <port name="19-Apr-13">27-May-13</port>
+      <port name="21-Apr-13">30-May-13</port>
+      <port name="22-Apr-13">31-May-13</port>
+    </vessel>
+    <vessel name="EURUS LIMA" voyage="321FS">
+      <port name="EURUS LIMA">31-May-13</port>
+      <port name="315FS">2-Jun-13</port>
+      <port name="19-Apr-13">3-Jun-13</port>
+      <port name="21-Apr-13">6-Jun-13</port>
+      <port name="22-Apr-13">7-Jun-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="322FS">
+      <port name="EURUS LIMA">7-Jun-13</port>
+      <port name="315FS">9-Jun-13</port>
+      <port name="19-Apr-13">10-Jun-13</port>
+      <port name="21-Apr-13">13-Jun-13</port>
+      <port name="22-Apr-13">14-Jun-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="323GS">
+      <port name="EURUS LIMA">14-Jun-13</port>
+      <port name="315FS">16-Jun-13</port>
+      <port name="19-Apr-13">17-Jun-13</port>
+      <port name="21-Apr-13">20-Jun-13</port>
+      <port name="22-Apr-13">21-Jun-13</port>
+    </vessel>
+    <vessel name="EURUS LIMA" voyage="324FS">
+      <port name="EURUS LIMA">21-Jun-13</port>
+      <port name="315FS">23-Jun-13</port>
+      <port name="19-Apr-13">24-Jun-13</port>
+      <port name="21-Apr-13">27-Jun-13</port>
+      <port name="22-Apr-13">28-Jun-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="325FS">
+      <port name="EURUS LIMA">28-Jun-13</port>
+      <port name="315FS">30-Jun-13</port>
+      <port name="19-Apr-13">1-Jul-13</port>
+      <port name="21-Apr-13">4-Jul-13</port>
+      <port name="22-Apr-13">5-Jul-13</port>
+    </vessel>
+  </schedule>
+</schedules>

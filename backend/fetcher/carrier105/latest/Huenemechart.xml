@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>U. S. WEST COAST SERVICE</route>
+    <vessel name="CAP PALLISER" voyage="318S"/>
+    <vessel name="CPLI" voyage=""/>
+    <vessel name="CAP PALMERSTON" voyage="319S"/>
+    <vessel name="CPPA" voyage=""/>
+    <vessel name="CAP PORTLAND" voyage="320S"/>
+    <vessel name="CPPO" voyage=""/>
+    <vessel name="CAP PASLEY" voyage="321S"/>
+    <vessel name="CPAY" voyage=""/>
+    <vessel name="CAP PATTON" voyage="322S"/>
+    <vessel name="CPAT" voyage=""/>
+    <vessel name="CAP PALLISER" voyage="323S"/>
+    <vessel name="CPLI" voyage=""/>
+    <vessel name="CAP PALMERSTON" voyage="324S"/>
+    <vessel name="CPPA" voyage=""/>
+    <vessel name="CAP PORTLAND" voyage="325S"/>
+    <vessel name="CPPO" voyage=""/>
+    <vessel name="CAP PASLEY" voyage="326S"/>
+    <vessel name="CPAY" voyage=""/>
+    <vessel name="CAP PATTON" voyage="327S"/>
+    <vessel name="CPAT" voyage=""/>
+    <vessel name="CAP PALLISER" voyage="328S"/>
+    <vessel name="CPLI" voyage=""/>
+  </schedule>
+</schedules>

@@ -1,0 +1,362 @@
+--2013-06-16 00:35:01--  http://www.greatwhitefleet.com/liner/Applications/SailingSchedule/SailingSchedule.asp
+Resolving www.greatwhitefleet.com... 216.68.65.70
+Connecting to www.greatwhitefleet.com|216.68.65.70|:80... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Connection: keep-alive
+  Date: Sun, 16 Jun 2013 05:35:01 GMT
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Content-Length: 24939
+  Content-Type: text/html
+  Set-Cookie: ASPSESSIONIDQSCARBTS=NMEBMJBCKIAMLDJDLEAKNJOO; path=/
+  Cache-control: private
+Length: 24939 (24K) [text/html]
+Saving to: “index”
+
+     0K .......... .......... ....                            100%  198K=0.1s
+
+2013-06-16 00:35:02 (198 KB/s) - “index” saved [24939/24939]
+
+--2013-06-16 00:35:02--  http://www.greatwhitefleet.com/liner/sailingschedule/EuropeanAntwerpService.htm
+Resolving www.greatwhitefleet.com... 216.68.65.70
+Connecting to www.greatwhitefleet.com|216.68.65.70|:80... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 70747
+  Content-Type: text/html
+  Last-Modified: Wed, 06 Jun 2012 22:48:24 GMT
+  Accept-Ranges: bytes
+  ETag: "5c5b2a7b3644cd1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:02 GMT
+  Connection: keep-alive
+Length: 70747 (69K) [text/html]
+Saving to: “EuropeanAntwerpService.htm”
+
+     0K .......... .......... .......... .......... .......... 72%  271K 0s
+    50K .......... .........                                  100% 1.17M=0.2s
+
+2013-06-16 00:35:02 (344 KB/s) - “EuropeanAntwerpService.htm” saved [70747/70747]
+
+--2013-06-16 00:35:02--  http://www.greatwhitefleet.com/liner/sailingschedule/EuropeanGotBremService.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 63948
+  Content-Type: text/html
+  Last-Modified: Wed, 06 Jun 2012 22:48:16 GMT
+  Accept-Ranges: bytes
+  ETag: "6f965e763644cd1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:02 GMT
+  Connection: keep-alive
+Length: 63948 (62K) [text/html]
+Saving to: “EuropeanGotBremService.htm”
+
+     0K .......... .......... .......... .......... .......... 80%  596K 0s
+    50K .......... ..                                         100% 1.11M=0.09s
+
+2013-06-16 00:35:02 (659 KB/s) - “EuropeanGotBremService.htm” saved [63948/63948]
+
+--2013-06-16 00:35:02--  http://www.greatwhitefleet.com/liner/sailingschedule/EuropeanSouthernService.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 84387
+  Content-Type: text/html
+  Last-Modified: Wed, 06 Jun 2012 22:48:50 GMT
+  Accept-Ranges: bytes
+  ETag: "9ad7618a3644cd1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:02 GMT
+  Connection: keep-alive
+Length: 84387 (82K) [text/html]
+Saving to: “EuropeanSouthernService.htm”
+
+     0K .......... .......... .......... .......... .......... 60%  414K 0s
+    50K .......... .......... .......... ..                   100% 1.13M=0.1s
+
+2013-06-16 00:35:03 (554 KB/s) - “EuropeanSouthernService.htm” saved [84387/84387]
+
+--2013-06-16 00:35:03--  http://www.greatwhitefleet.com/liner/sailingschedule/EuropeanTurboService.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 55864
+  Content-Type: text/html
+  Last-Modified: Wed, 06 Jun 2012 22:48:20 GMT
+  Accept-Ranges: bytes
+  ETag: "be47c3783644cd1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:02 GMT
+  Connection: keep-alive
+Length: 55864 (55K) [text/html]
+Saving to: “EuropeanTurboService.htm”
+
+     0K .......... .......... .......... .......... .......... 91% 1.14M 0s
+    50K ....                                                  100% 11.4K=0.4s
+
+2013-06-16 00:35:03 (123 KB/s) - “EuropeanTurboService.htm” saved [55864/55864]
+
+--2013-06-16 00:35:03--  http://www.greatwhitefleet.com/liner/sailingschedule/Freeportchart.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 42472
+  Content-Type: text/html
+  Last-Modified: Thu, 02 May 2013 18:34:36 GMT
+  Accept-Ranges: bytes
+  ETag: "ffd78eb26347ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:03 GMT
+  Connection: keep-alive
+Length: 42472 (41K) [text/html]
+Saving to: “Freeportchart.htm”
+
+     0K .......... .......... .......... .......... .         100%  206K=0.2s
+
+2013-06-16 00:35:03 (206 KB/s) - “Freeportchart.htm” saved [42472/42472]
+
+--2013-06-16 00:35:03--  http://www.greatwhitefleet.com/liner/sailingschedule/Gulfportchart.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 42339
+  Content-Type: text/html
+  Last-Modified: Thu, 02 May 2013 18:34:37 GMT
+  Accept-Ranges: bytes
+  ETag: "c5d6b36347ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:03 GMT
+  Connection: keep-alive
+Length: 42339 (41K) [text/html]
+Saving to: “Gulfportchart.htm”
+
+     0K .......... .......... .......... .......... .         100%  592K=0.07s
+
+2013-06-16 00:35:04 (592 KB/s) - “Gulfportchart.htm” saved [42339/42339]
+
+--2013-06-16 00:35:04--  http://www.greatwhitefleet.com/liner/sailingschedule/Huenemechart.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 68006
+  Content-Type: text/html
+  Last-Modified: Fri, 17 May 2013 18:22:03 GMT
+  Accept-Ranges: bytes
+  ETag: "cbfb496e2b53ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:03 GMT
+  Connection: keep-alive
+Length: 68006 (66K) [text/html]
+Saving to: “Huenemechart.htm”
+
+     0K .......... .......... .......... .......... .......... 75%  582K 0s
+    50K .......... ......                                     100%  349K=0.1s
+
+2013-06-16 00:35:04 (500 KB/s) - “Huenemechart.htm” saved [68006/68006]
+
+--2013-06-16 00:35:04--  http://www.greatwhitefleet.com/liner/sailingschedule/Miamichart.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 42555
+  Content-Type: text/html
+  Last-Modified: Thu, 02 May 2013 18:34:37 GMT
+  Accept-Ranges: bytes
+  ETag: "f7cc86b36347ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:03 GMT
+  Connection: keep-alive
+Length: 42555 (42K) [text/html]
+Saving to: “Miamichart.htm”
+
+     0K .......... .......... .......... .......... .         100%  612K=0.07s
+
+2013-06-16 00:35:04 (612 KB/s) - “Miamichart.htm” saved [42555/42555]
+
+--2013-06-16 00:35:04--  http://www.greatwhitefleet.com/liner/sailingschedule/NorthAmericaSailingSchedule.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 940912
+  Content-Type: text/html
+  Last-Modified: Thu, 21 Feb 2013 17:30:23 GMT
+  Accept-Ranges: bytes
+  ETag: "779f34215910ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:03 GMT
+  Connection: keep-alive
+Length: 940912 (919K) [text/html]
+Saving to: “NorthAmericaSailingSchedule.htm”
+
+     0K .......... .......... .......... .......... ..........  5%  411K 2s
+    50K .......... .......... .......... .......... .......... 10%  360K 2s
+   100K .......... .......... .......... .......... .......... 16%  556K 2s
+   150K .......... .......... .......... .......... .......... 21%  382K 2s
+   200K .......... .......... .......... .......... .......... 27%  544K 2s
+   250K .......... .......... .......... .......... .......... 32%  403K 1s
+   300K .......... .......... .......... .......... .......... 38%  650K 1s
+   350K .......... .......... .......... .......... .......... 43%  394K 1s
+   400K .......... .......... .......... .......... .......... 48%  641K 1s
+   450K .......... .......... .......... .......... .......... 54%  550K 1s
+   500K .......... .......... .......... .......... .......... 59%  575K 1s
+   550K .......... .......... .......... .......... .......... 65%  420K 1s
+   600K .......... .......... .......... .......... .......... 70%  532K 1s
+   650K .......... .......... .......... .......... .......... 76%  544K 0s
+   700K .......... .......... .......... .......... .......... 81%  596K 0s
+   750K .......... .......... .......... .......... .......... 87%  556K 0s
+   800K .......... .......... .......... .......... .......... 92%  562K 0s
+   850K .......... .......... .......... .......... .......... 97%  451K 0s
+   900K .......... ........                                   100% 1.02M=1.9s
+
+2013-06-16 00:35:06 (496 KB/s) - “NorthAmericaSailingSchedule.htm” saved [940912/940912]
+
+--2013-06-16 00:35:06--  http://www.greatwhitefleet.com/liner/sailingschedule/NorthFreeportchart.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 39338
+  Content-Type: text/html
+  Last-Modified: Thu, 02 May 2013 18:34:38 GMT
+  Accept-Ranges: bytes
+  ETag: "8f48db36347ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:06 GMT
+  Connection: keep-alive
+Length: 39338 (38K) [text/html]
+Saving to: “NorthFreeportchart.htm”
+
+     0K .......... .......... .......... ........             100%  513K=0.07s
+
+2013-06-16 00:35:07 (513 KB/s) - “NorthFreeportchart.htm” saved [39338/39338]
+
+--2013-06-16 00:35:07--  http://www.greatwhitefleet.com/liner/sailingschedule/NorthGulfportchart.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 39229
+  Content-Type: text/html
+  Last-Modified: Thu, 02 May 2013 18:34:38 GMT
+  Accept-Ranges: bytes
+  ETag: "73c72b46347ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:06 GMT
+  Connection: keep-alive
+Length: 39229 (38K) [text/html]
+Saving to: “NorthGulfportchart.htm”
+
+     0K .......... .......... .......... ........             100%  480K=0.08s
+
+2013-06-16 00:35:07 (480 KB/s) - “NorthGulfportchart.htm” saved [39229/39229]
+
+--2013-06-16 00:35:07--  http://www.greatwhitefleet.com/liner/sailingschedule/NorthHuenemechart.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 26663
+  Content-Type: text/html
+  Last-Modified: Thu, 02 May 2013 18:34:38 GMT
+  Accept-Ranges: bytes
+  ETag: "6d2824b46347ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:06 GMT
+  Connection: keep-alive
+Length: 26663 (26K) [text/html]
+Saving to: “NorthHuenemechart.htm”
+
+     0K .......... .......... ......                          100% 1.16M=0.02s
+
+2013-06-16 00:35:07 (1.16 MB/s) - “NorthHuenemechart.htm” saved [26663/26663]
+
+--2013-06-16 00:35:07--  http://www.greatwhitefleet.com/liner/sailingschedule/NorthMiamichart.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 33864
+  Content-Type: text/html
+  Last-Modified: Thu, 02 May 2013 18:34:39 GMT
+  Accept-Ranges: bytes
+  ETag: "a09d39b46347ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:06 GMT
+  Connection: keep-alive
+Length: 33864 (33K) [text/html]
+Saving to: “NorthMiamichart.htm”
+
+     0K .......... .......... .......... ...                  100% 1.16M=0.03s
+
+2013-06-16 00:35:07 (1.16 MB/s) - “NorthMiamichart.htm” saved [33864/33864]
+
+--2013-06-16 00:35:07--  http://www.greatwhitefleet.com/liner/sailingschedule/NorthWilmingtonchart.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 33754
+  Content-Type: text/html
+  Last-Modified: Thu, 02 May 2013 18:34:39 GMT
+  Accept-Ranges: bytes
+  ETag: "d25cbab46347ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:06 GMT
+  Connection: keep-alive
+Length: 33754 (33K) [text/html]
+Saving to: “NorthWilmingtonchart.htm”
+
+     0K .......... .......... .......... ..                   100% 1.20M=0.03s
+
+2013-06-16 00:35:07 (1.20 MB/s) - “NorthWilmingtonchart.htm” saved [33754/33754]
+
+--2013-06-16 00:35:07--  http://www.greatwhitefleet.com/liner/SailingSchedule/Wilmingtonchart.htm
+Reusing existing connection to www.greatwhitefleet.com:80.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Content-Length: 42408
+  Content-Type: text/html
+  Last-Modified: Thu, 02 May 2013 18:34:40 GMT
+  Accept-Ranges: bytes
+  ETag: "3ee6c3b46347ce1:3a9"
+  Server: Microsoft-IIS/6.0
+  MicrosoftOfficeWebServer: 5.0_Pub
+  X-Powered-By: ASP.NET
+  Date: Sun, 16 Jun 2013 05:35:06 GMT
+  Connection: keep-alive
+Length: 42408 (41K) [text/html]
+Saving to: “Wilmingtonchart.htm”
+
+     0K .......... .......... .......... .......... .         100%  525K=0.08s
+
+2013-06-16 00:35:07 (525 KB/s) - “Wilmingtonchart.htm” saved [42408/42408]
+
+FINISHED --2013-06-16 00:35:07--
+Downloaded: 15 files, 1.6M in 3.5s (451 KB/s)

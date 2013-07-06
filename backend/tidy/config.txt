@@ -1,0 +1,14 @@
+bare: yes
+add-xml-decl: no
+alt-text: image
+clean: yes
+drop-font-tags: yes
+drop-proprietary-attributes: yes
+enclose-text: yes
+fix-uri: no
+wrap: 0
+indent: auto
+indent-spaces: 2
+output-xhtml: yes
+word-2000: yes
+output-encoding: utf8

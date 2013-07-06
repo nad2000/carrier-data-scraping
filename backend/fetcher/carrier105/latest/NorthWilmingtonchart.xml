@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>VOYAGE ALMIRANTE PT BARRIOS PT CORTES WILMINGTON</route>
+    <vessel name="CRISTAL BAY" voyage="319WN">
+      <port name="HELENE">4-May-13</port>
+      <port name="318WN">6-May-13</port>
+      <port name="27-Apr-13">8-May-13</port>
+      <port name="29-Apr-13">13-May-13</port>
+    </vessel>
+    <vessel name="HELENE" voyage="320WN">
+      <port name="HELENE">11-May-13</port>
+      <port name="318WN">13-May-13</port>
+      <port name="27-Apr-13">15-May-13</port>
+      <port name="29-Apr-13">20-May-13</port>
+    </vessel>
+    <vessel name="CRISTAL BAY" voyage="321WN">
+      <port name="HELENE">18-May-13</port>
+      <port name="318WN">20-May-13</port>
+      <port name="27-Apr-13">22-May-13</port>
+      <port name="29-Apr-13">27-May-13</port>
+    </vessel>
+    <vessel name="HELENE" voyage="322WN">
+      <port name="HELENE">25-May-13</port>
+      <port name="318WN">27-May-13</port>
+      <port name="27-Apr-13">29-May-13</port>
+      <port name="29-Apr-13">3-Jun-13</port>
+    </vessel>
+    <vessel name="CRISTAL BAY" voyage="323WN">
+      <port name="HELENE">1-Jun-13</port>
+      <port name="318WN">3-Jun-13</port>
+      <port name="27-Apr-13">5-Jun-13</port>
+      <port name="29-Apr-13">10-Jun-13</port>
+    </vessel>
+    <vessel name="HELENE" voyage="324WN">
+      <port name="HELENE">8-Jun-13</port>
+      <port name="318WN">10-Jun-13</port>
+      <port name="27-Apr-13">12-Jun-13</port>
+      <port name="29-Apr-13">17-Jun-13</port>
+    </vessel>
+    <vessel name="CRISTAL BAY" voyage="325WN">
+      <port name="HELENE">15-Jun-13</port>
+      <port name="318WN">17-Jun-13</port>
+      <port name="27-Apr-13">19-Jun-13</port>
+      <port name="29-Apr-13">24-Jun-13</port>
+    </vessel>
+    <vessel name="HELENE" voyage="326WN">
+      <port name="HELENE">22-Jun-13</port>
+      <port name="318WN">24-Jun-13</port>
+      <port name="27-Apr-13">26-Jun-13</port>
+      <port name="29-Apr-13">1-Jul-13</port>
+    </vessel>
+    <vessel name="CRISTAL BAY" voyage="327WN">
+      <port name="HELENE">29-Jun-13</port>
+      <port name="318WN">1-Jul-13</port>
+      <port name="27-Apr-13">3-Jul-13</port>
+      <port name="29-Apr-13">8-Jul-13</port>
+    </vessel>
+  </schedule>
+</schedules>

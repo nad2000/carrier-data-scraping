@@ -1,0 +1,319 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Sailing Schedule</title>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="Microsoft Theme" content="liner-gwf- 110, default">
+<meta name="Microsoft Border" content="tlb, default">
+</head>
+
+
+
+<body topmargin="0" leftmargin="0" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Arial, Arial, Helvetica">
+
+<span class="hideForPrint">
+<p>
+<!--Sets the language of the current page-->
+
+<script language="javascript">
+//NavTo
+//controls changing to another language
+function NavTo(lang)
+{
+//get the existing URL
+	var URL = window.location.href.toLowerCase();
+	var strRepl;
+	
+//get the language's suffix (_sp = Spanish) the user wants to change to
+	if (lang.length > 0) 
+		strRepl = '_' + lang + '.asp';
+	else
+		strRepl = '.asp';
+	
+//if .asp is not found, then send to language's Home page
+	if (URL.indexOf('.asp') > 0)
+	{
+	//if on a language other than the default language, then remove the suffix (_sp)
+	//using URL.slice(0, URL.indexOf('_sp.asp')) to take QueryStrings into account
+		if (URL.indexOf('_sp.asp') > 0) //(  || (URL.indexOf('_gr.asp') > 0) ) 
+			URL = URL.slice(0, URL.indexOf('_sp.asp')) + strRepl;
+		else
+			URL = URL.slice(0, URL.indexOf('.asp')) + strRepl;
+	}
+	else
+		URL = URL + 'Home' + strRepl;
+
+	window.navigate(URL);
+}
+</script>
+</p>
+<!--mstheme--></font><table border="0" cellspacing="0" style="border-collapse: collapse" width="100%" id="AutoNumber1" cellpadding="3" class="hideForPrint">
+	<tr>
+		<td align="left" nowrap width="45%" bgcolor="#FFFFFF"><!--mstheme--><font face="Arial, Arial, Helvetica">
+		<!-- style="border: 1px solid #000080"-->
+		<p class="MsoNormal"><i>
+		<span lang="ES" style="font-size: 24.0pt; color: #0099CC">&nbsp;</span></i><span class="hideForPrint"><font face="Times New Roman" color="#3366CC" style="font-size: 30pt">Sailing Schedule</font></span><!--mstheme--></font></td>
+		<td align="left" bgcolor="black" nowrap><!--mstheme--><font face="Arial, Arial, Helvetica">
+		<!-- style="border: 1px solid #000000"-->
+		<a title="Return to Great White Fleet Home page" href="../../default.asp">
+		<img border="0" src="../../images/logo.gif" width="431" height="51"></a><!--mstheme--></font></td>
+		<td align="left" bgcolor="black"><!--mstheme--><font face="Arial, Arial, Helvetica">
+		<!-- style="border: 1px solid #000000"--><b>
+		<font size="1" color="#FFFFFF" face="Verdana">
+		 </li>
+		<li>
+		<a style="text-decoration: none" style="cursor: hand" onclick="NavTo('SP');">
+		Español</a></font><font size="1" color="#007AC3" face="Verdana"><br>
+		</font> </b></li>
+		<!--mstheme--></font></td>
+	</tr>
+	<tr>
+		<td background="../../images/TopNav.gif" align="left" valign="top" colspan="3" bordercolor="#FFFFFF"><!--mstheme--><font face="Arial, Arial, Helvetica">
+		<!--Only display the Top Navigation bar that corresponds with the current page's language-->
+		<!--mstheme--></font><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber2">
+			<tr>
+				<td width="16%"><!--mstheme--><font face="Arial, Arial, Helvetica">&nbsp;<!--mstheme--></font></td>
+				<td width="84%"><!--mstheme--><font face="Arial, Arial, Helvetica">
+				<span >
+				<script language="JavaScript"><!--
+MSFPhover = 
+  (((navigator.appName == "Netscape") && 
+  (parseInt(navigator.appVersion) >= 3 )) || 
+  ((navigator.appName == "Microsoft Internet Explorer") && 
+  (parseInt(navigator.appVersion) >= 4 ))); 
+function MSFPpreload(img) 
+{
+  var a=new Image(); a.src=img; return a; 
+}
+// --></script><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav1n=MSFPpreload("../../_derived/default.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav1h=MSFPpreload("../../_derived/default.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../../default.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1h.src" onmouseout="if(MSFPhover) document['MSFPnav1'].src=MSFPnav1n.src"><img src="../../_derived/default.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="Home" align="middle" name="MSFPnav1"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav2n=MSFPpreload("../../About/_derived/AboutGWF.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav2h=MSFPpreload("../../About/_derived/AboutGWF.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../../About/AboutGWF.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2h.src" onmouseout="if(MSFPhover) document['MSFPnav2'].src=MSFPnav2n.src"><img src="../../About/_derived/AboutGWF.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="About GWF" align="middle" name="MSFPnav2"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav3n=MSFPpreload("../../_derived/CorporateResponsibility.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav3h=MSFPpreload("../../_derived/CorporateResponsibility.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../../CorporateResponsibility.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3h.src" onmouseout="if(MSFPhover) document['MSFPnav3'].src=MSFPnav3n.src"><img src="../../_derived/CorporateResponsibility.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="Corp. Responsibility" align="middle" name="MSFPnav3"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav4n=MSFPpreload("../../Countries/_derived/CountryProfiles.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav4h=MSFPpreload("../../Countries/_derived/CountryProfiles.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../../Countries/CountryProfiles.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4h.src" onmouseout="if(MSFPhover) document['MSFPnav4'].src=MSFPnav4n.src"><img src="../../Countries/_derived/CountryProfiles.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="Country Profiles" align="middle" name="MSFPnav4"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav5n=MSFPpreload("../../_derived/ContactUs.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav5h=MSFPpreload("../../_derived/ContactUs.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../../ContactUs.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5h.src" onmouseout="if(MSFPhover) document['MSFPnav5'].src=MSFPnav5n.src"><img src="../../_derived/ContactUs.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="Contact Us" align="middle" name="MSFPnav5"></a> <img src="_derived/SailingSchedule.asp_cmp_liner-gwf-110_hbtn_p.gif" width="120" height="20" border="0" alt="Sailing Schedule" align="middle"> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav6n=MSFPpreload("../_derived/News.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav6h=MSFPpreload("../_derived/News.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../News.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6h.src" onmouseout="if(MSFPhover) document['MSFPnav6'].src=MSFPnav6n.src"><img src="../_derived/News.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="News" align="middle" name="MSFPnav6"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav7n=MSFPpreload("../CargoBooking/_derived/CargoBooking.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav7h=MSFPpreload("../CargoBooking/_derived/CargoBooking.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../CargoBooking/CargoBooking.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7h.src" onmouseout="if(MSFPhover) document['MSFPnav7'].src=MSFPnav7n.src"><img src="../CargoBooking/_derived/CargoBooking.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="Cargo Booking" align="middle" name="MSFPnav7"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav8n=MSFPpreload("../../Doing Business/_derived/Doing Business.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav8h=MSFPpreload("../../Doing Business/_derived/Doing Business.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../../Doing%20Business/Doing%20Business.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav8'].src=MSFPnav8h.src" onmouseout="if(MSFPhover) document['MSFPnav8'].src=MSFPnav8n.src"><img src="../../Doing%20Business/_derived/Doing%20Business.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="Doing Business" align="middle" name="MSFPnav8"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav9n=MSFPpreload("../../PhotoGallery/_derived/PhotoGallery.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav9h=MSFPpreload("../../PhotoGallery/_derived/PhotoGallery.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../../PhotoGallery/PhotoGallery.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav9'].src=MSFPnav9h.src" onmouseout="if(MSFPhover) document['MSFPnav9'].src=MSFPnav9n.src"><img src="../../PhotoGallery/_derived/PhotoGallery.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="Photo Gallery" align="middle" name="MSFPnav9"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav10n=MSFPpreload("../../Security/_derived/security.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav10h=MSFPpreload("../../Security/_derived/security.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../../Security/security.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav10'].src=MSFPnav10h.src" onmouseout="if(MSFPhover) document['MSFPnav10'].src=MSFPnav10n.src"><img src="../../Security/_derived/security.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="Security" align="middle" name="MSFPnav10"></a> <script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav11n=MSFPpreload("../../Vehicles/_derived/Vehicle Shipment.asp_cmp_liner-gwf-110_hbtn.gif"); MSFPnav11h=MSFPpreload("../../Vehicles/_derived/Vehicle Shipment.asp_cmp_liner-gwf-110_hbtn_a.gif"); }
+// --></script><a href="../../Vehicles/Vehicle%20Shipment.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav11'].src=MSFPnav11h.src" onmouseout="if(MSFPhover) document['MSFPnav11'].src=MSFPnav11n.src"><img src="../../Vehicles/_derived/Vehicle%20Shipment.asp_cmp_liner-gwf-110_hbtn.gif" width="120" height="20" border="0" alt="Vehicle Shipment" align="middle" name="MSFPnav11"></a>
+				</span><!--mstheme--></font></td>
+			</tr>
+		</table><!--mstheme--><font face="Arial, Arial, Helvetica">
+		<!--mstheme--></font></td>
+	</tr>
+</table><!--mstheme--><font face="Arial, Arial, Helvetica">
+</span>
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table><!--msnavigation--><table dir="ltr" border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" width="1%"><!--mstheme--><font face="Arial, Arial, Helvetica">
+<span class="hideForPrint">
+<div align="center">
+	<!--mstheme--></font><table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%" background="../../images/sidenav.gif">
+		<tr>
+			<td align="center"><!--mstheme--><font face="Arial, Arial, Helvetica">
+<table> 
+<tr>
+<td>
+<img src="/liner/images/random/4.gif" width=155 height=153 border=0>
+</td>
+</tr>
+</table>
+
+			
+			<script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav24n=MSFPpreload("../../_derived/SiteMap.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav24h=MSFPpreload("../../_derived/SiteMap.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../../SiteMap.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav24'].src=MSFPnav24h.src" onmouseout="if(MSFPhover) document['MSFPnav24'].src=MSFPnav24n.src"><img src="../../_derived/SiteMap.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="Site Map" name="MSFPnav24"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav25n=MSFPpreload("../Search/_derived/search.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav25h=MSFPpreload("../Search/_derived/search.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../Search/search.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav25'].src=MSFPnav25h.src" onmouseout="if(MSFPhover) document['MSFPnav25'].src=MSFPnav25n.src"><img src="../Search/_derived/search.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="Search" name="MSFPnav25"></a>
+			<br>
+			 <br>
+			<br>
+			 <br>
+			<script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav29n=MSFPpreload("../../Doing Business/_derived/Doing Business.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav29h=MSFPpreload("../../Doing Business/_derived/Doing Business.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../../Doing%20Business/Doing%20Business.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav29'].src=MSFPnav29h.src" onmouseout="if(MSFPhover) document['MSFPnav29'].src=MSFPnav29n.src"><img src="../../Doing%20Business/_derived/Doing%20Business.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="Doing Business" name="MSFPnav29"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav30n=MSFPpreload("../../PhotoGallery/_derived/PhotoGallery.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav30h=MSFPpreload("../../PhotoGallery/_derived/PhotoGallery.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../../PhotoGallery/PhotoGallery.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav30'].src=MSFPnav30h.src" onmouseout="if(MSFPhover) document['MSFPnav30'].src=MSFPnav30n.src"><img src="../../PhotoGallery/_derived/PhotoGallery.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="Photo Gallery" name="MSFPnav30"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav31n=MSFPpreload("../../Security/_derived/security.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav31h=MSFPpreload("../../Security/_derived/security.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../../Security/security.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav31'].src=MSFPnav31h.src" onmouseout="if(MSFPhover) document['MSFPnav31'].src=MSFPnav31n.src"><img src="../../Security/_derived/security.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="Security" name="MSFPnav31"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav32n=MSFPpreload("../../About/_derived/AboutGWF.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav32h=MSFPpreload("../../About/_derived/AboutGWF.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../../About/AboutGWF.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav32'].src=MSFPnav32h.src" onmouseout="if(MSFPhover) document['MSFPnav32'].src=MSFPnav32n.src"><img src="../../About/_derived/AboutGWF.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="About GWF" name="MSFPnav32"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav33n=MSFPpreload("../../_derived/CorporateResponsibility.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav33h=MSFPpreload("../../_derived/CorporateResponsibility.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../../CorporateResponsibility.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav33'].src=MSFPnav33h.src" onmouseout="if(MSFPhover) document['MSFPnav33'].src=MSFPnav33n.src"><img src="../../_derived/CorporateResponsibility.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="Corp. Responsibility" name="MSFPnav33"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav34n=MSFPpreload("../RateInquiry/_derived/RateInquiry.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav34h=MSFPpreload("../RateInquiry/_derived/RateInquiry.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../RateInquiry/RateInquiry.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav34'].src=MSFPnav34h.src" onmouseout="if(MSFPhover) document['MSFPnav34'].src=MSFPnav34n.src"><img src="../RateInquiry/_derived/RateInquiry.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="Rate Inquiry" name="MSFPnav34"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav35n=MSFPpreload("../../_derived/ContactUs.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav35h=MSFPpreload("../../_derived/ContactUs.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../../ContactUs.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav35'].src=MSFPnav35h.src" onmouseout="if(MSFPhover) document['MSFPnav35'].src=MSFPnav35n.src"><img src="../../_derived/ContactUs.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="Contact Us" name="MSFPnav35"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav36n=MSFPpreload("../../Countries/_derived/CountryProfiles.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav36h=MSFPpreload("../../Countries/_derived/CountryProfiles.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../../Countries/CountryProfiles.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav36'].src=MSFPnav36h.src" onmouseout="if(MSFPhover) document['MSFPnav36'].src=MSFPnav36n.src"><img src="../../Countries/_derived/CountryProfiles.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="Country Profiles" name="MSFPnav36"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav37n=MSFPpreload("../_derived/News.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav37h=MSFPpreload("../_derived/News.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../News.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav37'].src=MSFPnav37h.src" onmouseout="if(MSFPhover) document['MSFPnav37'].src=MSFPnav37n.src"><img src="../_derived/News.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="News" name="MSFPnav37"></a><br><script language="JavaScript"><!--
+if(MSFPhover) { MSFPnav38n=MSFPpreload("../CargoBooking/_derived/CargoBooking.asp_cmp_liner-gwf-110_vbtn.gif"); MSFPnav38h=MSFPpreload("../CargoBooking/_derived/CargoBooking.asp_cmp_liner-gwf-110_vbtn_a.gif"); }
+// --></script><a href="../CargoBooking/CargoBooking.asp" language="JavaScript" onmouseover="if(MSFPhover) document['MSFPnav38'].src=MSFPnav38h.src" onmouseout="if(MSFPhover) document['MSFPnav38'].src=MSFPnav38n.src"><img src="../CargoBooking/_derived/CargoBooking.asp_cmp_liner-gwf-110_vbtn.gif" width="120" height="20" border="0" alt="Cargo Booking" name="MSFPnav38"></a><br><img src="_derived/SailingSchedule.asp_cmp_liner-gwf-110_vbtn_p.gif" width="120" height="20" border="0" alt="Sailing Schedule">
+			<p><br>
+			<br>
+			<!--mstheme--></font></td>
+		</tr>
+	</table><!--mstheme--><font face="Arial, Arial, Helvetica">
+	</span></div>
+<!--mstheme--></font></td><td valign="top" width="24"></td><!--msnavigation--><td valign="top"><!--mstheme--><font face="Arial, Arial, Helvetica">
+
+
+<p>&nbsp;</p>
+<p><font face="Arial"><b>Review our sailing schedules for:</b></font></p>
+
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<!--mstheme--><link rel="stylesheet" type="text/css" href="../_themes/strtedge/strt1011.css"><meta name="Microsoft Theme" content="strtedge 1011">
+</head>
+
+<body>
+
+<p>&nbsp;</p>
+<p><font face="Arial" size="4">Click here to print your complete</font><b><font size="5">
+</font>
+<font color="#FF0000" size="5">
+<a href="/liner/sailingschedule/NorthAmericaSailingSchedule.htm">North America 
+Sailing Schedule</a></font></b></p>
+<p><b><font size="5" color="#FF0000">SouthBound</font></b></p>
+
+<ul>
+	<li><font face="Arial">
+	<a href="/liner/sailingschedule/Freeportchart.htm">Freeport, TX
+	<font color="#FF0000">&nbsp;to </font>/Pto. Barrios, GU /Pto. Cortes, HN Pto. 
+	Limon, CR</a></font></li>
+	<li><font face="Arial">
+	<a target="_blank" href="/liner/sailingschedule/Gulfportchart.htm">Gulfport, 
+	MS&nbsp;
+	<font color="#FF0000">to</font> /Pto. 
+	Barrios, GU /Pto. Cortes, HN /Pto. Limon, CR</a></font></li>
+	<li><font face="Arial">
+	<a target="_blank" href="/liner/sailingschedule/Huenemechart.htm">Hueneme, 
+	CA
+	&nbsp;<font color="#FF0000">to</font> /Pto. 
+	Quetzal, GU</a></font></li>
+	<li><a href="/liner/sailingschedule/Miamichart.htm"><font face="Arial">
+	Everglades</font></a><font face="Arial"><a target="_blank" href="/liner/sailingschedule/Miamichart.htm">, 
+	FL 
+	<font color="#FF0000">to</font> /Pto. 
+	Barrios, GU /Pto. Cortes, HN /Pto. Limon, CR</a></font></li>
+	<li><font face="Arial">
+	<a target="_blank" href="/liner/SailingSchedule/Wilmingtonchart.htm">Wilmington, DE &nbsp;<font color="#FF0000">to</font> /Pto. Barrios, GU /Pto. Cortes, HN /Pto. Limon, CR</a></font></li>
+</ul>
+
+
+<p><b><font size="5" color="#FF0000">NorthBound</font></b></p>
+
+<ul>
+	<li><font face="Arial">
+	<a target="_blank" href="/liner/sailingschedule/NorthFreeportchart.htm">Pto. 
+	Barrios, GU /Pto. Cortes, HN</a><u> <font color="#FF0000">to</font>
+	</u><a target="_blank" href="/liner/sailingschedule/NorthFreeportchart.htm">Freeport, 
+	TX</a></font></li>
+	<li><font face="Arial">
+	<a target="_blank" href="/liner/sailingschedule/NorthGulfportchart.htm">Pto. 
+	Barrios, GU /</a><a target="_blank" href="/liner/sailingschedule/NorthFreeportchart.htm">Pto. 
+	Cortes, HN</a><u> <font color="#FF0000">to</font>
+	</u><a target="_blank" href="/liner/sailingschedule/NorthGulfportchart.htm">Gulfport, 
+	MS</a></font></li>
+	<li><font face="Arial">
+	<a target="_blank" href="/liner/sailingschedule/NorthHuenemechart.htm">Pto. 
+	Quetzal, GU <font color="#FF0000">to</font> Port
+	Hueneme, CA </a></font></li>
+	<li><font face="Arial">
+	<a href="/liner/sailingschedule/NorthMiamichart.htm">Pto. 
+	Barrios, GU /Pto. Cortes, HN <u>
+	&nbsp;<font color="#FF0000">to</font> </u>
+	Everglades, 
+	FL</a></font></li>
+	<li><font face="Arial">
+	<a target="_blank" href="/liner/sailingschedule/NorthWilmingtonchart.htm">Pto. Barrios, GU /Pto. Cortes, HN /Pto. Limon, CR</a><u>
+	<font color="#FF0000">to</font> </u>
+	<a target="_blank" href="/liner/SailingSchedule/Wilmingtonchart.htm">Wilmington, DE</a></font></li>
+</ul>
+
+
+
+
+<p><b><font size="5" color="#FF0000">
+European Sailing Schedule:</font></b></p>
+<ul>
+	<li><font size="4">&nbsp;</font><font color="#0000FF"><a href="/liner/sailingschedule/EuropeanSouthernService.htm">European Southern 
+	Service</a></font></li>
+	<li>&nbsp;<a href="/liner/sailingschedule/EuropeanGotBremService.htm">European 
+	GotBrem Service</a></li>
+	<li>&nbsp;<a href="/liner/sailingschedule/EuropeanTurboService.htm">European 
+	Turbo Service</a></li>
+	<li>&nbsp;<a href="/liner/sailingschedule/EuropeanAntwerpService.htm">European 
+	Antwerp Service</a></li>
+</ul>
+
+
+
+
+<p>&nbsp;</p>
+
+
+
+
+<p>&nbsp;</p>
+
+<SPAN class=size1>
+
+<p>&nbsp;</p>
+
+</body>
+
+
+
+
+
+
+<p>&nbsp;</p>
+
+<h5 align = "center"><!--mstheme--><font color="#0066CC">Printer-friendly version of 
+<a target="new" href="../../SailingSchedule/NorthAmericaSailingSchedule.htm">North America</a> Sailing Schedules
+<!--mstheme--></font></h5>
+<center><P><SPAN class=size1><A 
+HREF="http://www.adobe.com/products/acrobat/readstep.html" target="_new"><IMG 
+SRC="../../images/getacro.gif" BORDER="0" HEIGHT="31" WIDTH="88"></A></SPAN></P></center>
+
+<!--mstheme--></font><!--msnavigation--></td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td><!--mstheme--><font face="Arial, Arial, Helvetica">
+<span class="hideForPrint">
+<p><span lang="en-us">&nbsp;</span></p>
+<div align="center">
+	<!--mstheme--></font><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="70%" id="AutoNumber2">
+		<tr>
+			<td width="100%"><!--mstheme--><font face="Arial, Arial, Helvetica">
+			<div align="center">
+				<font size="1">© 200<span lang="en-us">5</span> Great White 
+				Fleet</font></div>
+			<p> </p>
+			<p><font size="1">All rights reserved. Trademarks used on this web 
+			site are protected by U.S. and international law. See
+			<a href="/liner/legal/LegalNotice.asp">
+			Legal Notices</a> section for registration information. Questions or 
+			comments about this website?
+			<a href="/liner/Applications/feedback/feedback.asp">
+			<span lang="en-us">T</span>alk to Great White Fleet</a>.</font>
+			 </font><!--mstheme--></font></td>
+		</tr>
+	</table><!--mstheme--><font face="Arial, Arial, Helvetica">
+</div>
+</span>
+
+<!--mstheme--></font></td></tr><!--msnavigation--></table></body></html>

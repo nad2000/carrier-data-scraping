@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>XSLT Creation - Task Description</TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 4.0.3.3 (Linux)">
+	<META NAME="AUTHOR" CONTENT="David Tarizzo">
+	<META NAME="CREATED" CONTENT="20130626;280000">
+	<META NAME="CHANGEDBY" CONTENT="David Tarizzo">
+	<META NAME="CHANGED" CONTENT="20130626;310000">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { size: 21.59cm 27.94cm; margin-right: 3.18cm; margin-top: 2.54cm; margin-bottom: 2.54cm }
+		P { margin-bottom: 0.21cm; direction: ltr; color: #000000; widows: 2; orphans: 2 }
+		P.western { font-family: "Times New Roman", serif; font-size: 12pt; so-language: en-US }
+		P.cjk { font-family: "Times New Roman", serif; font-size: 12pt }
+		P.ctl { font-family: "Times New Roman", serif; font-size: 12pt; so-language: ar-SA }
+		H1 { margin-top: 0.49cm; margin-bottom: 0.49cm; direction: ltr; color: #000000; widows: 2; orphans: 2; page-break-after: auto }
+		H1.western { font-family: "Times New Roman", serif; so-language: en-GB }
+		H1.cjk { font-family: "Times New Roman", serif; font-size: 24pt }
+		H1.ctl { font-family: "Times New Roman", serif; font-size: 24pt; so-language: ar-SA }
+		H2 { margin-top: 0.49cm; margin-bottom: 0.49cm; direction: ltr; color: #000000; widows: 2; orphans: 2; page-break-after: auto }
+		H2.western { font-family: "Times New Roman", serif; so-language: en-GB }
+		H2.cjk { font-family: "Times New Roman", serif }
+		H2.ctl { font-family: "Times New Roman", serif; so-language: ar-SA }
+		A:link { color: #0000ff }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-NZ" TEXT="#000000" LINK="#0000ff" DIR="LTR">
+<H1 LANG="en-GB" CLASS="western" STYLE="margin-top: 0cm"><A NAME="top"></A>
+XSLT Creation - Task Description</H1>
+<H2 LANG="en-GB" CLASS="western"><A NAME="General_Description"></A>General
+Description 
+</H2>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">We
+need various freight carrier schedules retrieved from their web sites
+and the data reformatted, cleaned up, and put into our standard
+format. This will entail developing a XSLT stylesheet to transform
+the HTML based data into a standardized XML format. If the schedule
+data is in a XLS file, it first is run through a simple script to
+turn into into a HTML table. HTMLTidy is used to transform the raw
+HTML (from a web site or the converted XLS file) into properly
+formatted XHTML before the XSLT step. 
+</P>
+<H2 LANG="en-GB" CLASS="western"><A NAME="Materials_Needed"></A>Materials
+Needed 
+</H2>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">We
+will provide you with the following: 
+</P>
+<UL>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0cm">The
+	PHP based script that transforms XLS files into HTML tables 
+	</P>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0cm">The
+	PHP script that transforms the HTML into XML (using the XSLT
+	stylesheet you develop) 
+	</P>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0cm">An
+	example XSLT stylesheet 
+	</P>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0cm">The
+	specification of the XML file and an example XML file 
+	</P>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0.49cm">A
+	HTMLTidy configuration file 
+	</P>
+</UL>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">The
+copy of HTMLTidy to use (specific to your OS) should be downloaded
+from <FONT COLOR="#0000ff"><U><A HREF="http://tidy.sourceforge.net/">http://tidy.sourceforge.net/</A></U></FONT>.
+You are responsible for any compilation needed. 
+</P>
+<H2 LANG="en-GB" CLASS="western"><A NAME="Deliverables"></A>Deliverables
+</H2>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">Upon
+task completion, you should provide us with the following: 
+</P>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">1)
+The source HTML file(s) from the website or the XLS file(s) used 
+</P>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">2)
+The XSLT stylesheet 
+</P>
+<H2 LANG="en-GB" CLASS="western"><A NAME="Issues_to_Deal_With"></A>Issues
+to Deal With 
+</H2>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">The
+main problems encountered are wrestling with character set issues,
+dealing with differences between the HTML data and the reference data
+in our database (e.g. misspellings of port names), and a wide
+variation in how data is formatted (and what's presented) in the HTML
+or XLS files. 
+</P>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">Our
+project will be for many carriers but we are starting with just 2 or
+3 to verify the ability of the provider. 
+</P>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">Some
+carriers put several itineraries on one page (e.g. the northbound
+voyage and the southbound voyage) - the XSLT stylesheet would split
+this into two schedules/itineraries (the XML format can handle
+multiple schedules in one file). 
+</P>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">Another
+issue is that sometimes the data should be split into two
+schedules/itineraries even though it doesn't look like it - the
+definition of an itinerary is 'a path stopping at several ports, all
+of them only once'. So if a ship goes from A to B to C to D, that is
+one itinerary/schedule. If the carrier's schedule data / table
+indicates the ship then goes from D to C and back to A, that is a
+second itinerary/schedule and should be specified as such in the XML
+file. 
+</P>
+<H2 LANG="en-GB" CLASS="western"><A NAME="The_Specific_Procedure"></A>
+The Specific Procedure 
+</H2>
+<UL>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0cm">Find
+	the schedule data on the website</P>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0cm">Download
+	all of it</P>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0cm">If in
+	XLS files, run the files through the xls2html script to generate a
+	HTML file 
+	</P>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0cm">Use
+	HTMLTidy on the HTML files to create XHTML files - this will strip
+	out Microsoft related stuff and makes the HTML more uniform 
+	</P>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0cm">It
+	also detects some basic issues, like a strange character set that
+	would throw the subsequent scripts off.</P>
+	<LI><P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0.49cm">Develop
+	a XSLT stylesheet to transform the XHTML file into a XML file 
+	</P>
+</UL>
+<P LANG="en-GB" STYLE="margin-top: 0.49cm; margin-bottom: 0.49cm">Sometimes
+it is easy because the XHTML is cleanly formatted and sometimes it
+isn't, so you have to use XSLT functions to do various things such as
+skip this row, process a date to strip out extraneous characters like
+asterisks.. etc. Sometimes port names are wrong, port names are
+misspelled, the country isn't specified, etc - see the example XSLT
+stylesheet for a template that handles this task. There may be
+several XSLT stylesheets associated with one carrier - if their
+schedule pages all have different formats, then each is a stylesheet.</P>
+<P LANG="en-US" CLASS="western" STYLE="margin-bottom: 0cm"><BR>
+</P>
+</BODY>
+</HTML>

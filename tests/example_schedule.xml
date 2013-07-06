@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>Costa Rica - Honduras - El Salvador To/From U.S. East Coast</route>
+    <vessel name="Dole Chile" voyage="313">
+      <port name="Santa Marta">7-Jun</port>
+      <port name="Puerto Limon; CR">9-Jun</port>
+      <port name="Puerto Castilla">11-Jun</port>
+      <port name="Port Everglades">13-Jun</port>
+      <port name="Wilmington; DE; US">16-Jun</port>
+      <port name="Santa Marta">21-Jun</port>
+      <port name="Puerto Limon; CR">23-Jun</port>
+      <port name="Puerto Castilla">25-Jun</port>
+    </vessel>
+    <vessel name="Dole Colombia" voyage="313">
+      <port name="Santa Marta">14-Jun</port>
+      <port name="Puerto Limon; CR">16-Jun</port>
+      <port name="Puerto Castilla">18-Jun</port>
+      <port name="Port Everglades">20-Jun</port>
+      <port name="Wilmington; DE; US">23-Jun</port>
+      <port name="Santa Marta">28-Jun</port>
+      <port name="Puerto Limon; CR">30-Jun</port>
+      <port name="Puerto Castilla">2-Jul</port>
+    </vessel>
+    <vessel name="Dole Chile" voyage="314">
+      <port name="Santa Marta">21-Jun</port>
+      <port name="Puerto Limon; CR">23-Jun</port>
+      <port name="Puerto Castilla">25-Jun</port>
+      <port name="Port Everglades">27-Jun</port>
+      <port name="Wilmington; DE; US">30-Jun</port>
+      <port name="Santa Marta">5-Jul</port>
+      <port name="Puerto Limon; CR">7-Jul</port>
+      <port name="Puerto Castilla">9-Jul</port>
+    </vessel>
+    <vessel name="Dole Colombia" voyage="314">
+      <port name="Santa Marta">28-Jun</port>
+      <port name="Puerto Limon; CR">30-Jun</port>
+      <port name="Puerto Castilla">2-Jul</port>
+      <port name="Port Everglades">4-Jul</port>
+      <port name="Wilmington; DE; US">7-Jul</port>
+      <port name="Santa Marta">12-Jul</port>
+      <port name="Puerto Limon; CR">14-Jul</port>
+      <port name="Puerto Castilla">16-Jul</port>
+    </vessel>
+    <vessel name="Dole Chile" voyage="315">
+      <port name="Santa Marta">5-Jul</port>
+      <port name="Puerto Limon; CR">7-Jul</port>
+      <port name="Puerto Castilla">9-Jul</port>
+      <port name="Port Everglades">11-Jul</port>
+      <port name="Wilmington; DE; US">14-Jul</port>
+      <port name="Santa Marta">19-Jul</port>
+      <port name="Puerto Limon; CR">21-Jul</port>
+      <port name="Puerto Castilla">23-Jul</port>
+    </vessel>
+    <vessel name="Dole Colombia" voyage="315">
+      <port name="Santa Marta">12-Jul</port>
+      <port name="Puerto Limon; CR">14-Jul</port>
+      <port name="Puerto Castilla">16-Jul</port>
+      <port name="Port Everglades">18-Jul</port>
+      <port name="Wilmington; DE; US">21-Jul</port>
+      <port name="Santa Marta">26-Jul</port>
+      <port name="Puerto Limon; CR">28-Jul</port>
+      <port name="Puerto Castilla">30-Jul</port>
+    </vessel>
+    <vessel name="Dole Chile" voyage="316">
+      <port name="Santa Marta">19-Jul</port>
+      <port name="Puerto Limon; CR">21-Jul</port>
+      <port name="Puerto Castilla">23-Jul</port>
+      <port name="Port Everglades">25-Jul</port>
+      <port name="Wilmington; DE; US">28-Jul</port>
+      <port name="Santa Marta">2-Aug</port>
+      <port name="Puerto Limon; CR">4-Aug</port>
+      <port name="Puerto Castilla">6-Aug</port>
+    </vessel>
+    <vessel name="Dole Colombia" voyage="316">
+      <port name="Santa Marta">26-Jul</port>
+      <port name="Puerto Limon; CR">28-Jul</port>
+      <port name="Puerto Castilla">30-Jul</port>
+      <port name="Port Everglades">1-Aug</port>
+      <port name="Wilmington; DE; US">4-Aug</port>
+      <port name="Santa Marta">9-Aug</port>
+      <port name="Puerto Limon; CR">11-Aug</port>
+      <port name="Puerto Castilla">13-Aug</port>
+    </vessel>
+    <vessel name="Dole Chile" voyage="317">
+      <port name="Santa Marta">2-Aug</port>
+      <port name="Puerto Limon; CR">4-Aug</port>
+      <port name="Puerto Castilla">6-Aug</port>
+      <port name="Port Everglades">8-Aug</port>
+      <port name="Wilmington; DE; US">11-Aug</port>
+      <port name="Santa Marta">16-Aug</port>
+      <port name="Puerto Limon; CR">18-Aug</port>
+      <port name="Puerto Castilla">20-Aug</port>
+    </vessel>
+    <vessel name="Dole Colombia" voyage="317">
+      <port name="Santa Marta">9-Aug</port>
+      <port name="Puerto Limon; CR">11-Aug</port>
+      <port name="Puerto Castilla">13-Aug</port>
+      <port name="Port Everglades">15-Aug</port>
+      <port name="Wilmington; DE; US">18-Aug</port>
+      <port name="Santa Marta">23-Aug</port>
+      <port name="Puerto Limon; CR">25-Aug</port>
+      <port name="Puerto Castilla">27-Aug</port>
+    </vessel>
+    <vessel name="Dole Chile" voyage="318">
+      <port name="Santa Marta">16-Aug</port>
+      <port name="Puerto Limon; CR">18-Aug</port>
+      <port name="Puerto Castilla">20-Aug</port>
+      <port name="Port Everglades">22-Aug</port>
+      <port name="Wilmington; DE; US">25-Aug</port>
+      <port name="Santa Marta">30-Aug</port>
+      <port name="Puerto Limon; CR">1-Sep</port>
+      <port name="Puerto Castilla">3-Sep</port>
+    </vessel>
+    <vessel name="Dole Colombia" voyage="318">
+      <port name="Santa Marta">23-Aug</port>
+      <port name="Puerto Limon; CR">25-Aug</port>
+      <port name="Puerto Castilla">27-Aug</port>
+      <port name="Port Everglades">29-Aug</port>
+      <port name="Wilmington; DE; US">1-Sep</port>
+      <port name="Santa Marta">6-Sep</port>
+      <port name="Puerto Limon; CR">8-Sep</port>
+      <port name="Puerto Castilla">10-Sep</port>
+    </vessel>
+    <vessel name="Dole Chile" voyage="319">
+      <port name="Santa Marta">30-Aug</port>
+      <port name="Puerto Limon; CR">1-Sep</port>
+      <port name="Puerto Castilla">3-Sep</port>
+      <port name="Port Everglades">5-Sep</port>
+      <port name="Wilmington; DE; US">8-Sep</port>
+      <port name="Santa Marta">13-Sep</port>
+      <port name="Puerto Limon; CR">15-Sep</port>
+      <port name="Puerto Castilla">17-Sep</port>
+    </vessel>
+    <vessel name="Dole Colombia" voyage="319">
+      <port name="Santa Marta">6-Sep</port>
+      <port name="Puerto Limon; CR">8-Sep</port>
+      <port name="Puerto Castilla">10-Sep</port>
+      <port name="Port Everglades">12-Sep</port>
+      <port name="Wilmington; DE; US">15-Sep</port>
+      <port name="Santa Marta">20-Sep</port>
+      <port name="Puerto Limon; CR">22-Sep</port>
+      <port name="Puerto Castilla">24-Sep</port>
+    </vessel>
+    <vessel name="Dole Chile" voyage="320">
+      <port name="Santa Marta">13-Sep</port>
+      <port name="Puerto Limon; CR">15-Sep</port>
+      <port name="Puerto Castilla">17-Sep</port>
+      <port name="Port Everglades">19-Sep</port>
+      <port name="Wilmington; DE; US">22-Sep</port>
+      <port name="Santa Marta">27-Sep</port>
+      <port name="Puerto Limon; CR">29-Sep</port>
+      <port name="Puerto Castilla">1-Oct</port>
+    </vessel>
+    <vessel name="Dole Colombia" voyage="320">
+      <port name="Santa Marta">20-Sep</port>
+      <port name="Puerto Limon; CR">22-Sep</port>
+      <port name="Puerto Castilla">24-Sep</port>
+      <port name="Port Everglades">26-Sep</port>
+      <port name="Wilmington; DE; US">29-Sep</port>
+      <port name="Santa Marta">4-Oct</port>
+      <port name="Puerto Limon; CR">6-Oct</port>
+      <port name="Puerto Castilla">8-Oct</port>
+    </vessel>
+  </schedule>
+</schedules>

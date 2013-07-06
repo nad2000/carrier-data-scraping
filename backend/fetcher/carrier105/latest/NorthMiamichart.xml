@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>VOYAGE PT LIMON PT BARRIOS PT CORTES SOUTH</route>
+    <vessel name="EURUS LISBON" voyage="319EN">
+      <port name="EURUS LONDON">9-May-13</port>
+      <port name="318EN">11-May-13</port>
+      <port name="2-May-13">12-May-13</port>
+      <port name="4-May-13">15-May-13</port>
+    </vessel>
+    <vessel name="EURUS LIMA" voyage="320EN">
+      <port name="EURUS LONDON">16-May-13</port>
+      <port name="318EN">18-May-13</port>
+      <port name="2-May-13">19-May-13</port>
+      <port name="4-May-13">22-May-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="321EN">
+      <port name="EURUS LONDON">23-May-13</port>
+      <port name="318EN">25-May-13</port>
+      <port name="2-May-13">26-May-13</port>
+      <port name="4-May-13">29-May-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="322EN">
+      <port name="EURUS LONDON">30-May-13</port>
+      <port name="318EN">1-Jun-13</port>
+      <port name="2-May-13">2-Jun-13</port>
+      <port name="4-May-13">5-Jun-13</port>
+    </vessel>
+    <vessel name="EURUS LIMA" voyage="323EN">
+      <port name="EURUS LONDON">6-Jun-13</port>
+      <port name="318EN">8-Jun-13</port>
+      <port name="2-May-13">9-Jun-13</port>
+      <port name="4-May-13">12-Jun-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="324EN">
+      <port name="EURUS LONDON">13-Jun-13</port>
+      <port name="318EN">15-Jun-13</port>
+      <port name="2-May-13">16-Jun-13</port>
+      <port name="4-May-13">19-Jun-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="325EN">
+      <port name="EURUS LONDON">20-Jun-13</port>
+      <port name="318EN">22-Jun-13</port>
+      <port name="2-May-13">23-Jun-13</port>
+      <port name="4-May-13">26-Jun-13</port>
+    </vessel>
+    <vessel name="EURUS LIMA" voyage="326EN">
+      <port name="EURUS LONDON">27-Jun-13</port>
+      <port name="318EN">29-Jun-13</port>
+      <port name="2-May-13">30-Jun-13</port>
+      <port name="4-May-13">3-Jul-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="327EN">
+      <port name="EURUS LONDON">4-Jul-13</port>
+      <port name="318EN">6-Jul-13</port>
+      <port name="2-May-13">7-Jul-13</port>
+      <port name="4-May-13">10-Jul-13</port>
+    </vessel>
+  </schedule>
+</schedules>

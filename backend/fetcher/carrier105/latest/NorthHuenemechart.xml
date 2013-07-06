@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route/>
+    <vessel name="CAP PORTLAND" voyage="315N">
+      <port name="CAP PALMERSTON">3-May-13</port>
+      <port name="314N">9-May-13</port>
+      <port name="27-Apr-13">15-May-13</port>
+    </vessel>
+    <vessel name="CAP PASLEY" voyage="316N">
+      <port name="CAP PALMERSTON">10-May-13</port>
+      <port name="314N">16-May-13</port>
+      <port name="27-Apr-13">22-May-13</port>
+    </vessel>
+    <vessel name="CAP PATTON" voyage="317N">
+      <port name="CAP PALMERSTON">17-May-13</port>
+      <port name="314N">23-May-13</port>
+      <port name="27-Apr-13">29-May-13</port>
+    </vessel>
+    <vessel name="CAP PALLISER" voyage="318N">
+      <port name="CAP PALMERSTON">24-May-13</port>
+      <port name="314N">30-May-13</port>
+      <port name="27-Apr-13">5-Jun-13</port>
+    </vessel>
+    <vessel name="CAP PALMERSTON" voyage="319N">
+      <port name="CAP PALMERSTON">31-May-13</port>
+      <port name="314N">6-Jun-13</port>
+      <port name="27-Apr-13">12-Jun-13</port>
+    </vessel>
+    <vessel name="CAP PORTLAND" voyage="320N">
+      <port name="CAP PALMERSTON">7-Jun-13</port>
+      <port name="314N">13-Jun-13</port>
+      <port name="27-Apr-13">19-Jun-13</port>
+    </vessel>
+    <vessel name="CAP PASLEY" voyage="321N">
+      <port name="CAP PALMERSTON">14-Jun-13</port>
+      <port name="314N">20-Jun-13</port>
+      <port name="27-Apr-13">26-Jun-13</port>
+    </vessel>
+    <vessel name="CAP PATTON" voyage="322N">
+      <port name="CAP PALMERSTON">20-Jun-13</port>
+      <port name="314N">21-Jun-13</port>
+      <port name="27-Apr-13">3-Jul-13</port>
+    </vessel>
+    <vessel name="CAP PALLISER" voyage="323N">
+      <port name="CAP PALMERSTON">28-Jun-13</port>
+      <port name="314N">4-Jul-13</port>
+      <port name="27-Apr-13">10-Jul-13</port>
+    </vessel>
+  </schedule>
+</schedules>
