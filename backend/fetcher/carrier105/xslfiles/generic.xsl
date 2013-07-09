@@ -142,25 +142,38 @@
             <xsl:otherwise><xsl:value-of select="$pname1" /></xsl:otherwise>
         </xsl:choose></xsl:variable>
         <xsl:choose>
+            <xsl:when test="$pname2 = 'Amirante'">Almirante; PA</xsl:when>
+            <xsl:when test="$pname2 = 'Amirante; PA'">Almirante; PA</xsl:when>
+            <xsl:when test="$pname2 = 'Almirante; PN'">Almirante; PA</xsl:when>
+            <xsl:when test="$pname2 = 'ALMIRANTE; PANAMA'">Almirante; PA</xsl:when>
+            <xsl:when test="$pname2 = 'CALDERA; COSTA RICA'">Caldera; CR</xsl:when>
             <xsl:when test="$pname2 = 'Freeport; TX'">Freeport; TX; US</xsl:when>
+            <xsl:when test="$pname2 = 'FREEPORT; TX'">Freeport; TX; US</xsl:when>
+            <xsl:when test="$pname2 = 'GUAYAQUIL; ECUADOR'">Guayaquil; EC</xsl:when>
             <xsl:when test="$pname2 = 'Gulfport; MS'">Gulfport; MS; US</xsl:when>
-            <xsl:when test="$pname2 = 'Miami (Pt Everglades; FL)'">Port Everglades; FL; US</xsl:when>
-            <xsl:when test="$pname2 = 'Puerto Everglades; FL'">Port Everglades; FL; US</xsl:when>
+            <xsl:when test="$pname2 = 'GULFPORT; MS'">Gulfport; MS; US</xsl:when>
             <xsl:when test="$pname2 = 'Puerto Hueneme; CA'">Port Hueneme; CA; US</xsl:when>
-            <xsl:when test="$pname2 = 'Wilmington; DE'">Wilmington; DE; US</xsl:when>
+            <xsl:when test="$pname2 = 'Hueneme; CALIFORNIA'">Port Hueneme; CA; US</xsl:when>
+            <xsl:when test="$pname2 = 'HUENEME; CALIFORNIA'">Port Hueneme; CA; US</xsl:when>
+            <xsl:when test="$pname2 = 'Puerto Almirante; PN'">Almirante; PA</xsl:when>
             <xsl:when test="$pname2 = 'Puerto Barrios; GU'">Puerto Barrios; GT</xsl:when>
             <xsl:when test="$pname2 = 'Puerto Barrios; HN'">Puerto Barrios; GT</xsl:when>
-            <xsl:when test="$pname2 = 'Puerto Quetzal; GU'">Puerto Quetzal; GT</xsl:when>
-            <xsl:when test="$pname2 = 'Puerto Cortez; HN'">Puerto Cortes; HN</xsl:when>
+            <xsl:when test="$pname2 = 'Puerto BARRIOS; GUATEMALA'">Puerto Barrios; GT</xsl:when>
             <xsl:when test="$pname2 = 'Puerto Cortes; CR'">Puerto Cortes; HN</xsl:when>
-            <xsl:when test="$pname2 = 'Puerto Limon; HN'">Puerto Limon; CR</xsl:when>
+            <xsl:when test="$pname2 = 'Puerto Cortez; HN'">Puerto Cortes; HN</xsl:when>
+            <xsl:when test="$pname2 = 'Puerto CORTES; HONDURAS'">Puerto Cortes; HN</xsl:when>
+            <xsl:when test="$pname2 = 'Puerto Everglades; FL'">Port Everglades; FL; US</xsl:when>
+            <xsl:when test="$pname2 = 'Miami (Pt Everglades; FL)'">Port Everglades; FL; US</xsl:when>
+            <xsl:when test="$pname2 = 'SOUTH; FL'">Port Everglades; FL; US</xsl:when>
             <xsl:when test="$pname2 = 'Puerto Limon'">Puerto Limon; CR</xsl:when>
-            <xsl:when test="$pname2 = 'Vado'">Vado Ligure; IT</xsl:when>
-            <xsl:when test="$pname2 = 'Amirante; PA'">Almirante; PA</xsl:when>
-            <xsl:when test="$pname2 = 'Puerto Almirante; PN'">Almirante; PA</xsl:when>
-            <xsl:when test="$pname2 = 'Almirante; PN'">Almirante; PA</xsl:when>
-            <xsl:when test="$pname2 = 'Amirante'">Almirante; PA</xsl:when>
+            <xsl:when test="$pname2 = 'Puerto Limon; HN'">Puerto Limon; CR</xsl:when>
+            <xsl:when test="$pname2 = 'Puerto LIMON; COSTA RICA'">Puerto Limon; CR</xsl:when>
+            <xsl:when test="$pname2 = 'Puerto Quetzal; GU'">Puerto Quetzal; GT</xsl:when>
+            <xsl:when test="$pname2 = 'Puerto QUETZAL; GUATEMALA'">Puerto Quetzal; GT</xsl:when>
+            <xsl:when test="$pname2 = 'Wilmington; DE'">Wilmington; DE; US</xsl:when>
+            <xsl:when test="$pname2 = 'WILMINGTON; DE'">Wilmington; DE; US</xsl:when>
             <xsl:when test="$pname2 = 'Bremerhaven'">Bremerhaven; DE</xsl:when>
+            <xsl:when test="$pname2 = 'Vado'">Vado Ligure; IT</xsl:when>
 
             <xsl:otherwise><xsl:value-of select="$pname2" /></xsl:otherwise>
         </xsl:choose>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>Pt Guayaquil, EC - Pt Quetzal, GU to</route>
+    <vessel name="CAP PASLEY" voyage="321N">
+      <port name="Guayaquil; EC">14-Jun-13</port>
+      <port name="Puerto Quetzal; GT">20-Jun-13</port>
+      <port name="Port Hueneme; CA; US">26-Jun-13</port>
+    </vessel>
+    <vessel name="CPAY" voyage="">
+      <port name="Guayaquil; EC"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Port Hueneme; CA; US"/>
+    </vessel>
+    <vessel name="CAP PATTON" voyage="322N">
+      <port name="Guayaquil; EC">20-Jun-13</port>
+      <port name="Puerto Quetzal; GT">21-Jun-13</port>
+      <port name="Port Hueneme; CA; US">3-Jul-13</port>
+    </vessel>
+    <vessel name="CPAT" voyage="">
+      <port name="Guayaquil; EC"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Port Hueneme; CA; US"/>
+    </vessel>
+    <vessel name="CAP PALLISER" voyage="323N">
+      <port name="Guayaquil; EC">28-Jun-13</port>
+      <port name="Puerto Quetzal; GT">4-Jul-13</port>
+      <port name="Port Hueneme; CA; US">10-Jul-13</port>
+    </vessel>
+    <vessel name="CPLI" voyage="">
+      <port name="Guayaquil; EC"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Port Hueneme; CA; US"/>
+    </vessel>
+    <vessel name="CAP PALMERSTON" voyage="324N">
+      <port name="Guayaquil; EC">5-Jul-13</port>
+      <port name="Puerto Quetzal; GT">11-Jul-13</port>
+      <port name="Port Hueneme; CA; US">17-Jul-13</port>
+    </vessel>
+    <vessel name="CPPA" voyage="">
+      <port name="Guayaquil; EC"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Port Hueneme; CA; US"/>
+    </vessel>
+    <vessel name="CAP PORTLAND" voyage="325N">
+      <port name="Guayaquil; EC">12-Jul-13</port>
+      <port name="Puerto Quetzal; GT">18-Jul-13</port>
+      <port name="Port Hueneme; CA; US">24-Jul-13</port>
+    </vessel>
+    <vessel name="CPPO" voyage="">
+      <port name="Guayaquil; EC"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Port Hueneme; CA; US"/>
+    </vessel>
+    <vessel name="CAP PASLEY" voyage="326N">
+      <port name="Guayaquil; EC">19-Jul-13</port>
+      <port name="Puerto Quetzal; GT">25-Jul-13</port>
+      <port name="Port Hueneme; CA; US">31-Jul-13</port>
+    </vessel>
+    <vessel name="CPAY" voyage="">
+      <port name="Guayaquil; EC"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Port Hueneme; CA; US"/>
+    </vessel>
+    <vessel name="CAP PATTON" voyage="327N">
+      <port name="Guayaquil; EC">26-Jul-13</port>
+      <port name="Puerto Quetzal; GT">1-Aug-13</port>
+      <port name="Port Hueneme; CA; US">7-Aug-13</port>
+    </vessel>
+    <vessel name="CPAT" voyage="">
+      <port name="Guayaquil; EC"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Port Hueneme; CA; US"/>
+    </vessel>
+    <vessel name="CAP PALLISER" voyage="328N">
+      <port name="Guayaquil; EC">2-Aug-13</port>
+      <port name="Puerto Quetzal; GT">8-Aug-13</port>
+      <port name="Port Hueneme; CA; US">14-Aug-13</port>
+    </vessel>
+    <vessel name="CPLI" voyage="">
+      <port name="Guayaquil; EC"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Port Hueneme; CA; US"/>
+    </vessel>
+    <vessel name="CAP PALMERSTON" voyage="329N">
+      <port name="Guayaquil; EC">9-Aug-13</port>
+      <port name="Puerto Quetzal; GT">15-Aug-13</port>
+      <port name="Port Hueneme; CA; US">21-Aug-13</port>
+    </vessel>
+    <vessel name="CPPA" voyage="">
+      <port name="Guayaquil; EC"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Port Hueneme; CA; US"/>
+    </vessel>
+    <vessel name="CAP PORTLAND" voyage="330N">
+      <port name="Guayaquil; EC">16-Aug-13</port>
+      <port name="Puerto Quetzal; GT">22-Aug-13</port>
+      <port name="Port Hueneme; CA; US">28-Aug-13</port>
+    </vessel>
+    <vessel name="CPPO" voyage="">
+      <port name="Guayaquil; EC"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Port Hueneme; CA; US"/>
+    </vessel>
+  </schedule>
+</schedules>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>Pt Limon, CR - Pt Almirante, PN - Pt Barrios, GU - Pt Cortes, HN to Wilmington, DE</route>
+    <vessel name="HELENE" voyage="326WN">
+      <port name="Puerto Limon; CR">20-Jun-13</port>
+      <port name="Almirante; PA">22-Jun-13</port>
+      <port name="Puerto Barrios; GT">24-Jun-13</port>
+      <port name="Puerto Cortes; HN">26-Jun-13</port>
+      <port name="Wilmington; DE; US">1-Jul-13</port>
+    </vessel>
+    <vessel name="CRISTAL BAY" voyage="327WN">
+      <port name="Puerto Limon; CR">27-Jun-13</port>
+      <port name="Almirante; PA">29-Jun-13</port>
+      <port name="Puerto Barrios; GT">1-Jul-13</port>
+      <port name="Puerto Cortes; HN">3-Jul-13</port>
+      <port name="Wilmington; DE; US">8-Jul-13</port>
+    </vessel>
+    <vessel name="HELENE" voyage="328WN">
+      <port name="Puerto Limon; CR">4-Jul-13</port>
+      <port name="Almirante; PA">6-Jul-13</port>
+      <port name="Puerto Barrios; GT">8-Jul-13</port>
+      <port name="Puerto Cortes; HN">10-Jul-13</port>
+      <port name="Wilmington; DE; US">15-Jul-13</port>
+    </vessel>
+    <vessel name="CRISTAL BAY" voyage="329WN">
+      <port name="Puerto Limon; CR">11-Jul-13</port>
+      <port name="Almirante; PA">13-Jul-13</port>
+      <port name="Puerto Barrios; GT">15-Jul-13</port>
+      <port name="Puerto Cortes; HN">17-Jul-13</port>
+      <port name="Wilmington; DE; US">22-Jul-13</port>
+    </vessel>
+    <vessel name="HELENE" voyage="330WN">
+      <port name="Puerto Limon; CR">18-Jul-13</port>
+      <port name="Almirante; PA">20-Jul-13</port>
+      <port name="Puerto Barrios; GT">22-Jul-13</port>
+      <port name="Puerto Cortes; HN">24-Jul-13</port>
+      <port name="Wilmington; DE; US">29-Jul-13</port>
+    </vessel>
+    <vessel name="CRISTAL BAY" voyage="331WN">
+      <port name="Puerto Limon; CR">25-Jul-13</port>
+      <port name="Almirante; PA">27-Jul-13</port>
+      <port name="Puerto Barrios; GT">29-Jul-13</port>
+      <port name="Puerto Cortes; HN">31-Jul-13</port>
+      <port name="Wilmington; DE; US">5-Aug-13</port>
+    </vessel>
+    <vessel name="HELENE" voyage="332WN">
+      <port name="Puerto Limon; CR">1-Aug-13</port>
+      <port name="Almirante; PA">3-Aug-13</port>
+      <port name="Puerto Barrios; GT">5-Aug-13</port>
+      <port name="Puerto Cortes; HN">7-Aug-13</port>
+      <port name="Wilmington; DE; US">12-Aug-13</port>
+    </vessel>
+    <vessel name="CRISTAL BAY" voyage="333WN">
+      <port name="Puerto Limon; CR">8-Aug-13</port>
+      <port name="Almirante; PA">10-Aug-13</port>
+      <port name="Puerto Barrios; GT">12-Aug-13</port>
+      <port name="Puerto Cortes; HN">14-Aug-13</port>
+      <port name="Wilmington; DE; US">19-Aug-13</port>
+    </vessel>
+    <vessel name="HELENE" voyage="334WN">
+      <port name="Puerto Limon; CR">15-Aug-13</port>
+      <port name="Almirante; PA">17-Aug-13</port>
+      <port name="Puerto Barrios; GT">19-Aug-13</port>
+      <port name="Puerto Cortes; HN">21-Aug-13</port>
+      <port name="Wilmington; DE; US">26-Aug-13</port>
+    </vessel>
+  </schedule>
+</schedules>

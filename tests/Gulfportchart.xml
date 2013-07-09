@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>Gulfport, MS to Pt Cortes, HN - Pt Barrios, GU - Pt Limon, CR - Pt Almirante, PN</route>
+    <vessel name="EURUS LIMA" voyage="324GS">
+      <port name="Gulfport; MS; US">19-Jun-13</port>
+      <port name="Puerto Cortes; HN">23-Jun-13</port>
+      <port name="Puerto Barrios; GT">24-Jun-13</port>
+      <port name="Puerto Limon; CR">27-Jun-13</port>
+      <port name="Almirante; PA">28-Jun-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="325GS">
+      <port name="Gulfport; MS; US">26-Jun-13</port>
+      <port name="Puerto Cortes; HN">30-Jun-13</port>
+      <port name="Puerto Barrios; GT">1-Jul-13</port>
+      <port name="Puerto Limon; CR">4-Jul-13</port>
+      <port name="Almirante; PA">5-Jul-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="326GS">
+      <port name="Gulfport; MS; US">3-Jul-13</port>
+      <port name="Puerto Cortes; HN">7-Jul-13</port>
+      <port name="Puerto Barrios; GT">8-Jul-13</port>
+      <port name="Puerto Limon; CR">11-Jul-13</port>
+      <port name="Almirante; PA">12-Jul-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="327GS">
+      <port name="Gulfport; MS; US">10-Jul-13</port>
+      <port name="Puerto Cortes; HN">14-Jul-13</port>
+      <port name="Puerto Barrios; GT">15-Jul-13</port>
+      <port name="Puerto Limon; CR">18-Jul-13</port>
+      <port name="Almirante; PA">19-Jul-13</port>
+    </vessel>
+    <vessel name="EURUS LIMA" voyage="328GS">
+      <port name="Gulfport; MS; US">17-Jul-13</port>
+      <port name="Puerto Cortes; HN">21-Jul-13</port>
+      <port name="Puerto Barrios; GT">22-Jul-13</port>
+      <port name="Puerto Limon; CR">25-Jul-13</port>
+      <port name="Almirante; PA">26-Jul-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="329GS">
+      <port name="Gulfport; MS; US">24-Jul-13</port>
+      <port name="Puerto Cortes; HN">28-Jul-13</port>
+      <port name="Puerto Barrios; GT">29-Jul-13</port>
+      <port name="Puerto Limon; CR">1-Aug-13</port>
+      <port name="Almirante; PA">2-Aug-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="330GS">
+      <port name="Gulfport; MS; US">31-Jul-13</port>
+      <port name="Puerto Cortes; HN">4-Aug-13</port>
+      <port name="Puerto Barrios; GT">5-Aug-13</port>
+      <port name="Puerto Limon; CR">8-Aug-13</port>
+      <port name="Almirante; PA">9-Aug-13</port>
+    </vessel>
+    <vessel name="EURUS LIMA" voyage="331GS">
+      <port name="Gulfport; MS; US">7-Aug-13</port>
+      <port name="Puerto Cortes; HN">11-Aug-13</port>
+      <port name="Puerto Barrios; GT">12-Aug-13</port>
+      <port name="Puerto Limon; CR">15-Aug-13</port>
+      <port name="Almirante; PA">16-Aug-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="332GS">
+      <port name="Gulfport; MS; US">14-Aug-13</port>
+      <port name="Puerto Cortes; HN">18-Aug-13</port>
+      <port name="Puerto Barrios; GT">19-Aug-13</port>
+      <port name="Puerto Limon; CR">22-Aug-13</port>
+      <port name="Almirante; PA">23-Aug-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="333GS">
+      <port name="Gulfport; MS; US">21-Aug-13</port>
+      <port name="Puerto Cortes; HN">25-Aug-13</port>
+      <port name="Puerto Barrios; GT">26-Aug-13</port>
+      <port name="Puerto Limon; CR">29-Aug-13</port>
+      <port name="Almirante; PA">30-Aug-13</port>
+    </vessel>
+  </schedule>
+</schedules>

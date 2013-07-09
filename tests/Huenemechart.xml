@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>Port Hueneme, Ca</route>
+    <vessel name="CPLI" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+    <vessel name="CAP PALMERSTON" voyage="324S">
+      <port name="Port Hueneme; CA; US">14-Jun-13</port>
+      <port name="Puerto Quetzal; GT">25-Jun-13</port>
+      <port name="Caldera; CR">5-Jul-13</port>
+      <port name="Guayaquil; EC">5-Jul-13</port>
+    </vessel>
+    <vessel name="CPPA" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+    <vessel name="CAP PORTLAND" voyage="325S">
+      <port name="Port Hueneme; CA; US">21-Jun-13</port>
+      <port name="Puerto Quetzal; GT">2-Jul-13</port>
+      <port name="Caldera; CR">12-Jul-13</port>
+      <port name="Guayaquil; EC">12-Jul-13</port>
+    </vessel>
+    <vessel name="CPPO" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+    <vessel name="CAP PASLEY" voyage="326S">
+      <port name="Port Hueneme; CA; US">28-Jun-13</port>
+      <port name="Puerto Quetzal; GT">9-Jul-13</port>
+      <port name="Caldera; CR">19-Jul-13</port>
+      <port name="Guayaquil; EC">19-Jul-13</port>
+    </vessel>
+    <vessel name="CPAY" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+    <vessel name="CAP PATTON" voyage="327S">
+      <port name="Port Hueneme; CA; US">5-Jul-13</port>
+      <port name="Puerto Quetzal; GT">16-Jul-13</port>
+      <port name="Caldera; CR">26-Jul-13</port>
+      <port name="Guayaquil; EC">26-Jul-13</port>
+    </vessel>
+    <vessel name="CPAT" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+    <vessel name="CAP PALLISER" voyage="328S">
+      <port name="Port Hueneme; CA; US">12-Jul-13</port>
+      <port name="Puerto Quetzal; GT">23-Jul-13</port>
+      <port name="Caldera; CR">2-Aug-13</port>
+      <port name="Guayaquil; EC">2-Aug-13</port>
+    </vessel>
+    <vessel name="CPLI" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+    <vessel name="CAP PALMERSTON" voyage="329S">
+      <port name="Port Hueneme; CA; US">19-Jul-13</port>
+      <port name="Puerto Quetzal; GT">30-Jul-13</port>
+      <port name="Caldera; CR">9-Aug-13</port>
+      <port name="Guayaquil; EC">9-Aug-13</port>
+    </vessel>
+    <vessel name="CPPA" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+    <vessel name="CAP PORTLAND" voyage="330S">
+      <port name="Port Hueneme; CA; US">26-Jul-13</port>
+      <port name="Puerto Quetzal; GT">6-Aug-13</port>
+      <port name="Caldera; CR">16-Aug-13</port>
+      <port name="Guayaquil; EC">16-Aug-13</port>
+    </vessel>
+    <vessel name="CPPO" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+    <vessel name="CAP PASLEY" voyage="331S">
+      <port name="Port Hueneme; CA; US">2-Aug-13</port>
+      <port name="Puerto Quetzal; GT">13-Aug-13</port>
+      <port name="Caldera; CR">23-Aug-13</port>
+      <port name="Guayaquil; EC">23-Aug-13</port>
+    </vessel>
+    <vessel name="CPAY" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+    <vessel name="CAP PATTON" voyage="332S">
+      <port name="Port Hueneme; CA; US">9-Aug-13</port>
+      <port name="Puerto Quetzal; GT">20-Aug-13</port>
+      <port name="Caldera; CR">30-Aug-13</port>
+      <port name="Guayaquil; EC">30-Aug-13</port>
+    </vessel>
+    <vessel name="CPAT" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+    <vessel name="CAP PALLISER" voyage="333S">
+      <port name="Port Hueneme; CA; US">16-Aug-13</port>
+      <port name="Puerto Quetzal; GT">27-Aug-13</port>
+      <port name="Caldera; CR">6-Sep-13</port>
+      <port name="Guayaquil; EC">6-Sep-13</port>
+    </vessel>
+    <vessel name="CPLI" voyage="">
+      <port name="Port Hueneme; CA; US"/>
+      <port name="Puerto Quetzal; GT"/>
+      <port name="Caldera; CR"/>
+      <port name="Guayaquil; EC"/>
+    </vessel>
+  </schedule>
+</schedules>

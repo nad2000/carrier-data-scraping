@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>Pt Limon, CR - Pt Almirante, PN - Pt Cortes, HN - Pt Barrios, GU to Pt Everglades, FL</route>
+    <vessel name="EURUS LIMA" voyage="326EN">
+      <port name="Puerto Limon; CR">27-Jun-13</port>
+      <port name="Almirante; PA">28-Jun-13</port>
+      <port name="Puerto Barrios; GT">29-Jun-13</port>
+      <port name="Puerto Cortes; HN">30-Jun-13</port>
+      <port name="Port Everglades; FL; US">3-Jul-13</port>
+    </vessel>
+    <vessel name="CRUX J" voyage="327EN">
+      <port name="Puerto Limon; CR">4-Jul-13</port>
+      <port name="Almirante; PA">5-Jul-13</port>
+      <port name="Puerto Barrios; GT">6-Jul-13</port>
+      <port name="Puerto Cortes; HN">7-Jul-13</port>
+      <port name="Port Everglades; FL; US">10-Jul-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="328EN">
+      <port name="Puerto Limon; CR">11-Jul-13</port>
+      <port name="Almirante; PA">12-Jul-13</port>
+      <port name="Puerto Barrios; GT">13-Jul-13</port>
+      <port name="Puerto Cortes; HN">14-Jul-13</port>
+      <port name="Port Everglades; FL; US">17-Jul-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="329EN">
+      <port name="Puerto Limon; CR">18-Jul-13</port>
+      <port name="Almirante; PA">19-Jul-13</port>
+      <port name="Puerto Barrios; GT">20-Jul-13</port>
+      <port name="Puerto Cortes; HN">21-Jul-13</port>
+      <port name="Port Everglades; FL; US">24-Jul-13</port>
+    </vessel>
+    <vessel name="EURUS LIMA" voyage="330EN">
+      <port name="Puerto Limon; CR">25-Jul-13</port>
+      <port name="Almirante; PA">26-Jul-13</port>
+      <port name="Puerto Barrios; GT">27-Jul-13</port>
+      <port name="Puerto Cortes; HN">28-Jul-13</port>
+      <port name="Port Everglades; FL; US">31-Jul-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="331EN">
+      <port name="Puerto Limon; CR">1-Aug-13</port>
+      <port name="Almirante; PA">2-Aug-13</port>
+      <port name="Puerto Barrios; GT">3-Aug-13</port>
+      <port name="Puerto Cortes; HN">4-Aug-13</port>
+      <port name="Port Everglades; FL; US">7-Aug-13</port>
+    </vessel>
+    <vessel name="EURUS LONDON" voyage="332EN">
+      <port name="Puerto Limon; CR">8-Aug-13</port>
+      <port name="Almirante; PA">9-Aug-13</port>
+      <port name="Puerto Barrios; GT">10-Aug-13</port>
+      <port name="Puerto Cortes; HN">11-Aug-13</port>
+      <port name="Port Everglades; FL; US">14-Aug-13</port>
+    </vessel>
+    <vessel name="EURUS LIMA" voyage="333EN">
+      <port name="Puerto Limon; CR">15-Aug-13</port>
+      <port name="Almirante; PA">16-Aug-13</port>
+      <port name="Puerto Barrios; GT">17-Aug-13</port>
+      <port name="Puerto Cortes; HN">18-Aug-13</port>
+      <port name="Port Everglades; FL; US">21-Aug-13</port>
+    </vessel>
+    <vessel name="EURUS LISBON" voyage="334EN">
+      <port name="Puerto Limon; CR">22-Aug-13</port>
+      <port name="Almirante; PA">23-Aug-13</port>
+      <port name="Puerto Barrios; GT">24-Aug-13</port>
+      <port name="Puerto Cortes; HN">25-Aug-13</port>
+      <port name="Port Everglades; FL; US">28-Aug-13</port>
+    </vessel>
+  </schedule>
+</schedules>
