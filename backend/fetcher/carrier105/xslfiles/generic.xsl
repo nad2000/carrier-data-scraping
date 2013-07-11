@@ -29,7 +29,7 @@
 
         <schedule>
             <route><xsl:value-of select="$route" /></route>
-            <xsl:apply-templates select="following-sibling::tr[1]" mode="vessel">
+            <xsl:apply-templates select="following-sibling::tr[normalize-space(td[1]) != ''][1]" mode="vessel">
                 <xsl:with-param name="route" select="$route" />
                 <xsl:with-param name="xp" select="$xp" />
             </xsl:apply-templates>
@@ -40,49 +40,47 @@
         <xsl:param name="xp">0</xsl:param>
         <xsl:param name="route">TBA</xsl:param>
 
-        <xsl:if test="normalize-space(td[1]) != ''">
-			<xsl:if test="normalize-space(td[2]) != ''">
-				<vessel>
-					<xsl:attribute name="name">
-						<xsl:call-template name="fixvesselname">
-							<xsl:with-param name="name" select="td[1]" />
-						</xsl:call-template>
-					</xsl:attribute>
-					<xsl:choose>
-						<xsl:when test="../tr[$xp]/td[2]/@colspan = 2">
-							<xsl:attribute name="voyage">
-								<xsl:call-template name="fixvoyagestring">
-									<xsl:with-param name="vstr" select="concat(td[2], td[3])" />
-								</xsl:call-template>
-							</xsl:attribute>
+		<xsl:if test="normalize-space(td[2]) != ''">
+			<vessel>
+				<xsl:attribute name="name">
+					<xsl:call-template name="fixvesselname">
+						<xsl:with-param name="name" select="td[1]" />
+					</xsl:call-template>
+				</xsl:attribute>
+				<xsl:choose>
+					<xsl:when test="../tr[$xp]/td[2]/@colspan = 2">
+						<xsl:attribute name="voyage">
+							<xsl:call-template name="fixvoyagestring">
+								<xsl:with-param name="vstr" select="concat(td[2], td[3])" />
+							</xsl:call-template>
+						</xsl:attribute>
 
-							<xsl:apply-templates select="td[position() &gt; 3]">
-								<xsl:with-param name="xp" select="$xp" />
-								<xsl:with-param name="route" select="$route" />
-							</xsl:apply-templates>
-						</xsl:when>
+						<xsl:apply-templates select="td[position() &gt; 3]">
+							<xsl:with-param name="xp" select="$xp" />
+							<xsl:with-param name="route" select="$route" />
+						</xsl:apply-templates>
+					</xsl:when>
 
-						<xsl:otherwise>
-							<xsl:attribute name="voyage">
-								<xsl:call-template name="fixvoyagestring">
-									<xsl:with-param name="vstr" select="td[2]" />
-								</xsl:call-template>
-							</xsl:attribute>
+					<xsl:otherwise>
+						<xsl:attribute name="voyage">
+							<xsl:call-template name="fixvoyagestring">
+								<xsl:with-param name="vstr" select="td[2]" />
+							</xsl:call-template>
+						</xsl:attribute>
 
-							<xsl:apply-templates select="td[position() &gt; 2]">
-								<xsl:with-param name="xp" select="$xp" />
-								<xsl:with-param name="route" select="$route" />
-							</xsl:apply-templates>
-						</xsl:otherwise>
-					</xsl:choose>
-				</vessel>
-			</xsl:if>
+						<xsl:apply-templates select="td[position() &gt; 2]">
+							<xsl:with-param name="xp" select="$xp" />
+							<xsl:with-param name="route" select="$route" />
+						</xsl:apply-templates>
+					</xsl:otherwise>
+				</xsl:choose>
+			</vessel>
+		</xsl:if>
 
-            <xsl:apply-templates select="following-sibling::tr[1]" mode="vessel">
-                <xsl:with-param name="route" select="$route" />
-                <xsl:with-param name="xp" select="$xp" />
-            </xsl:apply-templates>
-        </xsl:if>
+		<xsl:apply-templates select="following-sibling::tr[1]" mode="vessel">
+			<xsl:with-param name="route" select="$route" />
+			<xsl:with-param name="xp" select="$xp" />
+		</xsl:apply-templates>
     </xsl:template>
 
     <xsl:template match="td">
