@@ -7,6 +7,26 @@
   <xsl:strip-space elements=" "/>
   <xsl:param name="htmlfilename" select="notset"/>
 
+  <xsl:variable name="routes">
+	<route name="AdHoc">AdHoc Vessels (AdHoc)</route>
+	<route name="AMI">Africa Middle East India Service (AMI)</route>
+	<route name="Asa">Far East and South Africa Service (ASA)</route>
+	<route name="EAF">East Africa Feeder Service (EAF)</route>
+	<route name="EASEA2">East Africa Service (EAS)</route>
+	<route name="MPS">Multipurpose Service (MPS)</route>
+	<route name="MZS">Mozambique Service (MZS)</route>
+	<route name="RichardsBay">Richards Bay Vessels (RBV)</route>
+	<route name="Sws">South West Africa Service 1 (SWS)</route>
+	<route name="SW2">South West Africa Service 2 (SW2)</route>
+	<route name="SW3">South West Africa Service 3 (SW3)</route>
+	<route name="Waffeeders">West Africa Feeder Service (WAF)</route>
+  </xsl:variable>
+
+  <!-- file name w/o extension '.xhtml' -->
+  <xsl:variable name="source" select="str:replace($htmlfilename,'.xhtml','')" />
+  <!-- rount name deteced based on the file name  -->
+  <xsl:variable name="route" select="document('')//xsl:variable[@name='routes']/*[@name=$source]"/>
+
   <xsl:template match="/">
     <schedules>
       <xsl:apply-templates select="//table//tr[starts-with(translate(., '&#160; ', ''), 'Vessel')]" mode="vnames"/>
@@ -22,11 +42,7 @@
       </xsl:for-each>
     </xsl:variable>
     <schedule>
-      <route>
-        <xsl:call-template name="fixroutename">
-          <xsl:with-param name="fname" select="$htmlfilename" />
-        </xsl:call-template>
-      </route>
+      <route><xsl:value-of select="$route" /></route>
       <xsl:apply-templates select="./following-sibling::tr[contains(td[number($pcolumn)],'Voyage')]" mode="voyrow">
         <xsl:with-param name="pcolo" select="number($pcolumn)" />
       </xsl:apply-templates>
