@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route/>
+    <vessel name="Kota Naluri" voyage="NLR064">
+      <port name="shekou">2013-07-05</port>
+    </vessel>
+    <vessel name="Kota Nazar" voyage="NZR058">
+      <port name="singapore">2013-07-07</port>
+      <port name="shekou">2013-07-13</port>
+    </vessel>
+    <vessel name="TBA" voyage="tba">
+      <port name="singapore">2013-07-14</port>
+      <port name="shekou">2013-07-20</port>
+    </vessel>
+    <vessel name="TBA" voyage="tba">
+      <port name="singapore">2013-07-21</port>
+      <port name="shekou">2013-07-27</port>
+    </vessel>
+    <vessel name="TBA" voyage="tba">
+      <port name="singapore">2013-07-28</port>
+      <port name="shekou">2013-08-03</port>
+    </vessel>
+    <vessel name="Hansa Augustenburg" voyage="VHG002A">
+      <port name="singapore">2013-08-08</port>
+      <port name="shekou">2013-08-13</port>
+    </vessel>
+    <vessel name="Wellington Strait" voyage="VWG003">
+      <port name="singapore">2013-08-11</port>
+      <port name="shekou">2013-08-17</port>
+    </vessel>
+    <vessel name="William Strait" voyage="VWS004">
+      <port name="singapore">2013-08-26</port>
+      <port name="shekou">2013-09-01</port>
+    </vessel>
+    <vessel name="William Strait" voyage="VWS002">
+      <port name="durban">2013-07-13</port>
+    </vessel>
+    <vessel name="Hansa Brandenburg" voyage="VBB003">
+      <port name="singapore">2013-07-04</port>
+      <port name="durban">2013-07-17</port>
+    </vessel>
+    <vessel name="Kota Naluri" voyage="NLR065">
+      <port name="nansha">2013-07-07</port>
+      <port name="singapore">2013-07-11</port>
+      <port name="durban">2013-07-25</port>
+    </vessel>
+    <vessel name="Kota Nazar" voyage="NZR059">
+      <port name="nansha">2013-07-14</port>
+      <port name="singapore">2013-07-18</port>
+      <port name="durban">2013-08-01</port>
+    </vessel>
+    <vessel name="TBA" voyage="tba">
+      <port name="nansha">2013-07-21</port>
+      <port name="singapore">2013-07-25</port>
+      <port name="durban">2013-08-08</port>
+    </vessel>
+    <vessel name="TBA" voyage="tba">
+      <port name="nansha">2013-07-28</port>
+      <port name="singapore">2013-08-02</port>
+      <port name="durban">2013-08-16</port>
+    </vessel>
+    <vessel name="TBA" voyage="tba">
+      <port name="nansha">2013-08-04</port>
+      <port name="singapore">2013-08-09</port>
+      <port name="durban">2013-08-23</port>
+    </vessel>
+    <vessel name="Hansa Augustenburg" voyage="VHG003">
+      <port name="nansha">2013-08-14</port>
+      <port name="singapore">2013-08-18</port>
+      <port name="durban">2013-09-01</port>
+    </vessel>
+    <vessel name="Wellington Strait" voyage="VWG004">
+      <port name="nansha">2013-08-18</port>
+      <port name="singapore">2013-08-23</port>
+      <port name="durban">2013-09-05</port>
+    </vessel>
+    <vessel name="William Strait" voyage="VWS005">
+      <port name="nansha">2013-09-02</port>
+      <port name="singapore">2013-09-07</port>
+      <port name="durban">2013-09-20</port>
+    </vessel>
+    <vessel name="Hansa Augustenburg" voyage="VHG002">
+      <port name="pointe noir">2013-07-03</port>
+      <port name="luanda">2013-07-08</port>
+      <port name="lobito">2013-07-15</port>
+      <port name="durban">26/04</port>
+      <port name="singapore">2013-08-08</port>
+    </vessel>
+    <vessel name="Wellington Strait" voyage="VWG002">
+      <port name="pointe noir">2013-07-13</port>
+      <port name="luanda">2013-07-06</port>
+      <port name="Douala; CM">2013-07-17</port>
+      <port name="durban">28/07</port>
+      <port name="singapore">2013-08-11</port>
+    </vessel>
+    <vessel name="William Strait" voyage="VWS003">
+      <port name="pointe noir">2013-07-21</port>
+      <port name="luanda">2013-07-23</port>
+      <port name="lobito">2013-08-01</port>
+      <port name="durban">12/08</port>
+      <port name="singapore">2013-08-26</port>
+    </vessel>
+    <vessel name="Hansa Brandenburg" voyage="VBB004">
+      <port name="pointe noir">2013-07-26</port>
+      <port name="luanda">2013-07-29</port>
+      <port name="lobito">2013-08-07</port>
+      <port name="durban">18/08</port>
+      <port name="singapore">2013-09-01</port>
+    </vessel>
+    <vessel name="Kota Naluri" voyage="NLR066">
+      <port name="pointe noir">2013-08-02</port>
+      <port name="luanda">2013-08-05</port>
+      <port name="lobito">2013-08-14</port>
+      <port name="durban">25/08</port>
+      <port name="singapore">2013-09-08</port>
+    </vessel>
+    <vessel name="Kota Nazar" voyage="VNZR060">
+      <port name="pointe noir">2013-08-09</port>
+      <port name="luanda">2013-08-12</port>
+      <port name="lobito">2013-08-21</port>
+      <port name="durban">01/09</port>
+      <port name="singapore">2013-09-15</port>
+    </vessel>
+    <vessel name="TBA" voyage="tba">
+      <port name="pointe noir">2013-08-16</port>
+      <port name="luanda">2013-08-19</port>
+      <port name="lobito">2013-08-28</port>
+      <port name="durban">2013-09-08</port>
+      <port name="singapore">2013-09-22</port>
+    </vessel>
+    <vessel name="TBA" voyage="tba">
+      <port name="pointe noir">2013-08-24</port>
+      <port name="luanda">2013-08-27</port>
+      <port name="lobito">2013-09-05</port>
+      <port name="durban">2013-09-16</port>
+      <port name="singapore">2013-09-30</port>
+    </vessel>
+    <vessel name="TBA" voyage="tba">
+      <port name="pointe noir">2013-08-31</port>
+      <port name="luanda">2013-09-03</port>
+      <port name="lobito">2013-09-11</port>
+      <port name="durban">2013-09-23</port>
+      <port name="singapore">2013-10-07</port>
+    </vessel>
+    <vessel name="Hansa Augustenburg" voyage="VHG004">
+      <port name="pointe noir">2013-09-09</port>
+      <port name="luanda">2013-09-12</port>
+      <port name="lobito">2013-09-21</port>
+      <port name="durban">02/10</port>
+      <port name="singapore">2013-10-16</port>
+    </vessel>
+    <vessel name="Wellington Strait" voyage="VWG005">
+      <port name="pointe noir">2013-09-13</port>
+      <port name="luanda">2013-09-16</port>
+      <port name="lobito">2013-09-25</port>
+      <port name="durban">05/10</port>
+      <port name="singapore">2013-10-19</port>
+    </vessel>
+    <vessel name="William Strait" voyage="VWS006">
+      <port name="pointe noir">2013-09-28</port>
+      <port name="luanda">2013-10-01</port>
+      <port name="lobito">2013-10-09</port>
+      <port name="durban">21/10</port>
+      <port name="singapore">2013-11-04</port>
+    </vessel>
+  </schedule>
+</schedules>

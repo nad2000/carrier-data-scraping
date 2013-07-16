@@ -1,0 +1,94 @@
+
+***************** Port Verification: AdHoc.xml ********************
+
+***************** Port Verification: AMI.xml ********************
+
+***************** Port Verification: Asa.xml ********************
+Port found - singapore SGSIN Singapore  SG
+
+Port found - port kelang MYPKG Port Klang Port Kelang;MYPBK;Pelabuhan Klang;Pelabuhan Kelang MY
+
+Port found - keelung TWKEL Keelung TWKEE;Chilung TW
+
+Port found - xiamen CNXMN Xiamen Amoy CN
+
+Port found - hong kong HKHKG Hong Kong  HK
+
+Port found - shekou CNSHK Shekou  CN
+
+Port found - shanghai CNSHA Shanghai  CN
+
+Port found - ningbo CNNGB Ningbo  CN
+
+Port found - cape town ZACPT Cape Town  ZA
+
+Port found - Shanghai CNSHA Shanghai  CN
+
+Port found - durban ZADUR Durban  ZA
+
+
+***************** Port Verification: EAF.xml ********************
+
+***************** Port Verification: EASEA2.xml ********************
+
+***************** Port Verification: MPS.xml ********************
+
+***************** Port Verification: MZS.xml ********************
+
+***************** Port Verification: RichardsBay.xml ********************
+
+***************** Port Verification: SW2.xml ********************
+
+***************** Port Verification: SW3.xml ********************
+Port found - shekou CNSHK Shekou  CN
+
+Port found - singapore SGSIN Singapore  SG
+
+Port found - durban ZADUR Durban  ZA
+
+Port found - nansha CNNSA Nansha  CN
+
+Possible port found - pointe noir CGPNR Pointe Noire  CG
+
+WARNING:  Possible port lookup error - multiple matches found for port pointe noir
+
+Port found - luanda AOLAD Luanda  AO
+
+Port found - lobito AOLOB Lobito  AO
+
+Port found - Douala CMDLA Douala  CM
+
+
+***************** Port Verification: Sws.xml ********************
+Port found - cape town ZACPT Cape Town  ZA
+
+Port found - singapore SGSIN Singapore  SG
+
+Port found - shanghai CNSHA Shanghai  CN
+
+Port found - nansha CNNSA Nansha  CN
+
+Port found - Tianjinxingang CNTXG Tianjin Xingang Xingang;CNXGG;Tianjinxingang CN
+
+Port found - qingdao CNTAO Qingdao Tsingtao;Tsingtao CN
+
+Port found - incheon KRINC Incheon Inchon KR
+
+Port found - kwangyang KRKWA Kwangyang Kwang Yang;KRKWY KR
+
+Port found - ningbo CNNGB Ningbo  CN
+
+Port found - abidjan CIABJ Abidjan  CI
+
+Port found - durban ZADUR Durban  ZA
+
+Port found - tincan NGTIN Tincan  NG
+
+Port found - tema GHTEM Tema  GH
+
+Port found - Lagos NGLOS Lagos  NG
+
+Port found - cotonou BJCOO Cotonou  BJ
+
+
+***************** Port Verification: Waffeeders.xml ********************

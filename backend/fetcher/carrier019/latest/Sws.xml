@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route/>
+    <vessel name="Leo Osaka" voyage="VLO002">
+      <port name="cape town">2013-07-08</port>
+    </vessel>
+    <vessel name="Kota Kamil" voyage="KMI077">
+      <port name="singapore">2013-07-03</port>
+      <port name="cape town">2013-07-18</port>
+    </vessel>
+    <vessel name="Kaya" voyage="VPL001">
+      <port name="shanghai">2013-07-04</port>
+      <port name="nansha">2013-07-07</port>
+      <port name="singapore">2013-07-11</port>
+      <port name="cape town">2013-07-26</port>
+    </vessel>
+    <vessel name="Cordelia" voyage="VCD001">
+      <port name="Tianjinxingang; CN">2013-07-02</port>
+      <port name="qingdao">2013-07-04</port>
+      <port name="incheon">2013-07-05</port>
+      <port name="kwangyang">2013-07-07</port>
+      <port name="ningbo">2013-07-09</port>
+      <port name="shanghai">2013-07-10</port>
+      <port name="nansha">2013-07-14</port>
+      <port name="singapore">2013-07-18</port>
+      <port name="cape town">2013-08-03</port>
+    </vessel>
+    <vessel name="Tatiana Schulte" voyage="YTS004">
+      <port name="Tianjinxingang; CN">2013-07-09</port>
+      <port name="qingdao">2013-07-11</port>
+      <port name="incheon">2013-07-13</port>
+      <port name="kwangyang">2013-07-14</port>
+      <port name="ningbo">2013-07-16</port>
+      <port name="shanghai">2013-07-17</port>
+      <port name="nansha">2013-07-21</port>
+      <port name="singapore">2013-07-25</port>
+      <port name="cape town">2013-08-09</port>
+    </vessel>
+    <vessel name="EM Astoria" voyage="YEA024">
+      <port name="Tianjinxingang; CN">2013-07-13</port>
+      <port name="qingdao">2013-07-15</port>
+      <port name="incheon">2013-07-17</port>
+      <port name="kwangyang">2013-07-18</port>
+      <port name="ningbo">2013-07-20</port>
+      <port name="shanghai">2013-07-21</port>
+      <port name="nansha">2013-07-24</port>
+      <port name="singapore">2013-07-29</port>
+      <port name="cape town">2013-08-12</port>
+    </vessel>
+    <vessel name="Kota Gunawan" voyage="GNW153">
+      <port name="Tianjinxingang; CN">2013-07-16</port>
+      <port name="qingdao">2013-07-22</port>
+      <port name="incheon">2013-07-24</port>
+      <port name="kwangyang">2013-07-26</port>
+      <port name="ningbo">2013-07-27</port>
+      <port name="shanghai">2013-07-28</port>
+      <port name="nansha">2013-07-31</port>
+      <port name="singapore">2013-08-05</port>
+      <port name="cape town">2013-08-20</port>
+    </vessel>
+    <vessel name="HS Challenger" voyage="YHC051">
+      <port name="Tianjinxingang; CN">2013-08-05</port>
+      <port name="qingdao">2013-08-07</port>
+      <port name="incheon">2013-08-09</port>
+      <port name="kwangyang">2013-08-10</port>
+      <port name="ningbo">2013-08-12</port>
+      <port name="shanghai">2013-08-13</port>
+      <port name="nansha">2013-08-16</port>
+      <port name="singapore">2013-08-21</port>
+      <port name="cape town">2013-09-04</port>
+    </vessel>
+    <vessel name="Lilac" voyage="VLC004">
+      <port name="Tianjinxingang; CN">2013-08-08</port>
+      <port name="qingdao">2013-08-10</port>
+      <port name="incheon">2013-08-12</port>
+      <port name="kwangyang">2013-08-13</port>
+      <port name="ningbo">2013-08-15</port>
+      <port name="shanghai">2013-08-16</port>
+      <port name="nansha">2013-08-19</port>
+      <port name="singapore">2013-08-24</port>
+      <port name="cape town">2013-09-08</port>
+    </vessel>
+    <vessel name="HS Challenger" voyage="YHC049">
+      <port name="abidjan">2013-07-03</port>
+      <port name="durban">14/07</port>
+      <port name="singapore">2013-07-27</port>
+    </vessel>
+    <vessel name="Lilac" voyage="VLC002">
+      <port name="durban">17/07</port>
+      <port name="singapore">2013-07-31</port>
+    </vessel>
+    <vessel name="Carpathia" voyage="VCP002">
+      <port name="tincan">2013-07-03</port>
+      <port name="tema">2013-07-05</port>
+      <port name="abidjan">2013-07-10</port>
+      <port name="durban">21/07</port>
+      <port name="singapore">2013-08-04</port>
+    </vessel>
+    <vessel name="Kota Permata" voyage="VPT103">
+      <port name="Lagos; NG">2013-07-05</port>
+      <port name="tincan">2013-07-07</port>
+      <port name="cotonou">2013-07-08</port>
+      <port name="abidjan">2013-07-11</port>
+      <port name="durban">23/08</port>
+      <port name="singapore">2013-08-06</port>
+    </vessel>
+    <vessel name="Leo Osaka" voyage="VLO003">
+      <port name="Lagos; NG">2013-07-16</port>
+      <port name="tincan">2013-07-17</port>
+      <port name="tema">2013-07-19</port>
+      <port name="durban">02/08</port>
+      <port name="singapore">2013-08-16</port>
+    </vessel>
+    <vessel name="Kota Pekarang" voyage="YPG154">
+      <port name="durban">10/08</port>
+      <port name="singapore">2013-08-24</port>
+    </vessel>
+    <vessel name="Kota Kamil" voyage="KMI078">
+      <port name="Lagos; NG">2013-07-25</port>
+      <port name="tincan">2013-07-27</port>
+      <port name="tema">2013-07-28</port>
+      <port name="durban">13/08</port>
+      <port name="singapore">2013-08-27</port>
+    </vessel>
+    <vessel name="Kaya" voyage="VPL002">
+      <port name="Lagos; NG">2013-08-03</port>
+      <port name="tincan">2013-08-05</port>
+      <port name="tema">2013-08-06</port>
+      <port name="abidjan">2013-08-14</port>
+      <port name="durban">26/08</port>
+      <port name="singapore">2013-09-09</port>
+    </vessel>
+    <vessel name="Cordelia" voyage="VCD002">
+      <port name="Lagos; NG">2013-08-11</port>
+      <port name="tincan">2013-08-13</port>
+      <port name="tema">2013-08-14</port>
+      <port name="abidjan">2013-08-21</port>
+      <port name="durban">02/09</port>
+      <port name="singapore">2013-09-16</port>
+    </vessel>
+    <vessel name="Tatiana Schulte" voyage="YTS005">
+      <port name="Lagos; NG">2013-08-17</port>
+      <port name="tincan">2013-08-19</port>
+      <port name="tema">2013-08-20</port>
+      <port name="abidjan">2013-08-27</port>
+      <port name="durban">08/09</port>
+      <port name="singapore">2013-09-23</port>
+    </vessel>
+    <vessel name="EM Astoria" voyage="YEA025">
+      <port name="Lagos; NG">2013-08-20</port>
+      <port name="tincan">2013-08-22</port>
+      <port name="tema">2013-08-23</port>
+      <port name="abidjan">2013-08-31</port>
+      <port name="durban">12/09</port>
+      <port name="singapore">2013-09-26</port>
+    </vessel>
+    <vessel name="Kota Gunawan" voyage="GNW154">
+      <port name="Lagos; NG">2013-08-28</port>
+      <port name="tincan">2013-08-30</port>
+      <port name="tema">2013-08-31</port>
+      <port name="abidjan">2013-09-08</port>
+      <port name="durban">20/09</port>
+      <port name="singapore">2013-10-05</port>
+    </vessel>
+    <vessel name="HS Challenger" voyage="YHC052">
+      <port name="Lagos; NG">2013-09-13</port>
+      <port name="tincan">2013-09-15</port>
+      <port name="tema">2013-09-18</port>
+      <port name="abidjan">2013-09-24</port>
+      <port name="durban">06/10</port>
+      <port name="singapore">2013-10-20</port>
+    </vessel>
+    <vessel name="Lilac" voyage="VLC005">
+      <port name="Lagos; NG">2013-09-15</port>
+      <port name="tincan">2013-09-17</port>
+      <port name="tema">2013-09-20</port>
+      <port name="abidjan">2013-09-26</port>
+      <port name="durban">06/10</port>
+      <port name="singapore">2013-10-20</port>
+    </vessel>
+  </schedule>
+</schedules>
