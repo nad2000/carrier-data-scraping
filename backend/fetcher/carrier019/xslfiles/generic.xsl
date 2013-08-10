@@ -24,12 +24,14 @@
 
   <!-- file name w/o extension '.xhtml' -->
   <xsl:variable name="source" select="str:replace($htmlfilename,'.xhtml','')" />
-  <!-- rount name deteced based on the file name  -->
+  <!-- route name deteced based on the file name  -->
   <xsl:variable name="route" select="document('')//xsl:variable[@name='routes']/*[@name=$source]"/>
 
   <xsl:template match="/">
     <schedules>
-      <xsl:apply-templates select="//table//tr[starts-with(translate(., '&#160; ', ''), 'Vessel')]" mode="vnames"/>
+	  <xsl:message>Route: <xsl:value-of select="$route"/></xsl:message>
+	  <xsl:comment>Route: <xsl:value-of select="$route"/></xsl:comment>
+      <xsl:apply-templates select="//table//tr[contains(translate(., '&#160; ', ''), 'Vessel')]" mode="vnames"/>
     </schedules>
   </xsl:template>
 

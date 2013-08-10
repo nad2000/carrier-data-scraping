@@ -1,52 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedules>
   <schedule>
-    <route/>
-    <vessel name="Northern Practise" voyage="101W">
-      <port name="singapore">2013-07-07</port>
-      <port name="port kelang">2013-07-08</port>
-    </vessel>
-    <vessel name="Brevic Bridge" voyage="010W">
-      <port name="keelung">2013-07-04</port>
-      <port name="xiamen">2013-07-05</port>
-      <port name="hong kong">2013-07-07</port>
-      <port name="shekou">2013-07-07</port>
-      <port name="singapore">2013-07-12</port>
-      <port name="port kelang">2013-07-14</port>
-    </vessel>
-    <vessel name="Vincent Thomas Bridge" voyage="065W">
-      <port name="shanghai">2013-07-07</port>
-      <port name="ningbo">2013-07-09</port>
-      <port name="keelung">2013-07-10</port>
-      <port name="xiamen">2013-07-12</port>
-      <port name="hong kong">2013-07-13</port>
-      <port name="shekou">2013-07-14</port>
-      <port name="singapore">2013-07-18</port>
-      <port name="port kelang">2013-07-20</port>
-    </vessel>
-    <vessel name="Kota Layar" voyage="026W">
-      <port name="shanghai">2013-07-14</port>
-      <port name="ningbo">2013-07-16</port>
-      <port name="keelung">2013-07-18</port>
-      <port name="xiamen">2013-07-19</port>
-      <port name="hong kong">2013-07-21</port>
-      <port name="shekou">2013-07-22</port>
-      <port name="singapore">2013-07-26</port>
-      <port name="port kelang">2013-07-28</port>
-    </vessel>
+    <route>Far East and South Africa Service (ASA)</route>
     <vessel name="Mol Distinction" voyage="009W">
-      <port name="shanghai">2013-07-21</port>
-      <port name="ningbo">2013-07-23</port>
-      <port name="keelung">2013-07-25</port>
-      <port name="xiamen">2013-07-26</port>
-      <port name="hong kong">2013-07-28</port>
-      <port name="shekou">2013-07-28</port>
       <port name="singapore">2013-08-02</port>
       <port name="port kelang">2013-08-04</port>
     </vessel>
-    <vessel name="Sunny Oasis" voyage="001W">
-      <port name="shanghai">2013-07-28</port>
-      <port name="ningbo">2013-07-30</port>
+    <vessel name="Sunny Amazon" voyage="020W">
       <port name="keelung">2013-08-01</port>
       <port name="xiamen">2013-08-02</port>
       <port name="hong kong">2013-08-04</port>
@@ -55,7 +15,7 @@
       <port name="port kelang">2013-08-11</port>
     </vessel>
     <vessel name="Brotonne Bridge" voyage="063W">
-      <port name="shanghai">2013-08-04</port>
+      <port name="shanghai">2013-08-05</port>
       <port name="ningbo">2013-08-06</port>
       <port name="keelung">2013-08-08</port>
       <port name="xiamen">2013-08-09</port>
@@ -84,77 +44,85 @@
       <port name="singapore">2013-08-30</port>
       <port name="port kelang">2013-08-31</port>
     </vessel>
-    <vessel name="Kota Lambai" voyage="057W">
-      <port name="shanghai">2013-08-28</port>
-      <port name="ningbo">2013-08-29</port>
-      <port name="keelung">2013-08-31</port>
-      <port name="xiamen">2013-09-01</port>
-      <port name="hong kong">2013-09-03</port>
-      <port name="shekou">2013-09-03</port>
-      <port name="singapore">2013-09-08</port>
-      <port name="port kelang">2013-09-10</port>
+    <vessel name="Kota Lihat" voyage="003W">
+      <port name="shanghai">2013-08-25</port>
+      <port name="ningbo">2013-08-28</port>
+      <port name="keelung">2013-08-30</port>
+      <port name="xiamen">2013-08-31</port>
+      <port name="hong kong">2013-09-01</port>
+      <port name="shekou">2013-09-01</port>
+      <port name="singapore">2013-09-06</port>
+      <port name="port kelang">2013-09-08</port>
     </vessel>
     <vessel name="Brevic Bridge" voyage="011W">
-      <port name="shanghai">2013-09-04</port>
-      <port name="ningbo">2013-09-06</port>
-      <port name="keelung">2013-09-08</port>
-      <port name="xiamen">2013-09-09</port>
-      <port name="hong kong">2013-09-11</port>
-      <port name="shekou">2013-09-11</port>
-      <port name="singapore">2013-09-16</port>
-      <port name="port kelang">2013-09-18</port>
+      <port name="shanghai">2013-09-02</port>
+      <port name="ningbo">2013-09-04</port>
+      <port name="keelung">2013-09-06</port>
+      <port name="xiamen">2013-09-07</port>
+      <port name="hong kong">2013-09-09</port>
+      <port name="shekou">2013-09-09</port>
+      <port name="singapore">2013-09-14</port>
+      <port name="port kelang">2013-09-16</port>
     </vessel>
-    <vessel name="Brotonne Bridge" voyage="062E">
-      <port name="cape town">2013-07-05</port>
-      <port name="port kelang">2013-07-25</port>
-      <port name="singapore">2013-07-27</port>
-      <port name="hong kong">2013-08-01</port>
-      <port name="Shanghai; CN">2013-08-04</port>
+    <vessel name="Vincent Thomas Bridge" voyage="066W">
+      <port name="shanghai">2013-09-08</port>
+      <port name="ningbo">2013-09-10</port>
+      <port name="keelung">2013-09-12</port>
+      <port name="xiamen">2013-09-13</port>
+      <port name="hong kong">2013-09-14</port>
+      <port name="shekou">2013-09-14</port>
+      <port name="singapore">2013-09-19</port>
+      <port name="port kelang">2013-09-21</port>
     </vessel>
-    <vessel name="Kota Lahir" voyage="072E">
-      <port name="durban">2013-07-07</port>
-      <port name="cape town">2013-07-11</port>
-      <port name="port kelang">2013-08-01</port>
-      <port name="singapore">2013-08-03</port>
-      <port name="hong kong">2013-08-08</port>
-      <port name="Shanghai; CN">2013-08-11</port>
+    <vessel name="Kota Layar" voyage="027W">
+      <port name="shanghai">2013-09-15</port>
+      <port name="ningbo">2013-09-16</port>
+      <port name="keelung">2013-09-18</port>
+      <port name="xiamen">2013-09-19</port>
+      <port name="hong kong">2013-09-21</port>
+      <port name="shekou">2013-09-21</port>
+      <port name="singapore">2013-09-26</port>
+      <port name="port kelang">2013-09-28</port>
     </vessel>
-    <vessel name="Budapest Bridge" voyage="012E">
-      <port name="durban">2013-07-13</port>
-      <port name="cape town">2013-07-19</port>
-      <port name="port kelang">2013-08-08</port>
-      <port name="singapore">2013-08-10</port>
-      <port name="hong kong">2013-08-15</port>
-      <port name="Shanghai; CN">2013-08-18</port>
+    <vessel name="Mol Distinction" voyage="010W">
+      <port name="shanghai">2013-09-22</port>
+      <port name="ningbo">2013-09-23</port>
+      <port name="keelung">2013-09-25</port>
+      <port name="xiamen">2013-09-26</port>
+      <port name="hong kong">2013-09-28</port>
+      <port name="shekou">2013-09-28</port>
+      <port name="singapore">2013-10-03</port>
+      <port name="port kelang">2013-10-06</port>
     </vessel>
-    <vessel name="Northern Practise" voyage="101E">
-      <port name="durban">2013-07-21</port>
-      <port name="cape town">2013-07-26</port>
-      <port name="port kelang">2013-08-15</port>
-      <port name="singapore">2013-08-17</port>
-      <port name="hong kong">2013-08-22</port>
-      <port name="Shanghai; CN">2013-08-25</port>
+    <vessel name="Sunny Amazon" voyage="021W">
+      <port name="shanghai">2013-09-29</port>
+      <port name="ningbo">2013-09-30</port>
+      <port name="keelung">2013-10-02</port>
+      <port name="xiamen">2013-10-03</port>
+      <port name="hong kong">2013-10-05</port>
+      <port name="shekou">2013-10-05</port>
+      <port name="singapore">2013-10-10</port>
+      <port name="port kelang">2013-10-13</port>
     </vessel>
     <vessel name="Brevic Bridge" voyage="010E">
-      <port name="durban">2013-07-28</port>
-      <port name="cape town">2013-08-01</port>
-      <port name="port kelang">2013-08-21</port>
-      <port name="singapore">2013-08-24</port>
-      <port name="hong kong">2013-08-29</port>
-      <port name="Shanghai; CN">2013-09-01</port>
+      <port name="cape town">2013-08-04</port>
+      <port name="port kelang">2013-08-22</port>
+      <port name="singapore">2013-08-25</port>
+      <port name="hong kong">2013-08-30</port>
+      <port name="Shanghai; CN">2013-09-02</port>
     </vessel>
     <vessel name="Vincent Thomas Bridge" voyage="065E">
-      <port name="durban">2013-08-04</port>
-      <port name="cape town">2013-08-09</port>
-      <port name="port kelang">2013-08-29</port>
-      <port name="singapore">2013-08-31</port>
+      <port name="durban">2013-08-09</port>
+      <port name="cape town">2013-08-13</port>
+      <port name="port kelang">2013-08-31</port>
+      <port name="singapore">2013-09-02</port>
       <port name="hong kong">2013-09-05</port>
       <port name="Shanghai; CN">2013-09-08</port>
     </vessel>
     <vessel name="Kota Layar" voyage="026E">
       <port name="durban">2013-08-11</port>
-      <port name="cape town">2013-08-15</port>
-      <port name="port kelang">2013-09-03</port>
+      <port name="cape town">2013-08-16</port>
+      <port name="port kelang">2013-09-05</port>
       <port name="singapore">2013-09-07</port>
       <port name="hong kong">2013-09-12</port>
       <port name="Shanghai; CN">2013-09-15</port>
@@ -167,16 +135,16 @@
       <port name="hong kong">2013-09-19</port>
       <port name="Shanghai; CN">2013-09-22</port>
     </vessel>
-    <vessel name="Sunny Oasis" voyage="001E">
+    <vessel name="Sunny Amazon" voyage="020E">
       <port name="durban">2013-08-25</port>
-      <port name="cape town">2013-08-29</port>
-      <port name="port kelang">2013-09-18</port>
-      <port name="singapore">2013-09-21</port>
-      <port name="hong kong">2013-09-26</port>
+      <port name="cape town">2013-08-30</port>
+      <port name="port kelang">2013-09-19</port>
+      <port name="singapore">2013-09-22</port>
+      <port name="hong kong">2013-09-27</port>
       <port name="Shanghai; CN">2013-09-29</port>
     </vessel>
     <vessel name="Brotonne Bridge" voyage="063E">
-      <port name="durban">2013-09-01</port>
+      <port name="durban">2013-08-31</port>
       <port name="cape town">2013-09-05</port>
       <port name="port kelang">2013-09-25</port>
       <port name="singapore">2013-09-28</port>
@@ -186,34 +154,66 @@
     <vessel name="Kota Lahir" voyage="073E">
       <port name="durban">2013-09-08</port>
       <port name="cape town">2013-09-12</port>
-      <port name="port kelang">2013-10-03</port>
-      <port name="singapore">2013-10-06</port>
-      <port name="hong kong">2013-10-11</port>
-      <port name="Shanghai; CN">2013-10-14</port>
+      <port name="port kelang">2013-10-02</port>
+      <port name="singapore">2013-10-05</port>
+      <port name="hong kong">2013-10-10</port>
+      <port name="Shanghai; CN">2013-10-13</port>
     </vessel>
     <vessel name="Budapest Bridge" voyage="013E">
-      <port name="durban">2013-09-14</port>
-      <port name="cape town">2013-09-18</port>
-      <port name="port kelang">2013-10-08</port>
-      <port name="singapore">2013-10-11</port>
-      <port name="hong kong">2013-10-16</port>
-      <port name="Shanghai; CN">2013-10-19</port>
+      <port name="durban">2013-09-15</port>
+      <port name="cape town">2013-09-19</port>
+      <port name="port kelang">2013-10-09</port>
+      <port name="singapore">2013-10-12</port>
+      <port name="hong kong">2013-10-17</port>
+      <port name="Shanghai; CN">2013-10-20</port>
     </vessel>
-    <vessel name="Kota Lambai" voyage="057E">
-      <port name="durban">2013-09-24</port>
-      <port name="cape town">2013-09-28</port>
-      <port name="port kelang">2013-10-18</port>
-      <port name="singapore">2013-10-21</port>
-      <port name="hong kong">2013-10-26</port>
-      <port name="Shanghai; CN">2013-10-29</port>
+    <vessel name="Kota Lihat" voyage="003E">
+      <port name="durban">2013-09-22</port>
+      <port name="cape town">2013-09-27</port>
+      <port name="port kelang">2013-10-17</port>
+      <port name="singapore">2013-10-19</port>
+      <port name="hong kong">2013-10-24</port>
+      <port name="Shanghai; CN">2013-10-27</port>
     </vessel>
     <vessel name="Brevic Bridge" voyage="011E">
-      <port name="durban">2013-10-02</port>
-      <port name="cape town">2013-10-06</port>
-      <port name="port kelang">2013-10-26</port>
-      <port name="singapore">2013-10-29</port>
-      <port name="hong kong">2013-11-03</port>
-      <port name="Shanghai; CN">2013-11-06</port>
+      <port name="durban">2013-09-30</port>
+      <port name="cape town">2013-10-04</port>
+      <port name="port kelang">2013-10-24</port>
+      <port name="singapore">2013-10-27</port>
+      <port name="hong kong">2013-11-01</port>
+      <port name="Shanghai; CN">2013-11-04</port>
+    </vessel>
+    <vessel name="Vincent Thomas Bridge" voyage="066E">
+      <port name="durban">2013-10-03</port>
+      <port name="cape town">2013-10-07</port>
+      <port name="port kelang">2013-10-24</port>
+      <port name="singapore">2013-10-25</port>
+      <port name="hong kong">2013-10-31</port>
+      <port name="Shanghai; CN">2013-11-03</port>
+    </vessel>
+    <vessel name="Kota Layar" voyage="027E">
+      <port name="durban">2013-10-10</port>
+      <port name="cape town">2013-10-14</port>
+      <port name="port kelang">2013-10-31</port>
+      <port name="singapore">2013-11-01</port>
+      <port name="hong kong">2013-11-07</port>
+      <port name="Shanghai; CN">2013-11-10</port>
+    </vessel>
+    <vessel name="Mol Distinction" voyage="010E">
+      <port name="durban">2013-10-20</port>
+      <port name="cape town">2013-10-25</port>
+      <port name="port kelang">2013-11-15</port>
+      <port name="singapore">2013-11-16</port>
+      <port name="hong kong">2013-11-22</port>
+      <port name="Shanghai; CN">2013-11-24</port>
+    </vessel>
+    <vessel name="Sunny Amazon" voyage="021E">
+      <port name="durban">2013-10-27</port>
+      <port name="cape town">2013-11-01</port>
+      <port name="port kelang">2013-11-22</port>
+      <port name="singapore">2013-11-23</port>
+      <port name="hong kong">2013-11-29</port>
+      <port name="Shanghai; CN">2013-12-01</port>
     </vessel>
   </schedule>
 </schedules>

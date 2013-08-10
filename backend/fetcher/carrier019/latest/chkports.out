@@ -35,6 +35,8 @@ Port found - durban ZADUR Durban  ZA
 
 ***************** Port Verification: MZS.xml ********************
 
+***************** Port Verification: PILALLweek312013.xml ********************
+
 ***************** Port Verification: RichardsBay.xml ********************
 
 ***************** Port Verification: SW2.xml ********************
@@ -48,29 +50,19 @@ Port found - durban ZADUR Durban  ZA
 
 Port found - nansha CNNSA Nansha  CN
 
-Possible port found - pointe noir CGPNR Pointe Noire  CG
-
-WARNING:  Possible port lookup error - multiple matches found for port pointe noir
+Port found - pointe noir CGPNR Pointe Noire Pointe Noir CG
 
 Port found - luanda AOLAD Luanda  AO
 
 Port found - lobito AOLOB Lobito  AO
 
-Port found - Douala CMDLA Douala  CM
-
 
 ***************** Port Verification: Sws.xml ********************
 Port found - cape town ZACPT Cape Town  ZA
 
-Port found - singapore SGSIN Singapore  SG
-
-Port found - shanghai CNSHA Shanghai  CN
-
 Port found - nansha CNNSA Nansha  CN
 
-Port found - Tianjinxingang CNTXG Tianjin Xingang Xingang;CNXGG;Tianjinxingang CN
-
-Port found - qingdao CNTAO Qingdao Tsingtao;Tsingtao CN
+Port found - singapore SGSIN Singapore  SG
 
 Port found - incheon KRINC Incheon Inchon KR
 
@@ -78,17 +70,21 @@ Port found - kwangyang KRKWA Kwangyang Kwang Yang;KRKWY KR
 
 Port found - ningbo CNNGB Ningbo  CN
 
-Port found - abidjan CIABJ Abidjan  CI
+Port found - shanghai CNSHA Shanghai  CN
+
+Port found - Tianjinxingang CNTXG Tianjin Xingang Xingang;CNXGG;Tianjinxingang CN
+
+Port found - qingdao CNTAO Qingdao Tsingtao;Tsingtao CN
 
 Port found - durban ZADUR Durban  ZA
+
+Port found - Lagos NGLOS Lagos  NG
 
 Port found - tincan NGTIN Tincan  NG
 
 Port found - tema GHTEM Tema  GH
 
-Port found - Lagos NGLOS Lagos  NG
-
-Port found - cotonou BJCOO Cotonou  BJ
+Port found - abidjan CIABJ Abidjan  CI
 
 
 ***************** Port Verification: Waffeeders.xml ********************
