@@ -1,2 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schedules/>
+<schedules>
+  <!--Route: Africa Middle East India Service (AMI)-->
+  <schedule>
+    <route>Africa Middle East India Service (AMI)</route>
+    <vessel name="Kota Hormat" voyage="HMT215">
+      <port name="durban">2013-08-19</port>
+    </vessel>
+    <vessel name="Kota Handal" voyage="HDL349">
+      <port name="durban">2013-08-23</port>
+    </vessel>
+    <vessel name="Kota Hapas" voyage="HPS239">
+      <port name="durban">2013-08-30</port>
+    </vessel>
+    <vessel name="Kota Hidayah" voyage="HDY094">
+      <port name="nhava sheva">2013-08-17</port>
+      <port name="jebel ali">2013-08-24</port>
+      <port name="durban">2013-09-07</port>
+    </vessel>
+    <vessel name="Kota Halus" voyage="HLU352">
+      <port name="nhava sheva">2013-09-03</port>
+      <port name="jebel ali">2013-09-10</port>
+      <port name="durban">2013-09-24</port>
+    </vessel>
+    <vessel name="Paul Russ" voyage="V1P007">
+      <port name="nhava sheva">2013-09-09</port>
+      <port name="jebel ali">2013-09-15</port>
+      <port name="durban">2013-10-01</port>
+    </vessel>
+    <vessel name="Kota Arif" voyage="ARF131">
+      <port name="nhava sheva">2013-08-29</port>
+      <port name="jebel ali">2013-09-02</port>
+      <port name="durban">2013-09-15</port>
+    </vessel>
+    <vessel name="Kota Halus" voyage="HLU351">
+      <port name="durban">2013-08-14</port>
+      <port name="colombo">2013-08-29</port>
+      <port name="hazira">2013-09-02</port>
+    </vessel>
+    <vessel name="Paul Russ" voyage="V1P006">
+      <port name="durban">2013-08-18</port>
+      <port name="colombo">2013-09-02</port>
+      <port name="hazira">2013-09-06</port>
+    </vessel>
+    <vessel name="Kota Harum" voyage="HRU145">
+      <port name="tincan">2013-08-11</port>
+      <port name="tema">2013-08-13</port>
+      <port name="abidjan">2013-08-17</port>
+      <port name="cape town">2013-08-28</port>
+      <port name="durban">2013-08-31</port>
+      <port name="colombo">2013-09-15</port>
+      <port name="hazira">2013-09-19</port>
+    </vessel>
+    <vessel name="Kota Hakim" voyage="HKM352">
+      <port name="lome">2013-08-29</port>
+      <port name="cotonou">2013-08-31</port>
+      <port name="Lagos; NG">2013-08-26</port>
+      <port name="durban">2013-09-12</port>
+      <port name="colombo">2013-09-26</port>
+      <port name="hazira">2013-09-30</port>
+    </vessel>
+    <vessel name="Kota Hormat" voyage="HMT216">
+      <port name="lome">2013-09-01</port>
+      <port name="Lagos; NG">2013-09-03</port>
+      <port name="tincan">2013-09-06</port>
+      <port name="tema">2013-09-08</port>
+      <port name="abidjan">2013-09-13</port>
+      <port name="durban">2013-09-26</port>
+      <port name="colombo">2013-10-10</port>
+      <port name="hazira">2013-10-15</port>
+    </vessel>
+    <vessel name="Kota Handal" voyage="HDL350">
+      <port name="cotonou">2013-09-14</port>
+      <port name="Lagos; NG">2013-09-04</port>
+      <port name="tincan">2013-09-06</port>
+      <port name="tema">2013-09-08</port>
+      <port name="abidjan">2013-09-12</port>
+      <port name="durban">2013-09-27</port>
+      <port name="colombo">2013-10-12</port>
+      <port name="hazira">2013-10-16</port>
+    </vessel>
+    <vessel name="Kota Hapas" voyage="HPS240">
+      <port name="lome">2013-09-12</port>
+      <port name="Lagos; NG">2013-09-13</port>
+      <port name="tincan">2013-09-15</port>
+      <port name="tema">2013-09-17</port>
+      <port name="abidjan">2013-09-21</port>
+      <port name="durban">2013-10-04</port>
+      <port name="colombo">2013-10-18</port>
+      <port name="hazira">2013-10-23</port>
+    </vessel>
+    <vessel name="Kota Hidayah" voyage="HDY095">
+      <port name="lome">2013-09-20</port>
+      <port name="cotonou">2013-09-29</port>
+      <port name="Lagos; NG">2013-09-21</port>
+      <port name="tincan">2013-09-23</port>
+      <port name="tema">2013-09-25</port>
+      <port name="durban">2013-10-11</port>
+      <port name="colombo">2013-10-25</port>
+      <port name="hazira">2013-10-30</port>
+    </vessel>
+    <vessel name="Kota Halus" voyage="HLU353">
+      <port name="lome">2013-10-07</port>
+      <port name="Lagos; NG">2013-10-09</port>
+      <port name="tincan">2013-10-11</port>
+      <port name="tema">2013-10-13</port>
+      <port name="abidjan">2013-10-17</port>
+      <port name="durban">2013-10-30</port>
+      <port name="colombo">2013-11-13</port>
+      <port name="hazira">2013-11-17</port>
+    </vessel>
+    <vessel name="Paul Russ" voyage="V1P008">
+      <port name="lome">2013-10-13</port>
+      <port name="Lagos; NG">2013-10-14</port>
+      <port name="tincan">2013-10-16</port>
+      <port name="tema">2013-10-18</port>
+      <port name="abidjan">2013-10-22</port>
+      <port name="durban">2013-11-04</port>
+      <port name="colombo">2013-11-18</port>
+      <port name="hazira">2013-11-23</port>
+    </vessel>
+    <vessel name="Kota Arif" voyage="ARF132">
+      <port name="lome">2013-09-27</port>
+      <port name="Lagos; NG">2013-10-01</port>
+      <port name="tincan">2013-10-03</port>
+      <port name="tema">2013-10-06</port>
+      <port name="abidjan">2013-10-12</port>
+      <port name="durban">2013-10-21</port>
+      <port name="colombo">2013-11-04</port>
+      <port name="hazira">2013-11-09</port>
+    </vessel>
+    <vessel name="Kota Halus" voyage="HLU352">
+      <port name="nhava sheva">2013-09-03</port>
+      <port name="jebel ali">2013-09-10</port>
+    </vessel>
+    <vessel name="Paul Russ" voyage="V1P007">
+      <port name="nhava sheva">2013-09-09</port>
+      <port name="jebel ali">2013-09-15</port>
+    </vessel>
+    <vessel name="Kota Harum" voyage="HRU146">
+      <port name="nhava sheva">2013-09-20</port>
+      <port name="jebel ali">2013-09-27</port>
+    </vessel>
+    <vessel name="Kota Hakim" voyage="HKM353">
+      <port name="nhava sheva">2013-10-01</port>
+      <port name="jebel ali">2013-10-08</port>
+    </vessel>
+    <vessel name="Kota Hormat" voyage="HMT217">
+      <port name="nhava sheva">2013-10-16</port>
+      <port name="jebel ali">2013-10-23</port>
+    </vessel>
+    <vessel name="Kota Handal" voyage="HDL351">
+      <port name="nhava sheva">2013-10-18</port>
+      <port name="jebel ali">2013-10-25</port>
+      <port name="nb">rotation</port>
+    </vessel>
+    <vessel name="Kota Hapas" voyage="HPS241">
+      <port name="nhava sheva">2013-10-25</port>
+      <port name="jebel ali">2013-10-31</port>
+    </vessel>
+    <vessel name="Kota Hidayah" voyage="HDY096">
+      <port name="nhava sheva">2013-11-01</port>
+      <port name="jebel ali">2013-11-08</port>
+    </vessel>
+    <vessel name="Kota Halus" voyage="HLU354">
+      <port name="nhava sheva">2013-11-19</port>
+      <port name="jebel ali">2013-11-25</port>
+    </vessel>
+    <vessel name="Paul Russ" voyage="V1P009">
+      <port name="nhava sheva">2013-11-25</port>
+      <port name="jebel ali">2013-12-02</port>
+    </vessel>
+    <vessel name="Kota Arif" voyage="ARF133">
+      <port name="nhava sheva">2013-11-11</port>
+      <port name="jebel ali">2013-11-18</port>
+    </vessel>
+  </schedule>
+</schedules>

@@ -1,2 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schedules/>
+<schedules>
+  <!--Route: East Africa Service (EAS)-->
+  <schedule>
+    <route>East Africa Service (EAS)</route>
+    <vessel name="Lady of Luck" voyage="YLL008">
+      <port name="colombo">2013-08-19</port>
+    </vessel>
+    <vessel name="Aquitania" voyage="YAQ017">
+      <port name="singapore">2013-08-20</port>
+      <port name="colombo">2013-08-26</port>
+    </vessel>
+    <vessel name="Jakarta Tower" voyage="VJR004">
+      <port name="singapore">2013-08-27</port>
+      <port name="colombo">2013-09-01</port>
+    </vessel>
+    <vessel name="Frisia Kiel" voyage="VFK006">
+      <port name="singapore">2013-09-03</port>
+      <port name="colombo">2013-09-08</port>
+    </vessel>
+    <vessel name="Juist Trader" voyage="VJT006">
+      <port name="singapore">2013-09-10</port>
+      <port name="colombo">2013-09-15</port>
+    </vessel>
+    <vessel name="Willi" voyage="YWR002">
+      <port name="singapore">2013-09-17</port>
+      <port name="colombo">2013-09-22</port>
+    </vessel>
+    <vessel name="Leo Mono" voyage="YLM053">
+      <port name="singapore">2013-08-18</port>
+    </vessel>
+    <vessel name="Kota Mesra" voyage="VNF041">
+      <port name="singapore">2013-08-24</port>
+    </vessel>
+    <vessel name="Seoul Tower" voyage="VSW003">
+      <port name="mombassa">2013-08-15</port>
+      <port name="dar es salaam">2013-08-18</port>
+      <port name="singapore">2013-09-01</port>
+    </vessel>
+    <vessel name="As Alicantia" voyage="YAA016">
+      <port name="mombassa">2013-08-20</port>
+      <port name="singapore">2013-09-08</port>
+    </vessel>
+    <vessel name="Lady of Luck" voyage="YLL009">
+      <port name="mombassa">2013-08-26</port>
+      <port name="singapore">2013-09-15</port>
+    </vessel>
+    <vessel name="Aquitania" voyage="YAQ018">
+      <port name="mombassa">2013-09-02</port>
+      <port name="singapore">2013-09-21</port>
+    </vessel>
+    <vessel name="Jakarta Tower" voyage="VJR005">
+      <port name="mombassa">2013-09-09</port>
+      <port name="dar es salaam">2013-09-14</port>
+      <port name="singapore">2013-09-28</port>
+    </vessel>
+    <vessel name="Frisia Kiel" voyage="VFK007">
+      <port name="mombassa">2013-09-16</port>
+      <port name="singapore">2013-10-05</port>
+    </vessel>
+    <vessel name="Juist Trader" voyage="VJT007">
+      <port name="mombassa">2013-09-23</port>
+      <port name="singapore">2013-10-12</port>
+    </vessel>
+    <vessel name="Willi" voyage="VJT007">
+      <port name="mombassa">2013-09-30</port>
+      <port name="singapore">2013-10-19</port>
+    </vessel>
+    <vessel name="Leo Mono" voyage="NAG072">
+      <port name="dar es salaam">2013-08-19</port>
+    </vessel>
+    <vessel name="Kota Mesra" voyage="NEB049">
+      <port name="colombo">2013-08-17</port>
+      <port name="dar es salaam">2013-08-25</port>
+    </vessel>
+    <vessel name="Seoul Tower" voyage="NEL048">
+      <port name="singapore">2013-08-18</port>
+      <port name="colombo">2013-08-23</port>
+      <port name="dar es salaam">2013-08-31</port>
+    </vessel>
+    <vessel name="As Alicantia" voyage="NPH038">
+      <port name="huangpu">2013-08-19</port>
+      <port name="shekou">2013-08-21</port>
+      <port name="nansha">2013-08-21</port>
+      <port name="singapore">2013-08-26</port>
+    </vessel>
+    <vessel name="Lady of Luck" voyage="NRT062">
+      <port name="huangpu">2013-08-29</port>
+      <port name="shekou">2013-08-31</port>
+      <port name="nansha">2013-08-31</port>
+      <port name="singapore">2013-09-04</port>
+      <port name="colombo">2013-09-10</port>
+      <port name="dar es salaam">2013-09-18</port>
+    </vessel>
+    <vessel name="Aquitania" voyage="NPH040">
+      <port name="huangpu">2013-09-02</port>
+      <port name="shekou">2013-09-04</port>
+      <port name="nansha">2013-09-04</port>
+      <port name="singapore">2013-09-09</port>
+      <port name="colombo">2013-09-15</port>
+      <port name="dar es salaam">2013-09-23</port>
+    </vessel>
+    <vessel name="Jakarta Tower" voyage="NAG075">
+      <port name="huangpu">2013-09-10</port>
+      <port name="shekou">2013-09-11</port>
+      <port name="nansha">2013-09-12</port>
+      <port name="singapore">2013-09-17</port>
+      <port name="colombo">2013-09-22</port>
+      <port name="dar es salaam">2013-09-30</port>
+    </vessel>
+    <vessel name="Frisia Kiel" voyage="NEB052">
+      <port name="huangpu">2013-09-15</port>
+      <port name="shekou">2013-09-17</port>
+      <port name="nansha">2013-09-17</port>
+      <port name="singapore">2013-09-22</port>
+      <port name="colombo">2013-09-27</port>
+      <port name="dar es salaam">2013-10-05</port>
+    </vessel>
+    <vessel name="Juist Trader" voyage="tba">
+      <port name="huangpu">2013-09-22</port>
+      <port name="shekou">2013-09-24</port>
+      <port name="nansha">2013-09-24</port>
+      <port name="singapore">2013-09-29</port>
+      <port name="colombo">2013-10-04</port>
+      <port name="dar es salaam">2013-10-12</port>
+    </vessel>
+    <vessel name="Willi" voyage="tba">
+      <port name="huangpu">2013-09-29</port>
+      <port name="shekou">2013-10-01</port>
+      <port name="nansha">2013-10-01</port>
+      <port name="singapore">2013-10-06</port>
+      <port name="colombo">2013-10-11</port>
+      <port name="dar es salaam">2013-10-19</port>
+    </vessel>
+    <vessel name="Leo Mono" voyage="NAG073">
+      <port name="pasir gudang">2013-09-03</port>
+      <port name="singapore">2013-09-04</port>
+      <port name="">nag074</port>
+    </vessel>
+    <vessel name="Kota Mesra" voyage="NEB050">
+      <port name="pasir gudang">2013-09-08</port>
+      <port name="singapore">2013-09-09</port>
+      <port name="">neb051</port>
+    </vessel>
+    <vessel name="Seoul Tower" voyage="NEL049">
+      <port name="pasir gudang">2013-09-15</port>
+      <port name="singapore">2013-09-16</port>
+      <port name="">nel050</port>
+    </vessel>
+    <vessel name="Lady of Luck" voyage="NRT063">
+      <port name="pasir gudang">2013-10-02</port>
+      <port name="singapore">2013-10-04</port>
+      <port name="">nrt064</port>
+    </vessel>
+    <vessel name="Aquitania" voyage="NPH041">
+      <port name="pasir gudang">2013-10-07</port>
+      <port name="singapore">2013-10-09</port>
+      <port name="">nph042</port>
+    </vessel>
+    <vessel name="Jakarta Tower" voyage="NAG076">
+      <port name="pasir gudang">2013-10-15</port>
+      <port name="singapore">2013-10-16</port>
+      <port name="">nag077</port>
+    </vessel>
+    <vessel name="Frisia Kiel" voyage="NEB053">
+      <port name="pasir gudang">2013-10-20</port>
+      <port name="singapore">2013-10-21</port>
+      <port name="">neb054</port>
+    </vessel>
+    <vessel name="Juist Trader" voyage="tba">
+      <port name="pasir gudang">2013-10-27</port>
+      <port name="singapore">2013-10-28</port>
+    </vessel>
+    <vessel name="Willi" voyage="tba">
+      <port name="pasir gudang">2013-11-03</port>
+      <port name="singapore">2013-11-04</port>
+    </vessel>
+  </schedule>
+  <schedule>
+    <route>East Africa Service (EAS)</route>
+    <vessel name="Leo Mono" voyage="NAG072">
+      <port name="dar es salaam">2013-08-19</port>
+    </vessel>
+    <vessel name="Kota Mesra" voyage="NEB049">
+      <port name="colombo">2013-08-17</port>
+      <port name="dar es salaam">2013-08-25</port>
+    </vessel>
+    <vessel name="Seoul Tower" voyage="NEL048">
+      <port name="singapore">2013-08-18</port>
+      <port name="colombo">2013-08-23</port>
+      <port name="dar es salaam">2013-08-31</port>
+    </vessel>
+    <vessel name="As Alicantia" voyage="NPH038">
+      <port name="huangpu">2013-08-19</port>
+      <port name="shekou">2013-08-21</port>
+      <port name="nansha">2013-08-21</port>
+      <port name="singapore">2013-08-26</port>
+    </vessel>
+    <vessel name="Lady of Luck" voyage="NRT062">
+      <port name="huangpu">2013-08-29</port>
+      <port name="shekou">2013-08-31</port>
+      <port name="nansha">2013-08-31</port>
+      <port name="singapore">2013-09-04</port>
+      <port name="colombo">2013-09-10</port>
+      <port name="dar es salaam">2013-09-18</port>
+    </vessel>
+    <vessel name="Aquitania" voyage="NPH040">
+      <port name="huangpu">2013-09-02</port>
+      <port name="shekou">2013-09-04</port>
+      <port name="nansha">2013-09-04</port>
+      <port name="singapore">2013-09-09</port>
+      <port name="colombo">2013-09-15</port>
+      <port name="dar es salaam">2013-09-23</port>
+    </vessel>
+    <vessel name="Jakarta Tower" voyage="NAG075">
+      <port name="huangpu">2013-09-10</port>
+      <port name="shekou">2013-09-11</port>
+      <port name="nansha">2013-09-12</port>
+      <port name="singapore">2013-09-17</port>
+      <port name="colombo">2013-09-22</port>
+      <port name="dar es salaam">2013-09-30</port>
+    </vessel>
+    <vessel name="Frisia Kiel" voyage="NEB052">
+      <port name="huangpu">2013-09-15</port>
+      <port name="shekou">2013-09-17</port>
+      <port name="nansha">2013-09-17</port>
+      <port name="singapore">2013-09-22</port>
+      <port name="colombo">2013-09-27</port>
+      <port name="dar es salaam">2013-10-05</port>
+    </vessel>
+    <vessel name="Juist Trader" voyage="tba">
+      <port name="huangpu">2013-09-22</port>
+      <port name="shekou">2013-09-24</port>
+      <port name="nansha">2013-09-24</port>
+      <port name="singapore">2013-09-29</port>
+      <port name="colombo">2013-10-04</port>
+      <port name="dar es salaam">2013-10-12</port>
+    </vessel>
+    <vessel name="Willi" voyage="tba">
+      <port name="huangpu">2013-09-29</port>
+      <port name="shekou">2013-10-01</port>
+      <port name="nansha">2013-10-01</port>
+      <port name="singapore">2013-10-06</port>
+      <port name="colombo">2013-10-11</port>
+      <port name="dar es salaam">2013-10-19</port>
+    </vessel>
+    <vessel name="Leo Mono" voyage="NAG073">
+      <port name="pasir gudang">2013-09-03</port>
+      <port name="singapore">2013-09-04</port>
+      <port name="">nag074</port>
+    </vessel>
+    <vessel name="Kota Mesra" voyage="NEB050">
+      <port name="pasir gudang">2013-09-08</port>
+      <port name="singapore">2013-09-09</port>
+      <port name="">neb051</port>
+    </vessel>
+    <vessel name="Seoul Tower" voyage="NEL049">
+      <port name="pasir gudang">2013-09-15</port>
+      <port name="singapore">2013-09-16</port>
+      <port name="">nel050</port>
+    </vessel>
+    <vessel name="Lady of Luck" voyage="NRT063">
+      <port name="pasir gudang">2013-10-02</port>
+      <port name="singapore">2013-10-04</port>
+      <port name="">nrt064</port>
+    </vessel>
+    <vessel name="Aquitania" voyage="NPH041">
+      <port name="pasir gudang">2013-10-07</port>
+      <port name="singapore">2013-10-09</port>
+      <port name="">nph042</port>
+    </vessel>
+    <vessel name="Jakarta Tower" voyage="NAG076">
+      <port name="pasir gudang">2013-10-15</port>
+      <port name="singapore">2013-10-16</port>
+      <port name="">nag077</port>
+    </vessel>
+    <vessel name="Frisia Kiel" voyage="NEB053">
+      <port name="pasir gudang">2013-10-20</port>
+      <port name="singapore">2013-10-21</port>
+      <port name="">neb054</port>
+    </vessel>
+    <vessel name="Juist Trader" voyage="tba">
+      <port name="pasir gudang">2013-10-27</port>
+      <port name="singapore">2013-10-28</port>
+    </vessel>
+    <vessel name="Willi" voyage="tba">
+      <port name="pasir gudang">2013-11-03</port>
+      <port name="singapore">2013-11-04</port>
+    </vessel>
+  </schedule>
+</schedules>

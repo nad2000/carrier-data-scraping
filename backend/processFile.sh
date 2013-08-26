@@ -1,14 +1,14 @@
 #!/bin/bash
-# 
-#  Copyright Tarisoga LLC, 2013 
-# 
+#
+#  Copyright Tarisoga LLC, 2013
+#
 
 # this script handles processing of the new files within carrierXXX/latest
 
 # syntax:   processFile.sh  [carrier number] [file type extension] [Linescape formatted XLS]
 
-# first XLS files are turned into html or xml, then html files are tidy'ed up to clean bad html  
-# then if there is a matching xsl file, a xsl transformation is performed to turn the .xhtml into a standardized xml.   
+# first XLS files are turned into html or xml, then html files are tidy'ed up to clean bad html
+# then if there is a matching xsl file, a xsl transformation is performed to turn the .xhtml into a standardized xml.
 # then all xml is then processed into the database
 
 # if the files are jpg, etc, then only a cmp against the current reference files are done to see if there has been an update
@@ -30,7 +30,7 @@
 #	and pdf2txt.py made avilable on system path, e.g. /usr/local/bin
 
 # v1.1	moved cp of new xLS/CSV/etc to current only if all new files processed successfully - i.e. chkport did not fail
-#	added call to preprocessHTML.sh to pre-process HTML files extracted from XLS files 
+#	added call to preprocessHTML.sh to pre-process HTML files extracted from XLS files
 #	added ability to use <sheet>_generic.xsl - one sheet to handle X html from one XLS file
 
 if [ -z "${BASEP}" ]; then
@@ -48,8 +48,8 @@ function mailnvocc() {
   SID=`echo "${DBR}" | awk '/[0-9]+/ { print $0 }'`
   calldb "select email from sponsor_account where fk_sponsor=${SID} order by id limit 1;" "get sponsor emails for mail nvocc"
   RETADD=${DBR:6}
- 
-  DT=`date +'%F'`; 
+
+  DT=`date +'%F'`;
   if [ -z "$3" ]; then
     sed -e "s/%date%/${DT}/" $BASEP/backend/nvoccSuccess.txt | sh -c "sendmail -f schedules@tarisoga.com -F \"Linescape Schedule Processor\" ${RETADD}"
   else
@@ -105,9 +105,9 @@ function getPropsFile() {
 # removes spaces from filesnames
 
 function removeSpaces() {
-	for xx in *.$1 ; do 
+	for xx in *.$1 ; do
 		if [ "${xx}" == "*.${1}" ]; then continue; fi;
-		echo "${xx}" | awk '{print "\""$0"\""}' | ${XARGSCMD} mv % ${xx//\ } > /dev/null 2>&1 ; 
+		echo "${xx}" | awk '{print "\""$0"\""}' | ${XARGSCMD} mv % ${xx//\ } > /dev/null 2>&1 ;
 	done;
 }
 
@@ -116,9 +116,9 @@ function cleanupTmpFiles() {
 		cat xml-processing.log >> ../logs/$LOGFILE ;
         TMP=`grep -E "(WARNING|ERROR)" xml-processing.log | sort | uniq` ;
         if [ -n "$TMP" ]; then
-			mailreport "${CN} Schedule Process warning" "XMLPROCESS WARNINGS (port issues) for carrier ${CNUM}\n${TMP}" 
+			mailreport "${CN} Schedule Process warning" "XMLPROCESS WARNINGS (port issues) for carrier ${CNUM}\n${TMP}"
 			calldb "update sched_fetch set processError=\"CHK DATA\" where id=${CN};" "update with port warnings"
-		fi;	
+		fi;
 		rm xml-processing.log ;
 	fi;
 	for xx in *.terr; do if [ ! -s $xx ]; then rm $xx 2> /dev/null; fi; done
@@ -169,10 +169,10 @@ if [ -z "${CN}" ]; then
   if [ ${#CN} -lt 3 ]; then
 	  if [ $CN -lt 10 ]; then
       CNUM="carrier00${CN}";
-		elif [ $CN -lt 100 ]; then 
+		elif [ $CN -lt 100 ]; then
       CNUM="carrier0${CN}";
     fi;
-	else 
+	else
     CNUM="carrier${CN}";
 	fi
 
@@ -257,7 +257,7 @@ for docfile in *.doc ; do
 		if [ -n "${currXslFile}" ]; then
 			TMP=`unoconv --port 8100 -f html ${docfile} > ${docfile/.doc/.err} 2>&1`
 			if [ $? != 0 ]; then
-				mailreport "${CN} Schedule Process failed" "DOC2HTML error for carrier ${CNUM} failed: ${docfile} Error: ${?}" 
+				mailreport "${CN} Schedule Process failed" "DOC2HTML error for carrier ${CNUM} failed: ${docfile} Error: ${?}"
 				calldb "update sched_fetch set fetched=0,scheduleChanged=1,processError=\"FAILED\" where id=${CN};" "update with doc2html result"
 				exit;
 			fi;
@@ -281,7 +281,7 @@ Changed=x
 removeSpaces csv ;
 
 # deal with mailed in CSV files
-for x in *.CSV ; do 
+for x in *.CSV ; do
 	if [ "${x}" == "*.CSV" ]; then continue; fi;
 	mv $x ${x/.CSV/.csv} ;
 done;
@@ -339,7 +339,7 @@ for xlsfile in *.xls ; do
 			TMP=`java -Xmx512m -Djxl.nowarnings=true -jar ../../../xls2html/xlsconvert.jar -xml $XSLConvertProps $xlsfile > ${xlsfile/.xls/.xlserr} 2>&1`
 			# TMP=`awk -f ../../../processor/xls2xml.awk $xlsfile > ${xlsfile/.xls/.xml} 2> ${xlsfile/.xls/.xlserr}`
 			if [ -s ${xlsfile/.xls/.xlserr} ]; then
-				if [ -n "${RETADDR}" ] ; then 
+				if [ -n "${RETADDR}" ] ; then
 					mailreport "XLS File Failure" "Error processing XLS file to XML for carrier ${CNUM}" $RETADDR
 				fi;
 				mailreport "${CN} Schedule Process Failed" "XLS-XMLTRANS error for carrier ${CNUM} failed: ${xlsfile}"
@@ -353,7 +353,7 @@ for xlsfile in *.xls ; do
 			TMP=`java -Xmx512m -Djxl.nowarnings=true -jar ../../../xls2html/xlsconvert.jar -html $XLSConvertProps ${xlsfile} > ${xlsfile/.xls/.xlserr} 2>&1`
 			# TMP=`../../../xls2html/xls2html.php ${xlsfile} > ${xlsfile/.xls/.html} 2> ${xlsfile/.xls/.xlserr}`
 			if [ -s ${xlsfile/.xls/.xlserr} ]; then
-				mailreport "${CN} Schedule Process failed" "XLS2HTML error for carrier ${CNUM} failed: ${xlsfile}" 
+				mailreport "${CN} Schedule Process failed" "XLS2HTML error for carrier ${CNUM} failed: ${xlsfile}"
 				calldb "update sched_fetch set fetched=0,scheduleChanged=1,processError=\"FAILED\" where id=${CN};" "update with xls2html result"
 				exit;
 			fi;
@@ -424,8 +424,17 @@ if [ -z "${FTYPE}" -o "${FTYPE}" == "html" -o "${FTYPE}" == "doc" -o "${FTYPE}" 
 
 removeSpaces html ;
 
+# list of file to be processed
+file_list = $(dirname $0)/${CNUM}.list
 for htmlfile in *.html ; do
 	if [ "${htmlfile}" == "*.html" ]; then continue; fi;
+
+	if [ -f "${file_list}" ] ; then
+		# file belongs to the valid file list:
+		fgrep $htmlfile >/dev/null ${file_list}
+		if [ $? -eq 0 ]; then continue; fi
+	fi
+
 	Changed=0
 	CURRDT=`date +'%R %D'`
 	echo "${CURRDT} Processing of ${CNUM} ${htmlfile}" >> ../logs/$LOGFILE;
@@ -443,11 +452,11 @@ for htmlfile in *.html ; do
 				mailreport "${CN} Schedule Process Failed" "Tidy error for carrier ${CNUM} failed: ${htmlfile}"
 				calldb "update sched_fetch set fetched=0,scheduleChanged=1,processError=\"FAILED\" where id=${CN};" "update with tidy result"
 				exit;
-			else 
+			else
 				rm ${htmlfile/.html/.err} ;
 			fi;
 			if [ -f ../postprocessTidy.sh ] ; then source ../postprocessTidy.sh ; fi;
-		
+
 			# perform XSLT to create standard XML file
 			if [ "${DontProcess}" == "0" ]; then
 				TMP=`../../../processor/xsltrans.php $currXslFile ${htmlfile/.html/.xhtml} > ${htmlfile/.html/.xml} 2> ${htmlfile/.html/.xslerr}`;
@@ -465,7 +474,7 @@ for htmlfile in *.html ; do
 				Manual=1;
 				DontProcess=0;
 			fi;
-			
+
 		else
 			calldb "update sched_fetch set scheduleChanged=1,processError=\"MANUAL\" where id=${CN};" "update with manual change result"
 			Manual=1
@@ -504,7 +513,7 @@ for xmfile in *.xm ; do
 				TMP=`../../../processor/xsltrans.php $currXslFile $xmfile > ${xmfile/.xm/.xxml} 2> ${xmfile/.xm/.xslerr}`;
 			fi;
 			if [ $? == 0 ]; then
-				mailreport "${CN} Schedule Process Failed" "XML-XSLTRANS error for carrier ${CNUM} failed: ${xmfile}" 
+				mailreport "${CN} Schedule Process Failed" "XML-XSLTRANS error for carrier ${CNUM} failed: ${xmfile}"
 				calldb "update sched_fetch set fetched=0,scheduleChanged=1,processError=\"FAILED\" where id=${CN};" "update with xml-xsltrans result"
 				exit;
 			fi;
@@ -514,11 +523,11 @@ for xmfile in *.xm ; do
 				Manual=1;
 				DontProcess=0;
 			fi;
-			
+
 		else
             python ../../../processor/transform_edi.py $xmfile > ${xmfile/.xm/.xml} 2> ${xmfile/.xm/.xslerr}
 			if [ $? != 0 ]; then
-				mailreport "${CN} Schedule Process Failed" "XML-EDI-PYTRANS error for carrier ${CNUM} failed: ${xmfile}" 
+				mailreport "${CN} Schedule Process Failed" "XML-EDI-PYTRANS error for carrier ${CNUM} failed: ${xmfile}"
 				calldb "update sched_fetch set fetched=0,scheduleChanged=1,processError=\"FAILED\" where id=${CN};" "update with xml-edi-trans result"
 				exit;
 			fi;
@@ -569,9 +578,9 @@ rm -f $DATAFILE
 for cfile in *.xml ; do
 	if [ "${cfile}" == "*.xml" ]; then continue; fi;
 	# run processXML to create schedule data
-	TMP=`../../../processor/xmlprocess.php ${CN} ${cfile} > ${cfile/.xml/.xml-errors}` 
+	TMP=`../../../processor/xmlprocess.php ${CN} ${cfile} > ${cfile/.xml/.xml-errors}`
 	if [ $? == 1 ]; then
-		mailreport "${CN} Schedule Process Failed" "XMLPROCESS error for carrier ${CNUM} failed: ${cfile}" 
+		mailreport "${CN} Schedule Process Failed" "XMLPROCESS error for carrier ${CNUM} failed: ${cfile}"
 		calldb "update sched_fetch set fetched=0,scheduleChanged=1,processError=\"FAILED\" where id=${CN};" "update with xmlprocess result"
 		if [ "${CTYPE}" == "nvocc" ]; then
 			mailnvocc "$CURRDT" $CN $cfile
@@ -593,7 +602,7 @@ if [ "${XIT}" == "1" ]; then exit; fi
 # calldb "LOAD DATA INFILE '${DATAFILE}' replace into table segments character set utf8 FIELDS ENCLOSED BY '\"' TERMINATED BY ',' LINES TERMINATED BY '\r\n';" \
 # "load data file - del ${DATAFILE}"
 
-rm -f $DATAFILE 
+rm -f $DATAFILE
 
 # mail success
 if [ "${CTYPE}" == "nvocc" ]; then
@@ -621,7 +630,7 @@ if [ "${Manual}" == "0" ]; then
 	calldb "update sched_fetch set fetched=0,scheduleChanged=1,processError=\"SUCCESS\" where id=${CN};" "update with success change result"
 fi;
 
-if [ "${OverallChange}" == "0" ]; then 
+if [ "${OverallChange}" == "0" ]; then
 	calldb "update sched_fetch set fetched=0,scheduleChanged=0,processError=\"NO CHANGE\" where id=${CN};" "update with no change in any data"
 fi;
 
@@ -650,4 +659,3 @@ calldb "update sched_fetch set fetched=0 where id=${CN};" "reset for fetch"
 
 CURRDT=`date +'%R %D'`;
 echo "${CURRDT} ${CN} Processing stopping" >> $DBLOG
-
