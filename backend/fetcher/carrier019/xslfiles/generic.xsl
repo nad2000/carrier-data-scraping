@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:str="http://exslt.org/strings" xmlns:php="http://php.net/xsl" extension-element-prefixes="str php">
 
   <xsl:import href="../../../processor/exslt/str/str.xsl" />
@@ -60,14 +60,15 @@
 
   <xsl:template match="tr" mode="voyrow">
     <xsl:param name="pcolo">0</xsl:param>
+
     <xsl:apply-templates select="./td" mode="vname">
       <xsl:with-param name="pcol" select="$pcolo" />
     </xsl:apply-templates>
   </xsl:template>
 
   <xsl:template match="td" mode='vname'>
-    <xsl:param name="pcol">0</xsl:param> 
-    <xsl:variable name="xp" select="position()"/> 
+    <xsl:param name="pcol">0</xsl:param>
+    <xsl:variable name="xp" select="position()"/>
     <xsl:if test="normalize-space(.) != '' and not(contains(.,'Voyage'))">
       <xsl:variable name="vessname" select="./../preceding-sibling::tr[contains(td[$pcol],'Vessel')]/td[$xp]"/>
       <xsl:if test="normalize-space($vessname) != '' and not(contains($vessname,'?'))">
@@ -91,7 +92,7 @@
 
             <xsl:attribute name="voyage">
               <xsl:call-template name="fixvoyagestring">
-                <xsl:with-param name="vstr" select="." />  
+                <xsl:with-param name="vstr" select="." />
               </xsl:call-template>
             </xsl:attribute>
 
@@ -103,7 +104,7 @@
               </xsl:variable>
 
               <xsl:variable name="pdate" select="normalize-space($pdate0)" />
-              <xsl:if test="($stop-at = '' or following-sibling::tr[generate-id() = $stop-at]) and not(contains(./td[$pcol],'Ports')) and not(normalize-space(./td[$pcol]) = '.') and not(contains(./td[$pcol],'**')) and $pdate != ''">
+              <xsl:if test="normalize-space(./td[$pcol]/.) != '' and  ($stop-at = '' or following-sibling::tr[generate-id() = $stop-at]) and not(contains(./td[$pcol],'Ports')) and not(normalize-space(./td[$pcol]) = '.') and not(contains(./td[$pcol],'**')) and $pdate != ''">
                 <port>
                   <xsl:attribute name="name">
                     <xsl:call-template name="fixportname">
@@ -134,9 +135,9 @@
     <xsl:variable name="nm1" select="normalize-space(str:replace($name1,'&#160;',' '))" />
     <xsl:value-of select="normalize-space($nm1)"/>
   </xsl:template>
-  
+
   <xsl:template name="fixvoyagestring">
-    <xsl:param name="vstr">Blank</xsl:param> 
+    <xsl:param name="vstr">Blank</xsl:param>
     <xsl:variable name="vstr1" select="normalize-space(str:replace($vstr,'&#160;',' '))" />
     <xsl:value-of select="$vstr1" />
   </xsl:template>
@@ -153,12 +154,13 @@
       <xsl:when test="$pname3 = 'shangai'">Shanghai; CN</xsl:when>
       <xsl:when test="$pname3 = 'lagos'">Lagos; NG</xsl:when>
       <xsl:when test="$pname3 = 'capetown'">Cape Town; ZA</xsl:when>
+      <xsl:when test="$pname3 = 'pemba'">Pemba; MZ</xsl:when>
       <xsl:otherwise><xsl:value-of select="$pname3" /></xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
   <xsl:template name="fixdatestring">
-    <xsl:param name="dstr">Blank</xsl:param> 
+    <xsl:param name="dstr">Blank</xsl:param>
     <xsl:variable name="dstr0" select="normalize-space(str:replace($dstr,'&#160;',' '))" />
     <xsl:variable name="dstr1">
       <xsl:choose>
