@@ -1,0 +1,668 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<title>Japan - Qingdao sailing schedule</title>
+
+<STYLE type="text/css">
+<!--
+
+body {
+	margin-top: 0:
+	}
+
+TABLE {
+	FONT-SIZE: 10pt;
+	 border-collapse: collapse;
+	}
+tr.ttu   {
+	background-color: #99CCFF;
+	}
+td.tuvsl {
+	height: 25px;	padding: 0px 0px 0px 5px;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #c0c0c0;
+	border-left:   1px solid #808080;
+	}
+td.tuvoy{
+	height: 25px;	padding: 0px 0px 0px 5px;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	border-left:   1px solid #c0c0c0;
+	}
+td.tuqds{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tul1a{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tul1d{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	}
+td.tul2a{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tul2d{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	}
+td.tul3{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-left:   1px solid #808080;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	}
+td.tul4a{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tul4d{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	}
+td.tul5a{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tul5d{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	}
+td.tuqda{
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+
+tr.ttl  {
+	background-color: #99CCFF;
+	}
+td.tlvsl{
+	height: 25px;	padding: 0px 0px 0px 5px;
+	border-right:  1px solid #c0c0c0;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tlvoy{
+	height: 25px;	padding: 0px 0px 0px 5px;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #c0c0c0;
+	}
+td.tlqds{
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tll1a{
+	height: 25px;	text-align: center;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tll1d{
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	}
+td.tll2a{
+	height: 25px;	text-align: center;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tll2d{
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	}
+td.tll3a{
+	height: 25px;	text-align: center;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tll3d{
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	}
+td.tll4a{
+	height: 25px;	text-align: center;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tll4d{
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	}
+td.tll5a{
+	height: 25px;	text-align: center;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.tll5d{
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	}
+td.tlqda{
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+
+tr.qdw  {
+	background-color: #CCFFFF;
+	}
+td.wvsl {
+	height: 25px;	padding: 0px 0px 0px 5px;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #c0c0c0;
+	border-left:   1px solid #808080;
+	}
+td.wvoy {
+	height: 25px;	padding: 0px 0px 0px 5px;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	border-left:   1px solid #c0c0c0;
+	}
+td.wqds {
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.wl1a {
+	height: 25px;	text-align: right;
+	border-top:    1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.wl1d {
+	height: 25px;	
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	}
+td.wl2a {
+	height: 25px;	text-align: right;
+	border-top:    1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.wl2d {
+	height: 25px;	
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	}
+td.wl3a {
+	height: 25px;	text-align: right;
+	border-top:    1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.wl3d {
+	height: 25px;	
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	}
+td.wl4a {
+	height: 25px;	text-align: right;
+	border-top:    1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.wl4d {
+	height: 25px;	
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	}
+td.wl5a {
+	height: 25px;	text-align: right;
+	border-top:    1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.wl5d {
+	height: 25px;	
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	}
+td.wqda {
+	height: 25px;	text-align: center;
+	border-top:    1px solid #808080;
+	border-right:  1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+
+tr.qdc  {
+	background-color: #FFFFCC;
+	}
+td.cvsl {
+	height: 25px;	padding: 0px 0px 0px 5px;
+	border-right:  1px solid #c0c0c0;
+	border-left:   1px solid #808080;
+	}
+td.cvoy {
+	height: 25px;	padding: 0px 0px 0px 5px;
+	border-right:  1px solid #808080;
+	border-left:   1px solid #c0c0c0;
+	}
+td.cqds {
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.cl1a {
+	height: 25px;	text-align: right;
+	border-left:   1px solid #808080;
+	}
+td.cl1d {
+	height: 25px;	
+	border-right:  1px solid #808080;
+	}
+td.cl2a {
+	height: 25px;	text-align: right;
+	border-left:   1px solid #808080;
+	}
+td.cl2d {
+	height: 25px;	
+	border-right:  1px solid #808080;
+	}
+td.cl3a {
+	height: 25px;	text-align: right;
+	border-left:   1px solid #808080;
+	}
+td.cl3d {
+	height: 25px;	
+	border-right:  1px solid #808080;
+	}
+td.cl4a {
+	height: 25px;	text-align: right;
+	border-left:   1px solid #808080;
+	}
+td.cl4d {
+	height: 25px;	
+	border-right:  1px solid #808080;
+	}
+td.cl5a {
+	height: 25px;	text-align: right;
+	border-left:   1px solid #808080;
+	}
+td.cl5d {
+	height: 25px;	
+	border-right:  1px solid #808080;
+	}
+td.cqda {
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+
+tr.qde  {
+	background-color: #FFFFFF;
+	}
+td.evsl {
+	height: 25px;	padding: 0px 0px 0px 5px;
+	border-right:  1px solid #c0c0c0;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.evoy {
+	height: 25px;	padding: 0px 0px 0px 5px;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #c0c0c0;
+	}
+td.eqds {
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.el1a {
+	height: 25px;	text-align: right;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.el1d {
+	height: 25px;	
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	}
+td.el2a {
+	height: 25px;	text-align: right;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.el2d {
+	height: 25px;	
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	}
+td.el3a {
+	height: 25px;	text-align: right;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.el3d {
+	height: 25px;	
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	}
+td.el4a {
+	height: 25px;	text-align: right;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.el4d {
+	height: 25px;	
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	}
+td.el5a {
+	height: 25px;	text-align: right;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+td.el5d {
+	height: 25px;	
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	}
+td.eqda {
+	height: 25px;	text-align: center;
+	border-right:  1px solid #808080;
+	border-bottom: 1px solid #808080;
+	border-left:   1px solid #808080;
+	}
+
+-->
+</STYLE>
+
+<link rel="shortcut icon" href="./favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="./favicon.ico" type="image/vnd.microsoft.icon">
+
+</head>
+
+<body>
+
+<table width=833 summary="Sailing schedule between Qingdao and Japan">
+ <tr class=ttu>
+  <td class=tuvsl>VESSEL</td>
+  <td class=tuvoy>VOY NO.</td>
+  <td class=tuqds>青　島</td>
+  <td class=tul1a>大</td>
+  <td class=tul1d>阪</td>
+  <td class=tul2a>神</td>
+  <td class=tul2d>戸</td>
+  <td class=tul3 colspan="2">名 古 屋</td>
+  <td class=tul4a>東</td>
+  <td class=tul4d>京</td>
+  <td class=tul5a>横</td>
+  <td class=tul5d>浜</td>
+  <td class=tuqda>青　島</td>
+ </tr>
+ <tr class=ttl>
+  <td class=tlvsl>　</td>
+  <td class=tlvoy>IMP/EXP</td>
+  <td class=tlqds>ETD</td>
+  <td class=tll1a>ETA(火)</td>
+  <td class=tll1d>ETD(火)</td>
+  <td class=tll2a>ETA(火)</td>
+  <td class=tll2d>ETD(水)</td>
+  <td class=tll3a>ETA(火)</td>
+  <td class=tll3d>ETD(火)</td>
+  <td class=tll4a>ETA(火)</td>
+  <td class=tll4d>ETD(水)</td>
+  <td class=tll5a>ETA(水)</td>
+  <td class=tll5d>ETD(水)</td>
+  <td class=tlqda>ETA</td>
+ </tr>
+ <tr class=qdw>  <td class=wvsl>FREEDOM</td>
+  <td class=wvoy>1337E/W</td>
+  <td class=wqds>09/14 (土)</td>
+  <td class=wl1a>09/17</td>
+  <td class=wl1d>-09/17</td>
+  <td class=wl2a>09/17</td>
+  <td class=wl2d>-09/18</td>
+  <td class=wl3a><br></td>
+  <td class=wl3d>-</td>
+  <td class=wl4a><br></td>
+  <td class=wl4d>-</td>
+  <td class=wl5a><br></td>
+  <td class=wl5d>-</td>
+  <td class=wqda>09/20 (金)</td>
+ </tr>
+ <tr class=qdc>  <td class=cvsl>ANNA-LISA</td>
+  <td class=cvoy>1338E/W</td>
+  <td class=cqds>09/14 (土)</td>
+  <td class=cl1a><br></td>
+  <td class=cl1d>-</td>
+  <td class=cl2a><br></td>
+  <td class=cl2d>-</td>
+  <td class=cl3a>09/17</td>
+  <td class=cl3d>-09/17</td>
+  <td class=cl4a><br></td>
+  <td class=cl4d>-</td>
+  <td class=cl5a><br></td>
+  <td class=cl5d>-</td>
+  <td class=cqda>09/21 (土)</td>
+ </tr>
+ <tr class=qde>
+  <td class=evsl>MARMAN</td>
+  <td class=evoy>1338E/W</td>
+  <td class=eqds>09/14 (土)</td>
+  <td class=el1a><br></td>
+  <td class=el1d>-</td>
+  <td class=el2a><br></td>
+  <td class=el2d>-</td>
+  <td class=el3a><br></td>
+  <td class=el3d>-</td>
+  <td class=el4a>09/17</td>
+  <td class=el4d>-09/18</td>
+  <td class=el5a>09/18</td>
+  <td class=el5d>-09/18</td>
+  <td class=eqda>09/21 (土)</td>
+ </tr>
+ <tr class=qdw>  <td class=wvsl>FREEDOM</td>
+  <td class=wvoy>1338E/W</td>
+  <td class=wqds>09/21 (土)</td>
+  <td class=wl1a>09/24</td>
+  <td class=wl1d>-09/24</td>
+  <td class=wl2a>09/24</td>
+  <td class=wl2d>-09/25</td>
+  <td class=wl3a><br></td>
+  <td class=wl3d>-</td>
+  <td class=wl4a><br></td>
+  <td class=wl4d>-</td>
+  <td class=wl5a><br></td>
+  <td class=wl5d>-</td>
+  <td class=wqda>09/27 (金)</td>
+ </tr>
+ <tr class=qdc>  <td class=cvsl>ANNA-LISA</td>
+  <td class=cvoy>1339E/W</td>
+  <td class=cqds>09/21 (土)</td>
+  <td class=cl1a><br></td>
+  <td class=cl1d>-</td>
+  <td class=cl2a><br></td>
+  <td class=cl2d>-</td>
+  <td class=cl3a>09/24</td>
+  <td class=cl3d>-09/24</td>
+  <td class=cl4a><br></td>
+  <td class=cl4d>-</td>
+  <td class=cl5a><br></td>
+  <td class=cl5d>-</td>
+  <td class=cqda>09/28 (土)</td>
+ </tr>
+ <tr class=qde>
+  <td class=evsl>DELIA</td>
+  <td class=evoy>1339E/W</td>
+  <td class=eqds>09/21 (土)</td>
+  <td class=el1a><br></td>
+  <td class=el1d>-</td>
+  <td class=el2a><br></td>
+  <td class=el2d>-</td>
+  <td class=el3a><br></td>
+  <td class=el3d>-</td>
+  <td class=el4a>09/24</td>
+  <td class=el4d>-09/25</td>
+  <td class=el5a>09/25</td>
+  <td class=el5d>-09/25</td>
+  <td class=eqda>09/28 (土)</td>
+ </tr>
+ <tr class=qdw>  <td class=wvsl>FREEDOM</td>
+  <td class=wvoy>1339E/W</td>
+  <td class=wqds>09/28 (土)</td>
+  <td class=wl1a>10/01</td>
+  <td class=wl1d>-10/01</td>
+  <td class=wl2a>10/01</td>
+  <td class=wl2d>-10/02</td>
+  <td class=wl3a><br></td>
+  <td class=wl3d>-</td>
+  <td class=wl4a><br></td>
+  <td class=wl4d>-</td>
+  <td class=wl5a><br></td>
+  <td class=wl5d>-</td>
+  <td class=wqda>10/04 (金)</td>
+ </tr>
+ <tr class=qdc>  <td class=cvsl>ANNA-LISA</td>
+  <td class=cvoy>1340E/W</td>
+  <td class=cqds>09/28 (土)</td>
+  <td class=cl1a><br></td>
+  <td class=cl1d>-</td>
+  <td class=cl2a><br></td>
+  <td class=cl2d>-</td>
+  <td class=cl3a>10/01</td>
+  <td class=cl3d>-10/01</td>
+  <td class=cl4a><br></td>
+  <td class=cl4d>-</td>
+  <td class=cl5a><br></td>
+  <td class=cl5d>-</td>
+  <td class=cqda>10/05 (土)</td>
+ </tr>
+ <tr class=qde>
+  <td class=evsl>MARMAN</td>
+  <td class=evoy>1340E/W</td>
+  <td class=eqds>09/28 (土)</td>
+  <td class=el1a><br></td>
+  <td class=el1d>-</td>
+  <td class=el2a><br></td>
+  <td class=el2d>-</td>
+  <td class=el3a><br></td>
+  <td class=el3d>-</td>
+  <td class=el4a>10/01</td>
+  <td class=el4d>-10/02</td>
+  <td class=el5a>10/02</td>
+  <td class=el5d>-10/02</td>
+  <td class=eqda>10/05 (土)</td>
+ </tr>
+ <tr class=qdw>  <td class=wvsl>FREEDOM</td>
+  <td class=wvoy>1340E/W</td>
+  <td class=wqds>10/05 (土)</td>
+  <td class=wl1a>10/08</td>
+  <td class=wl1d>-10/08</td>
+  <td class=wl2a>10/08</td>
+  <td class=wl2d>-10/09</td>
+  <td class=wl3a><br></td>
+  <td class=wl3d>-</td>
+  <td class=wl4a><br></td>
+  <td class=wl4d>-</td>
+  <td class=wl5a><br></td>
+  <td class=wl5d>-</td>
+  <td class=wqda>10/11 (金)</td>
+ </tr>
+ <tr class=qdc>  <td class=cvsl>ANNA-LISA</td>
+  <td class=cvoy>1341E/W</td>
+  <td class=cqds>10/05 (土)</td>
+  <td class=cl1a><br></td>
+  <td class=cl1d>-</td>
+  <td class=cl2a><br></td>
+  <td class=cl2d>-</td>
+  <td class=cl3a>10/08</td>
+  <td class=cl3d>-10/08</td>
+  <td class=cl4a><br></td>
+  <td class=cl4d>-</td>
+  <td class=cl5a><br></td>
+  <td class=cl5d>-</td>
+  <td class=cqda>10/12 (土)</td>
+ </tr>
+ <tr class=qde>
+  <td class=evsl>DELIA</td>
+  <td class=evoy>1341E/W</td>
+  <td class=eqds>10/05 (土)</td>
+  <td class=el1a><br></td>
+  <td class=el1d>-</td>
+  <td class=el2a><br></td>
+  <td class=el2d>-</td>
+  <td class=el3a><br></td>
+  <td class=el3d>-</td>
+  <td class=el4a>10/08</td>
+  <td class=el4d>-10/09</td>
+  <td class=el5a>10/09</td>
+  <td class=el5d>-10/09</td>
+  <td class=eqda>10/12 (土)</td>
+ </tr>
+ <tr class=qdw>  <td class=wvsl>FREEDOM</td>
+  <td class=wvoy>1341E/W</td>
+  <td class=wqds>10/12 (土)</td>
+  <td class=wl1a>10/15</td>
+  <td class=wl1d>-10/15</td>
+  <td class=wl2a>10/15</td>
+  <td class=wl2d>-10/16</td>
+  <td class=wl3a><br></td>
+  <td class=wl3d>-</td>
+  <td class=wl4a><br></td>
+  <td class=wl4d>-</td>
+  <td class=wl5a><br></td>
+  <td class=wl5d>-</td>
+  <td class=wqda>10/18 (金)</td>
+ </tr>
+ <tr class=qdc>  <td class=cvsl>ANNA-LISA</td>
+  <td class=cvoy>1342E/W</td>
+  <td class=cqds>10/12 (土)</td>
+  <td class=cl1a><br></td>
+  <td class=cl1d>-</td>
+  <td class=cl2a><br></td>
+  <td class=cl2d>-</td>
+  <td class=cl3a>10/15</td>
+  <td class=cl3d>-10/15</td>
+  <td class=cl4a><br></td>
+  <td class=cl4d>-</td>
+  <td class=cl5a><br></td>
+  <td class=cl5d>-</td>
+  <td class=cqda>10/19 (土)</td>
+ </tr>
+ <tr class=qde>
+  <td class=evsl>MARMAN</td>
+  <td class=evoy>1342E/W</td>
+  <td class=eqds>10/12 (土)</td>
+  <td class=el1a><br></td>
+  <td class=el1d>-</td>
+  <td class=el2a><br></td>
+  <td class=el2d>-</td>
+  <td class=el3a><br></td>
+  <td class=el3d>-</td>
+  <td class=el4a>10/15</td>
+  <td class=el4d>-10/16</td>
+  <td class=el5a>10/16</td>
+  <td class=el5d>-10/16</td>
+  <td class=eqda>10/19 (土)</td>
+ </tr>
+ </table>
+ </body>
+ </html>

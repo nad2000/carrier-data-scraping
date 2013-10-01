@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>schedulef</route>
+    <vessel name="�@" voyage="IMP/EXP">
+      <port name="��@�C">2200</port>
+      <port name="�� ��">0700 </port>
+      <port name="�_ ��">0800 </port>
+      <port name="��@�C">2000</port>
+    </vessel>
+    <vessel name="�@" voyage="�@">
+      <port name="��@�C">0400</port>
+      <port name="�� ��">1000 </port>
+      <port name="�_ ��">1000 </port>
+      <port name="��@�C">2200</port>
+    </vessel>
+    <vessel name="�@" voyage="�@">
+      <port name="��@�C">0400</port>
+      <port name="�� ��">1200 </port>
+      <port name="�_ ��">0800 </port>
+      <port name="��@�C">2000</port>
+    </vessel>
+    <vessel name="JJ SUN" voyage="1336">
+      <port name="��@�C">09/13</port>
+      <port name="�� ��">09/16</port>
+      <port name="�� ��">09/17</port>
+      <port name="�_ ��">09/17</port>
+      <port name="�_ ��">09/17</port>
+      <port name="��@�C">09/19</port>
+    </vessel>
+    <vessel name="HENG YU" voyage="1332">
+      <port name="��@�C">09/15</port>
+      <port name="�� ��">09/17</port>
+      <port name="�� ��">09/18</port>
+      <port name="�_ ��">09/18</port>
+      <port name="�_ ��">09/18</port>
+      <port name="��@�C">09/20</port>
+    </vessel>
+    <vessel name="JJ TOKYO" voyage="1338">
+      <port name="��@�C">09/17</port>
+      <port name="�� ��">09/19</port>
+      <port name="�� ��">09/20</port>
+      <port name="�_ ��">09/20</port>
+      <port name="�_ ��">09/20</port>
+      <port name="��@�C">09/22</port>
+    </vessel>
+    <vessel name="JJ SUN" voyage="1337">
+      <port name="��@�C">09/20</port>
+      <port name="�� ��">09/23</port>
+      <port name="�� ��">09/24</port>
+      <port name="�_ ��">09/24</port>
+      <port name="�_ ��">09/24</port>
+      <port name="��@�C">09/26</port>
+    </vessel>
+    <vessel name="HENG YU" voyage="1333">
+      <port name="��@�C">09/22</port>
+      <port name="�� ��">09/24</port>
+      <port name="�� ��">09/25</port>
+      <port name="�_ ��">09/25</port>
+      <port name="�_ ��">09/25</port>
+      <port name="��@�C">09/27</port>
+    </vessel>
+    <vessel name="JJ TOKYO" voyage="1339">
+      <port name="��@�C">09/24</port>
+      <port name="�� ��">09/26</port>
+      <port name="�� ��">09/27</port>
+      <port name="�_ ��">09/27</port>
+      <port name="�_ ��">09/27</port>
+      <port name="��@�C">09/29</port>
+    </vessel>
+    <vessel name="JJ SUN" voyage="1338">
+      <port name="��@�C">09/27</port>
+      <port name="�� ��">09/30</port>
+      <port name="�� ��">10/01</port>
+      <port name="�_ ��">10/01</port>
+      <port name="�_ ��">10/01</port>
+      <port name="��@�C">10/03</port>
+    </vessel>
+    <vessel name="HENG YU" voyage="1334">
+      <port name="��@�C">09/29</port>
+      <port name="�� ��">10/01</port>
+      <port name="�� ��">10/02</port>
+      <port name="�_ ��">10/02</port>
+      <port name="�_ ��">10/02</port>
+      <port name="��@�C">10/04</port>
+    </vessel>
+    <vessel name="JJ TOKYO" voyage="1340">
+      <port name="��@�C">10/01</port>
+      <port name="�� ��">10/03</port>
+      <port name="�� ��">10/04</port>
+      <port name="�_ ��">10/04</port>
+      <port name="�_ ��">10/04</port>
+      <port name="��@�C">10/06</port>
+    </vessel>
+    <vessel name="HENG YU" voyage="1335">
+      <port name="��@�C">10/04</port>
+      <port name="�� ��">10/07</port>
+      <port name="�� ��">10/08</port>
+      <port name="�_ ��">10/08</port>
+      <port name="�_ ��">10/08</port>
+      <port name="��@�C">10/10</port>
+    </vessel>
+    <vessel name="�@" voyage="�@">
+      <port name="��@�C">10/06</port>
+      <port name="�� ��"/>
+      <port name="�_ ��"/>
+      <port name="��@�C"/>
+    </vessel>
+    <vessel name="JJ TOKYO" voyage="1341">
+      <port name="��@�C">10/08</port>
+      <port name="�� ��">10/10</port>
+      <port name="�� ��">10/11</port>
+      <port name="�_ ��">10/11</port>
+      <port name="�_ ��">10/11</port>
+      <port name="��@�C">10/13</port>
+    </vessel>
+    <vessel name="JJ SUN" voyage="1340">
+      <port name="��@�C">10/11</port>
+      <port name="�� ��">10/14</port>
+      <port name="�� ��">10/15</port>
+      <port name="�_ ��">10/15</port>
+      <port name="�_ ��">10/15</port>
+      <port name="��@�C">10/17</port>
+    </vessel>
+    <vessel name="HENG YU" voyage="1336">
+      <port name="��@�C">10/13</port>
+      <port name="�� ��">10/15</port>
+      <port name="�� ��">10/16</port>
+      <port name="�_ ��">10/16</port>
+      <port name="�_ ��">10/16</port>
+      <port name="��@�C">10/18</port>
+    </vessel>
+    <vessel name="JJ TOKYO" voyage="1342">
+      <port name="��@�C">10/15</port>
+      <port name="�� ��">10/17</port>
+      <port name="�� ��">10/18</port>
+      <port name="�_ ��">10/18</port>
+      <port name="�_ ��">10/18</port>
+      <port name="��@�C">10/20</port>
+    </vessel>
+  </schedule>
+</schedules>

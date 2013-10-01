@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>schedulefq</route>
+    <vessel name="�@" voyage="IMP/EXP">
+      <port name="�@��"/>
+      <port name="��"/>
+      <port name="��"/>
+      <port name="�_"/>
+      <port name="��"/>
+      <port name="�� �� ��"/>
+      <port name="��"/>
+      <port name="��"/>
+      <port name="��"/>
+      <port name="�l"/>
+      <port name="�@��"/>
+    </vessel>
+    <vessel name="FREEDOM" voyage="1337">
+      <port name="�@��">09/14</port>
+      <port name="��">09/17</port>
+      <port name="��">-09/1</port>
+      <port name="�_">09/17</port>
+      <port name="��">-09/1</port>
+      <port name="�� �� ��">-</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="��"/>
+      <port name="�l">-</port>
+      <port name="�@��">09/20</port>
+    </vessel>
+    <vessel name="ANNA-LISA" voyage="1338">
+      <port name="�@��">09/14</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="�_"/>
+      <port name="��">-</port>
+      <port name="�� �� ��">09/17</port>
+      <port name="�� �� ��">10/09/17</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="��"/>
+      <port name="�l">-</port>
+      <port name="�@��">09/21</port>
+    </vessel>
+    <vessel name="MARMAN" voyage="1338">
+      <port name="�@��">09/14</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="�_"/>
+      <port name="��">-</port>
+      <port name="�� �� ��">-</port>
+      <port name="��">09/17</port>
+      <port name="��">-09/1</port>
+      <port name="��">09/18</port>
+      <port name="�l">-09/1</port>
+      <port name="�@��">09/21</port>
+    </vessel>
+    <vessel name="FREEDOM" voyage="1338">
+      <port name="�@��">09/21</port>
+      <port name="��">09/24</port>
+      <port name="��">-09/2</port>
+      <port name="�_">09/24</port>
+      <port name="��">-09/2</port>
+      <port name="�� �� ��">-</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="��"/>
+      <port name="�l">-</port>
+      <port name="�@��">09/27</port>
+    </vessel>
+    <vessel name="ANNA-LISA" voyage="1339">
+      <port name="�@��">09/21</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="�_"/>
+      <port name="��">-</port>
+      <port name="�� �� ��">09/24</port>
+      <port name="�� �� ��">10/09/24</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="��"/>
+      <port name="�l">-</port>
+      <port name="�@��">09/28</port>
+    </vessel>
+    <vessel name="DELIA" voyage="1339">
+      <port name="�@��">09/21</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="�_"/>
+      <port name="��">-</port>
+      <port name="�� �� ��">-</port>
+      <port name="��">09/24</port>
+      <port name="��">-09/2</port>
+      <port name="��">09/25</port>
+      <port name="�l">-09/2</port>
+      <port name="�@��">09/28</port>
+    </vessel>
+    <vessel name="FREEDOM" voyage="1339">
+      <port name="�@��">09/28</port>
+      <port name="��">10/01</port>
+      <port name="��">-10/0</port>
+      <port name="�_">10/01</port>
+      <port name="��">-10/0</port>
+      <port name="�� �� ��">-</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="��"/>
+      <port name="�l">-</port>
+      <port name="�@��">10/04</port>
+    </vessel>
+    <vessel name="ANNA-LISA" voyage="1340">
+      <port name="�@��">09/28</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="�_"/>
+      <port name="��">-</port>
+      <port name="�� �� ��">10/01</port>
+      <port name="�� �� ��">11/10/01</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="��"/>
+      <port name="�l">-</port>
+      <port name="�@��">10/05</port>
+    </vessel>
+    <vessel name="MARMAN" voyage="1340">
+      <port name="�@��">09/28</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="�_"/>
+      <port name="��">-</port>
+      <port name="�� �� ��">-</port>
+      <port name="��">10/01</port>
+      <port name="��">-10/0</port>
+      <port name="��">10/02</port>
+      <port name="�l">-10/0</port>
+      <port name="�@��">10/05</port>
+    </vessel>
+    <vessel name="FREEDOM" voyage="1340">
+      <port name="�@��">10/05</port>
+      <port name="��">10/08</port>
+      <port name="��">-10/0</port>
+      <port name="�_">10/08</port>
+      <port name="��">-10/0</port>
+      <port name="�� �� ��">-</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="��"/>
+      <port name="�l">-</port>
+      <port name="�@��">10/11</port>
+    </vessel>
+    <vessel name="ANNA-LISA" voyage="1341">
+      <port name="�@��">10/05</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="�_"/>
+      <port name="��">-</port>
+      <port name="�� �� ��">10/08</port>
+      <port name="�� �� ��">11/10/08</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="��"/>
+      <port name="�l">-</port>
+      <port name="�@��">10/12</port>
+    </vessel>
+    <vessel name="DELIA" voyage="1341">
+      <port name="�@��">10/05</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="�_"/>
+      <port name="��">-</port>
+      <port name="�� �� ��">-</port>
+      <port name="��">10/08</port>
+      <port name="��">-10/0</port>
+      <port name="��">10/09</port>
+      <port name="�l">-10/0</port>
+      <port name="�@��">10/12</port>
+    </vessel>
+    <vessel name="FREEDOM" voyage="1341">
+      <port name="�@��">10/12</port>
+      <port name="��">10/15</port>
+      <port name="��">-10/1</port>
+      <port name="�_">10/15</port>
+      <port name="��">-10/1</port>
+      <port name="�� �� ��">-</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="��"/>
+      <port name="�l">-</port>
+      <port name="�@��">10/18</port>
+    </vessel>
+    <vessel name="ANNA-LISA" voyage="1342">
+      <port name="�@��">10/12</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="�_"/>
+      <port name="��">-</port>
+      <port name="�� �� ��">10/15</port>
+      <port name="�� �� ��">11/10/15</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="��"/>
+      <port name="�l">-</port>
+      <port name="�@��">10/19</port>
+    </vessel>
+    <vessel name="MARMAN" voyage="1342">
+      <port name="�@��">10/12</port>
+      <port name="��"/>
+      <port name="��">-</port>
+      <port name="�_"/>
+      <port name="��">-</port>
+      <port name="�� �� ��">-</port>
+      <port name="��">10/15</port>
+      <port name="��">-10/1</port>
+      <port name="��">10/16</port>
+      <port name="�l">-10/1</port>
+      <port name="�@��">10/19</port>
+    </vessel>
+  </schedule>
+</schedules>

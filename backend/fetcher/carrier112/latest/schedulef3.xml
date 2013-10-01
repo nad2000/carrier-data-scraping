@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedules>
+  <schedule>
+    <route>schedulef3</route>
+    <vessel name="CHUN JIN" voyage="1336">
+      <port name="�� �C">9/13</port>
+      <port name="���@�Á@��">9/16 </port>
+      <port name="���@�Á@��">09/16</port>
+      <port name="���@�@��">9/17 </port>
+      <port name="���@�@��">09/17</port>
+      <port name="��@�@�C">9/19</port>
+    </vessel>
+    <vessel name="QIU JIN" voyage="1337">
+      <port name="�� �C">9/17</port>
+      <port name="���@�Á@��">9/19 </port>
+      <port name="���@�Á@��">09/20</port>
+      <port name="���@�@��">9/20 </port>
+      <port name="���@�@��">09/20</port>
+      <port name="��@�@�C">9/23</port>
+    </vessel>
+    <vessel name="CHUN JIN" voyage="1337">
+      <port name="�� �C">9/20</port>
+      <port name="���@�Á@��">9/23 </port>
+      <port name="���@�Á@��">09/23</port>
+      <port name="���@�@��">9/24 </port>
+      <port name="���@�@��">09/24</port>
+      <port name="��@�@�C">9/26</port>
+    </vessel>
+    <vessel name="QIU JIN" voyage="1338">
+      <port name="�� �C">9/24</port>
+      <port name="���@�Á@��">9/26 </port>
+      <port name="���@�Á@��">09/27</port>
+      <port name="���@�@��">9/27 </port>
+      <port name="���@�@��">09/27</port>
+      <port name="��@�@�C">9/30</port>
+    </vessel>
+    <vessel name="CHUN JIN" voyage="1338">
+      <port name="�� �C">9/27</port>
+      <port name="���@�Á@��">9/30 </port>
+      <port name="���@�Á@��">09/30</port>
+      <port name="���@�@��">10/1 </port>
+      <port name="���@�@��">10/1</port>
+      <port name="��@�@�C">10/3</port>
+    </vessel>
+    <vessel name="QIU JIN" voyage="1339">
+      <port name="�� �C">10/1</port>
+      <port name="���@�Á@��">10/3 </port>
+      <port name="���@�Á@��">10/4</port>
+      <port name="���@�@��">10/4 </port>
+      <port name="���@�@��">10/4</port>
+      <port name="��@�@�C">10/7</port>
+    </vessel>
+    <vessel name="CHUN JIN" voyage="1339">
+      <port name="�� �C">10/4</port>
+      <port name="���@�Á@��">10/7 </port>
+      <port name="���@�Á@��">10/7</port>
+      <port name="���@�@��">10/8 </port>
+      <port name="���@�@��">10/8</port>
+      <port name="��@�@�C">10/10</port>
+    </vessel>
+    <vessel name="QIU JIN" voyage="1340">
+      <port name="�� �C">10/8</port>
+      <port name="���@�Á@��">10/10</port>
+      <port name="���@�Á@��">10/11</port>
+      <port name="���@�@��">10/11</port>
+      <port name="���@�@��">10/11</port>
+      <port name="��@�@�C">10/14</port>
+    </vessel>
+    <vessel name="CHUN JIN" voyage="1340">
+      <port name="�� �C">10/11</port>
+      <port name="���@�Á@��">10/14</port>
+      <port name="���@�Á@��">10/14</port>
+      <port name="���@�@��">10/15</port>
+      <port name="���@�@��">10/15</port>
+      <port name="��@�@�C">10/17</port>
+    </vessel>
+    <vessel name="QIU JIN" voyage="1341">
+      <port name="�� �C">10/15</port>
+      <port name="���@�Á@��">10/17</port>
+      <port name="���@�Á@��">10/18</port>
+      <port name="���@�@��">10/18</port>
+      <port name="���@�@��">10/18</port>
+      <port name="��@�@�C">10/21</port>
+    </vessel>
+    <vessel name="�@" voyage="�@">
+      <port name="�� �C"/>
+      <port name="���@�Á@��"/>
+      <port name="���@�@��"/>
+      <port name="��@�@�C"/>
+    </vessel>
+  </schedule>
+</schedules>
