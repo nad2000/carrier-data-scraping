@@ -3,8 +3,8 @@ PORT TRANSLATIONS - columns left to right
 
 schedulef.html ---> Route = "Kansai Line"
 
-	Shanghai; CN
-	Osaka; JP
+	上海: Shanghai; CN
+	大阪: Osaka; JP
 	Kobe; JP
 	Shanghai; CN
 
@@ -19,18 +19,18 @@ schedulef2.html ---> Route = "Kanto Line"
 
 schedulef3.html ---> Route = "Chubu Line"
 
-	Shanghai; CN
-	Nagoya, Aichi; JP
-	Shimizu; JP	
+	上 海: Shanghai; CN
+	名 古 屋: Nagoya, Aichi; JP
+	清 水: Shimizu; JP
 	Shanghai; CN
 
 
 schedulefq.xhtml ---> Route = "Qingdao Line"
 
-	Qingdao; CN
-	Osaka; JP
-	Kobe; JP
-	Nagoya, Aichi; JP
-	Tokyo; JP
-	Yokohama; JP
-	Qingdao; CN
+	青島: Qingdao; CN
+	大阪: Osaka; JP
+	神戸: Kobe; JP
+	名古屋: Nagoya, Aichi; JP
+	東京: Tokyo; JP
+	横浜: Yokohama; JP
+	青島: Qingdao; CN

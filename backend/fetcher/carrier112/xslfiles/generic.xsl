@@ -6,6 +6,19 @@
 
     <xsl:param name="htmlfilename" select="notset"/>
 
+	<!-- Port name trnaslations: -->
+	<xsl:variable name="ports-en">
+		<port name="***ORIGINAL***">*** English Name ***</port>
+		<port name="大 阪">Osaka; JP</port>
+		<port name="神 戸">Kobe; JP</port>
+		<port name="名 古 屋">Nagoya, Aichi; JP</port>
+		<port name="清 水">Shimizu; JP</port>
+		<port name="東 京">Tokyo; JP</port>
+		<port name="横 浜">Yokohama; JP</port>
+		<port name="青 島">Qingdao; CN</port>
+		<port name="上 海">Shanghai; CN</port>
+	</xsl:variable>
+
     <xsl:template match="/">
         <schedules>
 			<schedule>
@@ -200,6 +213,9 @@
     <xsl:template name="fixportname">
         <xsl:param name="pname">Blank</xsl:param>
         <xsl:variable name="pname1" select="normalize-space(translate($pname,'&#160;&#12288;','  '))" />
+        <xsl:variable name="pname2" select="normalize-space(translate($pname,'　',''))" />
+		<xsl:variable name="port-en" select="document('')//xsl:variable[@name='ports-en']/*[@name=$pname1]" />
+        <xsl:if test="$port-en"><xsl:value-of select="$port-en" /> / </xsl:if>
         <xsl:value-of select="$pname1" />
     </xsl:template>
 

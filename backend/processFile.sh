@@ -447,7 +447,16 @@ for htmlfile in *.html ; do
 			# find any specific Tidy config file
 			TIDYCFG="";
 			if [ -e ../tidy.config ]; then TIDYCFG="-config ../tidy.config "; fi;
-			TMP=`tidy -asxhtml -f ${htmlfile/.html/.err} ${TIDYCFG} ${htmlfile} > ${htmlfile/.html/.xhtml} 2> ${htmlfile/.html/.terr}`
+			# carrier112 file encoded with Shift_JIS:
+			if [ "${CN}" == "112" ] && grep -Fiq shift_jis ${htmlfile}
+			then
+				# Back-up:
+				mv ${htmlfile} ${htmlfile/.html/_shiftjis.html}
+				iconv -f SHIFT-JIS -t UTF-8 ${htmlfile/.html/_shiftjis.html} > ${htmlfile}
+				sed -i 's/"text\/html; charset=shift_jis"/"text\/html; charset=utf-8"/I' ${htmlfile}
+				TIDYENC="--input-encoding utf8"
+			fi
+			TMP=`tidy -asxhtml -f ${htmlfile/.html/.err} ${TIDYCFG} ${TIDYENC} ${htmlfile} > ${htmlfile/.html/.xhtml} 2> ${htmlfile/.html/.terr}`
 			if [[ $? == 2 && ! -f "${htmlfile/.html/.xhtml}" ]]; then
 				mailreport "${CN} Schedule Process Failed" "Tidy error for carrier ${CNUM} failed: ${htmlfile}"
 				calldb "update sched_fetch set fetched=0,scheduleChanged=1,processError=\"FAILED\" where id=${CN};" "update with tidy result"
