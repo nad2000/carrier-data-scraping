@@ -44,3 +44,6 @@ opt/*
 *.md5
 *.mp4
 /*.xml
+*_.*html
+*_.xml
+

@@ -429,11 +429,7 @@ file_list = $(dirname $0)/${CNUM}.list
 for htmlfile in *.html ; do
 	if [ "${htmlfile}" == "*.html" ]; then continue; fi;
 
-	if [ -f "${file_list}" ] ; then
-		# file belongs to the valid file list:
-		fgrep $htmlfile >/dev/null ${file_list}
-		if [ $? -eq 0 ]; then continue; fi
-	fi
+	if [ -f "${file_list}" ] && grep -Fq $htmlfile ${file_list} ; then continue; fi
 
 	Changed=0
 	CURRDT=`date +'%R %D'`
