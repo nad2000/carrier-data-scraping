@@ -9,14 +9,14 @@
 	<!-- Port name trnaslations: -->
 	<xsl:variable name="ports-en">
 		<port name="***ORIGINAL***">*** English Name ***</port>
-		<port name="大 阪">Osaka; JP</port>
-		<port name="神 戸">Kobe; JP</port>
-		<port name="名 古 屋">Nagoya, Aichi; JP</port>
-		<port name="清 水">Shimizu; JP</port>
-		<port name="東 京">Tokyo; JP</port>
-		<port name="横 浜">Yokohama; JP</port>
-		<port name="青 島">Qingdao; CN</port>
-		<port name="上 海">Shanghai; CN</port>
+		<port name="大阪">Osaka; JP</port>
+		<port name="神戸">Kobe; JP</port>
+		<port name="名古屋">Nagoya, Aichi; JP</port>
+		<port name="清水">Shimizu; JP</port>
+		<port name="東京">Tokyo; JP</port>
+		<port name="横浜">Yokohama; JP</port>
+		<port name="青島">Qingdao; CN</port>
+		<port name="上海">Shanghai; CN</port>
 	</xsl:variable>
 
     <xsl:template match="/">
@@ -61,9 +61,9 @@
                     </xsl:call-template>
                 </xsl:attribute>
 
-                <xsl:apply-templates select="td[$xp+2]" mode="ports">
-                    <xsl:with-param name="xp" select="number($xp+2)" />
-                </xsl:apply-templates>
+				<xsl:apply-templates select="td[$xp+2]" mode="ports">
+					<xsl:with-param name="xp" select="number($xp+2)" />
+				</xsl:apply-templates>
             </vessel>
         </xsl:if>
 	</xsl:template>
@@ -73,6 +73,13 @@
 
         <xsl:variable name="pname">
             <xsl:choose>
+				<!-- @class ~ 'tur1{a|d}' -->
+				<xsl:when test="translate(../../tr[1]/td[$xp]/@class,'adtul0123456789','YY')='Y'">
+                    <xsl:value-of select="normalize-space(concat(
+							../../tr[1]/td[$xp],
+							../../tr[1]/td[$xp+1]
+							))" />
+				</xsl:when>
                 <xsl:when test="../../tr[1]/td[$xp]/br">
                     <xsl:value-of select="normalize-space(../../tr[1]/td[$xp]/node()[not(preceding-sibling::br)])" />
                 </xsl:when>
@@ -213,10 +220,10 @@
     <xsl:template name="fixportname">
         <xsl:param name="pname">Blank</xsl:param>
         <xsl:variable name="pname1" select="normalize-space(translate($pname,'&#160;&#12288;','  '))" />
-        <xsl:variable name="pname2" select="normalize-space(translate($pname,'　',''))" />
-		<xsl:variable name="port-en" select="document('')//xsl:variable[@name='ports-en']/*[@name=$pname1]" />
+        <xsl:variable name="pname2" select="translate($pname1,' ','')" />
+		<xsl:variable name="port-en" select="document('')//xsl:variable[@name='ports-en']/*[@name=$pname2]" />
         <xsl:if test="$port-en"><xsl:value-of select="$port-en" /> / </xsl:if>
-        <xsl:value-of select="$pname1" />
+        <xsl:value-of select="$pname2" />
     </xsl:template>
 
     <xsl:template name="fixdatestring">
