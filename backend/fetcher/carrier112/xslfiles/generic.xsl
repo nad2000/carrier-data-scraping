@@ -19,14 +19,28 @@
 		<port name="上海">Shanghai; CN</port>
 	</xsl:variable>
 
+	<!-- Header line: -->
+	<xsl:variable name="hl" select="//tr[@class='ttu']" />
+
+	<!-- Source file base name: -->
+    <xsl:variable name="basename" select="normalize-space(substring-before($htmlfilename, '.'))"/>
+
+	<!-- Route name: -->
+    <xsl:variable name="route">
+        <xsl:choose>
+            <xsl:when test="$basename = 'schedulef'">Kansai Line</xsl:when>
+            <xsl:when test="$basename = 'schedulef2'">Kanto Line</xsl:when>
+            <xsl:when test="$basename = 'schedulef3'">Chubu Line</xsl:when>
+			<xsl:when test="$basename = 'schedulefq'">Qingdao Line</xsl:when>
+            <xsl:otherwise><xsl:value-of select="$basename" /></xsl:otherwise>
+        </xsl:choose>
+	</xsl:variable>
+
     <xsl:template match="/">
         <schedules>
+			<!-- xsl:copy-of select="$ports" / -->
 			<schedule>
-				<route>
-					<xsl:call-template name="fixroutename">
-						<xsl:with-param name="name" select="$htmlfilename" />
-					</xsl:call-template>
-				</route>
+				<route><xsl:value-of select="$route" /></route>
 				<xsl:apply-templates select="(//table[1]/tr/td[contains(., 'VESSEL')])[1]" mode="vessels" />
 		</schedule>
         </schedules>
@@ -50,10 +64,7 @@
         </xsl:variable>
 
         <xsl:if test="$vname != ''">
-            <vessel>
-                <xsl:attribute name="name">
-                    <xsl:value-of select="$vname" />
-                </xsl:attribute>
+            <vessel name="{$vname}">
 
                 <xsl:attribute name="voyage">
                     <xsl:call-template name="fixvoyagestring">
@@ -61,11 +72,64 @@
                     </xsl:call-template>
                 </xsl:attribute>
 
-				<xsl:apply-templates select="td[$xp+2]" mode="ports">
-					<xsl:with-param name="xp" select="number($xp+2)" />
-				</xsl:apply-templates>
+				<xsl:choose>
+					<xsl:when test="starts-with($basename,'schedulefq')">
+
+						<xsl:call-template name="porttagq">
+							<xsl:with-param name="pname" select="$hl/td[3]" />
+							<xsl:with-param name="eta" select="td[$xp+2]" />
+						</xsl:call-template>
+						<xsl:call-template name="porttagq">
+							<xsl:with-param name="pname" select="concat($hl/td[4],$hl/td[5])" />
+							<xsl:with-param name="eta" select="td[$xp+3]" />
+						</xsl:call-template>
+						<xsl:call-template name="porttagq">
+							<xsl:with-param name="pname" select="concat($hl/td[6],$hl/td[7])" />
+							<xsl:with-param name="eta" select="td[$xp+5]" />
+						</xsl:call-template>
+						<xsl:call-template name="porttagq">
+							<xsl:with-param name="pname" select="$hl/td[8]" />
+							<xsl:with-param name="eta" select="td[$xp+7]" />
+						</xsl:call-template>
+						<xsl:call-template name="porttagq">
+							<xsl:with-param name="pname" select="concat($hl/td[9],$hl/td[10])" />
+							<xsl:with-param name="eta" select="td[$xp+9]" />
+						</xsl:call-template>
+						<xsl:call-template name="porttagq">
+							<xsl:with-param name="pname" select="concat($hl/td[11],$hl/td[12])" />
+							<xsl:with-param name="eta" select="td[$xp+11]" />
+						</xsl:call-template>
+						<xsl:call-template name="porttagq">
+							<xsl:with-param name="pname" select="$hl/td[13]" />
+							<xsl:with-param name="eta" select="td[$xp+13]" />
+						</xsl:call-template>
+
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:apply-templates select="td[$xp+2]" mode="ports">
+							<xsl:with-param name="xp" select="number($xp+2)" />
+						</xsl:apply-templates>
+					</xsl:otherwise>
+				</xsl:choose>
             </vessel>
         </xsl:if>
+	</xsl:template>
+
+	<xsl:template name="porttagq" >
+		<xsl:param name="pname" />
+		<xsl:param name="eta" />
+		<xsl:if test="not(translate($eta,' -','')='')">
+			<port>
+				<xsl:attribute name="name">
+					<xsl:call-template name="fixportname">
+						<xsl:with-param name="pname" select="$pname" />
+					</xsl:call-template>
+				</xsl:attribute>
+				<xsl:call-template name="fixdatestring">
+					<xsl:with-param name="dstr" select="$eta" />
+				</xsl:call-template>
+			</port>
+		</xsl:if>
 	</xsl:template>
 
     <xsl:template match="td" mode="ports">
@@ -73,7 +137,7 @@
 
         <xsl:variable name="pname">
             <xsl:choose>
-				<!-- @class ~ 'tur1{a|d}' -->
+				<!-- @class ~ 'tur1[0-9]{a|d}' -->
 				<xsl:when test="translate(../../tr[1]/td[$xp]/@class,'adtul0123456789','YY')='Y'">
                     <xsl:value-of select="normalize-space(concat(
 							../../tr[1]/td[$xp],
@@ -91,7 +155,7 @@
 
         <!-- deal with various date variants - either single date, or two dates, or date interval (which can reside in single cell or in two adjacent cells -->
         <xsl:choose>
-            <xsl:when test="../../tr[1]/td[$xp]/@colspan">
+            <xsl:when test="$hl/td[$xp]/@colspan">
                 <xsl:variable name="pdate1">
                     <xsl:call-template name="fixdatestring">
                         <xsl:with-param name="dstr" select="." />
@@ -189,19 +253,6 @@
                     <xsl:value-of select="$pdate2" />
                 </port>
             </xsl:when>
-        </xsl:choose>
-    </xsl:template>
-
-    <xsl:template name="fixroutename">
-        <xsl:param name="name">TBA</xsl:param>
-        <xsl:variable name="nm1" select="normalize-space(substring-before($name, '.'))"/>
-        <xsl:choose>
-            <xsl:when test="$nm1 = 'schedulef'">Kansai Line</xsl:when>
-            <xsl:when test="$nm1 = 'schedulef2'">Kanto Line</xsl:when>
-            <xsl:when test="$nm1 = 'schedulef3'">Chubu Line</xsl:when>
-			<xsl:when test="$nm1 = 'schedulefq'">Qingdao Line</xsl:when>
-
-            <xsl:otherwise><xsl:value-of select="$nm1" /></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
