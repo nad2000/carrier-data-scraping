@@ -443,13 +443,9 @@ for htmlfile in *.html ; do
 			# find any specific Tidy config file
 			TIDYCFG="";
 			if [ -e ../tidy.config ]; then TIDYCFG="-config ../tidy.config "; fi;
-			# carrier112 file encoded with Shift_JIS:
-			if [ "${CN}" == "112" ] && grep -Fiq shift_jis ${htmlfile}
-			then
-				# Back-up:
-				mv ${htmlfile} ${htmlfile/.html/_shiftjis.html}
-				iconv -f SHIFT-JIS -t UTF-8 ${htmlfile/.html/_shiftjis.html} > ${htmlfile}
-				sed -i 's/"text\/html; charset=shift_jis"/"text\/html; charset=utf-8"/I' ${htmlfile}
+			# carrier112 file encoded with UTF-8:
+			unset TIDYENC
+			if [ "${CN}" == "112" ] ; then
 				TIDYENC="--input-encoding utf8"
 			fi
 			TMP=`tidy -asxhtml -f ${htmlfile/.html/.err} ${TIDYCFG} ${TIDYENC} ${htmlfile} > ${htmlfile/.html/.xhtml} 2> ${htmlfile/.html/.terr}`
