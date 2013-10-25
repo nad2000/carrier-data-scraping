@@ -47,3 +47,5 @@ opt/*
 *_.*html
 *_.xml
 
+*.htm
+output/
