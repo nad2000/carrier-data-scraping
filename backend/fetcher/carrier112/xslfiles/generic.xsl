@@ -20,7 +20,7 @@
 	</xsl:variable>
 
 	<!-- Header line: -->
-	<xsl:variable name="hl" select="//tr[@class='ttu']" />
+	<xsl:variable name="hl" select="//tr[@class='ttu' or 1]" />
 
 	<!-- Source file base name: -->
     <xsl:variable name="basename" select="normalize-space(substring-before($htmlfilename, '.'))"/>
@@ -76,33 +76,53 @@
 				<xsl:choose>
 					<xsl:when test="starts-with($basename,'schedulefq')">
 
-						<xsl:call-template name="porttagq">
+						<xsl:call-template name="porttagP">
 							<xsl:with-param name="pname" select="$hl/td[3]" />
 							<xsl:with-param name="eta" select="td[$xp+2]" />
 						</xsl:call-template>
-						<xsl:call-template name="porttagq">
+						<xsl:call-template name="porttagP">
 							<xsl:with-param name="pname" select="concat($hl/td[4],$hl/td[5])" />
 							<xsl:with-param name="eta" select="td[$xp+3]" />
 						</xsl:call-template>
-						<xsl:call-template name="porttagq">
+						<xsl:call-template name="porttagP">
 							<xsl:with-param name="pname" select="concat($hl/td[6],$hl/td[7])" />
 							<xsl:with-param name="eta" select="td[$xp+5]" />
 						</xsl:call-template>
-						<xsl:call-template name="porttagq">
+						<xsl:call-template name="porttagP">
 							<xsl:with-param name="pname" select="$hl/td[8]" />
 							<xsl:with-param name="eta" select="td[$xp+7]" />
 						</xsl:call-template>
-						<xsl:call-template name="porttagq">
+						<xsl:call-template name="porttagP">
 							<xsl:with-param name="pname" select="concat($hl/td[9],$hl/td[10])" />
 							<xsl:with-param name="eta" select="td[$xp+9]" />
 						</xsl:call-template>
-						<xsl:call-template name="porttagq">
+						<xsl:call-template name="porttagP">
 							<xsl:with-param name="pname" select="concat($hl/td[11],$hl/td[12])" />
 							<xsl:with-param name="eta" select="td[$xp+11]" />
 						</xsl:call-template>
-						<xsl:call-template name="porttagq">
+						<xsl:call-template name="porttagP">
 							<xsl:with-param name="pname" select="$hl/td[13]" />
 							<xsl:with-param name="eta" select="td[$xp+13]" />
+						</xsl:call-template>
+
+					</xsl:when>
+					<xsl:when test="starts-with($basename,'schedulef2') or starts-with($basename,'schedulef3')">
+
+						<xsl:call-template name="porttagP">
+							<xsl:with-param name="pname" select="$hl/td[4]/node()[not(preceding-sibling::br)]" />
+							<xsl:with-param name="eta" select="td[$xp+2]" />
+						</xsl:call-template>
+						<xsl:call-template name="porttagP">
+							<xsl:with-param name="pname" select="$hl/td[5]/node()[not(preceding-sibling::br)]" />
+							<xsl:with-param name="eta" select="td[$xp+3]" />
+						</xsl:call-template>
+						<xsl:call-template name="porttagP">
+							<xsl:with-param name="pname" select="$hl/td[6]/node()[not(preceding-sibling::br)]" />
+							<xsl:with-param name="eta" select="td[$xp+5]" />
+						</xsl:call-template>
+						<xsl:call-template name="porttagP">
+							<xsl:with-param name="pname" select="$hl/td[7]/node()[not(preceding-sibling::br)]" />
+							<xsl:with-param name="eta" select="td[$xp+7]" />
 						</xsl:call-template>
 
 					</xsl:when>
@@ -116,7 +136,7 @@
         </xsl:if>
 	</xsl:template>
 
-	<xsl:template name="porttagq" >
+	<xsl:template name="porttagP" >
 		<xsl:param name="pname" />
 		<xsl:param name="eta" />
 		<xsl:if test="not(translate($eta,' -','')='')">
