@@ -1,36 +1,40 @@
-ERROR: Port Lookup Failed: �� �C
+ERROR: Port Lookup Failed: Shanghai; CN / 上海
 
-ERROR: Port Lookup Failed: �� �@��
+ERROR: Port Lookup Failed: Tokyo; JP / 東京
 
-ERROR: Port Lookup Failed: �� �@�l
+ERROR: Port Lookup Failed: Yokohama; JP / 横浜
 
-ERROR: Port Lookup Failed: �� �@�C
+ERROR: Port Lookup Failed: 
 
 Directory: /home/tarisoga.com/backend/fetcher/carrier112/latest File: schedulef2.xml
-ERROR: Port Lookup Failed: �� �C
+ERROR: Port Lookup Failed: Shanghai; CN / 上海
 
-ERROR: Port Lookup Failed: ���@�Á@��
+ERROR: Port Lookup Failed: Nagoya, Aichi; JP / 名古屋
 
-ERROR: Port Lookup Failed: ���@�@��
+ERROR: Port Lookup Failed: Shimizu; JP / 清水
 
-ERROR: Port Lookup Failed: ��@�@�C
+ERROR: Port Lookup Failed: 
 
 Directory: /home/tarisoga.com/backend/fetcher/carrier112/latest File: schedulef3.xml
-ERROR: Port Lookup Failed: �@��
+ERROR: Port Lookup Failed: Qingdao; CN / 青島
 
-ERROR: Port Lookup Failed: ��
+ERROR: Port Lookup Failed: Osaka; JP / 大阪
 
-ERROR: Port Lookup Failed: �_
+ERROR: Port Lookup Failed: Kobe; JP / 神戸
 
-ERROR: Port Lookup Failed: �� �� ��
+ERROR: Port Lookup Failed: Nagoya, Aichi; JP / 名古屋
 
-ERROR: Port Lookup Failed: �l
+ERROR: Port Lookup Failed: Tokyo; JP / 東京
+
+ERROR: Port Lookup Failed: Yokohama; JP / 横浜
 
 Directory: /home/tarisoga.com/backend/fetcher/carrier112/latest File: schedulefq.xml
-ERROR: Port Lookup Failed: ��@�C
+ERROR: Port Lookup Failed: Shanghai; CN / 上海
 
-ERROR: Port Lookup Failed: �� ��
+ERROR: Port Lookup Failed: Osaka; JP / 大阪
 
-ERROR: Port Lookup Failed: �_ ��
+ERROR: Port Lookup Failed: Kobe; JP / 神戸
+
+ERROR: Port Lookup Failed: 
 
 Directory: /home/tarisoga.com/backend/fetcher/carrier112/latest File: schedulef.xml

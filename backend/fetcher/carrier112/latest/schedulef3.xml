@@ -1,92 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedules>
   <schedule>
-    <route>schedulef3</route>
-    <vessel name="CHUN JIN" voyage="1336">
-      <port name="�� �C">9/13</port>
-      <port name="���@�Á@��">9/16 </port>
-      <port name="���@�Á@��">09/16</port>
-      <port name="���@�@��">9/17 </port>
-      <port name="���@�@��">09/17</port>
-      <port name="��@�@�C">9/19</port>
+    <route>Chubu Line</route>
+    <vessel name="HENG YU" voyage="1335">
+      <port name="Shanghai; CN">10/4</port>
+      <port name="Nagoya, Aichi; JP">10/8</port>
+      <port name="Shimizu; JP">-9</port>
+      <port name="Shanghai; CN">-</port>
     </vessel>
-    <vessel name="QIU JIN" voyage="1337">
-      <port name="�� �C">9/17</port>
-      <port name="���@�Á@��">9/19 </port>
-      <port name="���@�Á@��">09/20</port>
-      <port name="���@�@��">9/20 </port>
-      <port name="���@�@��">09/20</port>
-      <port name="��@�@�C">9/23</port>
-    </vessel>
-    <vessel name="CHUN JIN" voyage="1337">
-      <port name="�� �C">9/20</port>
-      <port name="���@�Á@��">9/23 </port>
-      <port name="���@�Á@��">09/23</port>
-      <port name="���@�@��">9/24 </port>
-      <port name="���@�@��">09/24</port>
-      <port name="��@�@�C">9/26</port>
-    </vessel>
-    <vessel name="QIU JIN" voyage="1338">
-      <port name="�� �C">9/24</port>
-      <port name="���@�Á@��">9/26 </port>
-      <port name="���@�Á@��">09/27</port>
-      <port name="���@�@��">9/27 </port>
-      <port name="���@�@��">09/27</port>
-      <port name="��@�@�C">9/30</port>
-    </vessel>
-    <vessel name="CHUN JIN" voyage="1338">
-      <port name="�� �C">9/27</port>
-      <port name="���@�Á@��">9/30 </port>
-      <port name="���@�Á@��">09/30</port>
-      <port name="���@�@��">10/1 </port>
-      <port name="���@�@��">10/1</port>
-      <port name="��@�@�C">10/3</port>
-    </vessel>
-    <vessel name="QIU JIN" voyage="1339">
-      <port name="�� �C">10/1</port>
-      <port name="���@�Á@��">10/3 </port>
-      <port name="���@�Á@��">10/4</port>
-      <port name="���@�@��">10/4 </port>
-      <port name="���@�@��">10/4</port>
-      <port name="��@�@�C">10/7</port>
+    <vessel name="JJ SUN" voyage="1339">
+      <port name="Shanghai; CN">10/4</port>
+      <port name="Nagoya, Aichi; JP">-</port>
+      <port name="Shimizu; JP"/>
+      <port name="Shanghai; CN">10/8</port>
     </vessel>
     <vessel name="CHUN JIN" voyage="1339">
-      <port name="�� �C">10/4</port>
-      <port name="���@�Á@��">10/7 </port>
-      <port name="���@�Á@��">10/7</port>
-      <port name="���@�@��">10/8 </port>
-      <port name="���@�@��">10/8</port>
-      <port name="��@�@�C">10/10</port>
+      <port name="Shanghai; CN">10/8</port>
+      <port name="Nagoya, Aichi; JP">10/10</port>
+      <port name="Shimizu; JP">-11</port>
+      <port name="Shanghai; CN">10/11</port>
     </vessel>
     <vessel name="QIU JIN" voyage="1340">
-      <port name="�� �C">10/8</port>
-      <port name="���@�Á@��">10/10</port>
-      <port name="���@�Á@��">10/11</port>
-      <port name="���@�@��">10/11</port>
-      <port name="���@�@��">10/11</port>
-      <port name="��@�@�C">10/14</port>
+      <port name="Shanghai; CN">10/11</port>
+      <port name="Nagoya, Aichi; JP">10/14</port>
+      <port name="Shimizu; JP">-14</port>
+      <port name="Shanghai; CN">10/15</port>
     </vessel>
     <vessel name="CHUN JIN" voyage="1340">
-      <port name="�� �C">10/11</port>
-      <port name="���@�Á@��">10/14</port>
-      <port name="���@�Á@��">10/14</port>
-      <port name="���@�@��">10/15</port>
-      <port name="���@�@��">10/15</port>
-      <port name="��@�@�C">10/17</port>
+      <port name="Shanghai; CN">10/15</port>
+      <port name="Nagoya, Aichi; JP">10/17</port>
+      <port name="Shimizu; JP">-18</port>
+      <port name="Shanghai; CN">10/18</port>
     </vessel>
     <vessel name="QIU JIN" voyage="1341">
-      <port name="�� �C">10/15</port>
-      <port name="���@�Á@��">10/17</port>
-      <port name="���@�Á@��">10/18</port>
-      <port name="���@�@��">10/18</port>
-      <port name="���@�@��">10/18</port>
-      <port name="��@�@�C">10/21</port>
+      <port name="Shanghai; CN">10/18</port>
+      <port name="Nagoya, Aichi; JP">10/21</port>
+      <port name="Shimizu; JP">-21</port>
+      <port name="Shanghai; CN">10/22</port>
     </vessel>
-    <vessel name="�@" voyage="�@">
-      <port name="�� �C"/>
-      <port name="���@�Á@��"/>
-      <port name="���@�@��"/>
-      <port name="��@�@�C"/>
+    <vessel name="CHUN JIN" voyage="1341">
+      <port name="Shanghai; CN">10/22</port>
+      <port name="Nagoya, Aichi; JP">10/24</port>
+      <port name="Shimizu; JP">-25</port>
+      <port name="Shanghai; CN">10/25</port>
+    </vessel>
+    <vessel name="QIU JIN" voyage="1342">
+      <port name="Shanghai; CN">10/25</port>
+      <port name="Nagoya, Aichi; JP">10/28</port>
+      <port name="Shimizu; JP">-28</port>
+      <port name="Shanghai; CN">10/29</port>
+    </vessel>
+    <vessel name="CHUN JIN" voyage="1342">
+      <port name="Shanghai; CN">10/29</port>
+      <port name="Nagoya, Aichi; JP">10/31</port>
+      <port name="Shimizu; JP">-1</port>
+      <port name="Shanghai; CN">11/1</port>
+    </vessel>
+    <vessel name="QIU JIN" voyage="1343">
+      <port name="Shanghai; CN">11/1</port>
+      <port name="Nagoya, Aichi; JP">11/4</port>
+      <port name="Shimizu; JP">-4</port>
+      <port name="Shanghai; CN">11/5</port>
+    </vessel>
+    <vessel name="CHUN JIN" voyage="1343">
+      <port name="Shanghai; CN">11/5</port>
+      <port name="Nagoya, Aichi; JP">11/7</port>
+      <port name="Shimizu; JP">-8</port>
+      <port name="Shanghai; CN">11/8</port>
+    </vessel>
+    <vessel name="QIU JIN" voyage="1344">
+      <port name="Shanghai; CN">11/8</port>
+      <port name="Nagoya, Aichi; JP">11/11</port>
+      <port name="Shimizu; JP">-11</port>
+      <port name="Shanghai; CN">11/12</port>
+    </vessel>
+    <vessel name="CHUN JIN" voyage="1344">
+      <port name="Shanghai; CN">11/12</port>
+      <port name="Nagoya, Aichi; JP">11/14</port>
+      <port name="Shimizu; JP">-15</port>
+      <port name="Shanghai; CN">11/15</port>
     </vessel>
   </schedule>
 </schedules>

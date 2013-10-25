@@ -1,86 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schedules>
   <schedule>
-    <route/>
-    <vessel name="JJ SKY" voyage="1336">
-      <port name="Shanghai; CN / 上 海">9/13</port>
-      <port name="Tokyo; JP / 東 京">9/16 </port>
-      <port name="Tokyo; JP / 東 京">09/16</port>
-      <port name="Yokohama; JP / 横 浜">9/16 </port>
-      <port name="Yokohama; JP / 横 浜">09/17</port>
-      <port name="Shanghai; CN / 上 海">9/19</port>
-    </vessel>
-    <vessel name="JJ STAR" voyage="1337">
-      <port name="Shanghai; CN / 上 海">9/16</port>
-      <port name="Tokyo; JP / 東 京">9/19 </port>
-      <port name="Tokyo; JP / 東 京">09/19</port>
-      <port name="Yokohama; JP / 横 浜">9/19 </port>
-      <port name="Yokohama; JP / 横 浜">09/20</port>
-      <port name="Shanghai; CN / 上 海">9/22</port>
-    </vessel>
-    <vessel name="JJ SKY" voyage="1337">
-      <port name="Shanghai; CN / 上 海">9/20</port>
-      <port name="Tokyo; JP / 東 京">9/23 </port>
-      <port name="Tokyo; JP / 東 京">09/23</port>
-      <port name="Yokohama; JP / 横 浜">9/23 </port>
-      <port name="Yokohama; JP / 横 浜">09/24</port>
-      <port name="Shanghai; CN / 上 海">9/26</port>
-    </vessel>
-    <vessel name="JJ STAR" voyage="1338">
-      <port name="Shanghai; CN / 上 海">9/23</port>
-      <port name="Tokyo; JP / 東 京">9/26 </port>
-      <port name="Tokyo; JP / 東 京">09/26</port>
-      <port name="Yokohama; JP / 横 浜">9/26 </port>
-      <port name="Yokohama; JP / 横 浜">09/27</port>
-      <port name="Shanghai; CN / 上 海">9/29</port>
-    </vessel>
-    <vessel name="JJ SKY" voyage="1338">
-      <port name="Shanghai; CN / 上 海">9/27</port>
-      <port name="Tokyo; JP / 東 京">9/30 </port>
-      <port name="Tokyo; JP / 東 京">09/30</port>
-      <port name="Yokohama; JP / 横 浜">9/30 </port>
-      <port name="Yokohama; JP / 横 浜">10/1</port>
-      <port name="Shanghai; CN / 上 海">10/3</port>
-    </vessel>
-    <vessel name="JJ STAR" voyage="1339">
-      <port name="Shanghai; CN / 上 海">9/30</port>
-      <port name="Tokyo; JP / 東 京">10/3 </port>
-      <port name="Tokyo; JP / 東 京">10/3</port>
-      <port name="Yokohama; JP / 横 浜">10/3 </port>
-      <port name="Yokohama; JP / 横 浜">10/4</port>
-      <port name="Shanghai; CN / 上 海">10/6</port>
-    </vessel>
-    <vessel name="JJ SKY" voyage="1339">
-      <port name="Shanghai; CN / 上 海">10/4</port>
-      <port name="Tokyo; JP / 東 京">10/7 </port>
-      <port name="Tokyo; JP / 東 京">10/7</port>
-      <port name="Yokohama; JP / 横 浜">10/7 </port>
-      <port name="Yokohama; JP / 横 浜">10/8</port>
-      <port name="Shanghai; CN / 上 海">10/10</port>
+    <route>Kanto Line</route>
+    <vessel name="JJ SUN" voyage="1339">
+      <port name="Shanghai; CN">10/4</port>
+      <port name="Tokyo; JP">10/7</port>
+      <port name="Yokohama; JP">-7</port>
+      <port name="Shanghai; CN">10/7</port>
     </vessel>
     <vessel name="JJ STAR" voyage="1340">
-      <port name="Shanghai; CN / 上 海">10/7</port>
-      <port name="Tokyo; JP / 東 京">10/10</port>
-      <port name="Tokyo; JP / 東 京">10/10</port>
-      <port name="Yokohama; JP / 横 浜">10/10</port>
-      <port name="Yokohama; JP / 横 浜">10/11</port>
-      <port name="Shanghai; CN / 上 海">10/13</port>
+      <port name="Shanghai; CN">10/7</port>
+      <port name="Tokyo; JP">10/10</port>
+      <port name="Yokohama; JP">-10</port>
+      <port name="Shanghai; CN">10/10</port>
     </vessel>
-    <vessel name="JJ SKY" voyage="1340">
-      <port name="Shanghai; CN / 上 海">10/11</port>
-      <port name="Tokyo; JP / 東 京">10/14</port>
-      <port name="Tokyo; JP / 東 京">10/14</port>
-      <port name="Yokohama; JP / 横 浜">10/14</port>
-      <port name="Yokohama; JP / 横 浜">10/15</port>
-      <port name="Shanghai; CN / 上 海">10/17</port>
+    <vessel name="JJ SKY" voyage="1339">
+      <port name="Shanghai; CN">10/11</port>
+      <port name="Tokyo; JP">10/14</port>
+      <port name="Yokohama; JP">-14</port>
+      <port name="Shanghai; CN">10/14</port>
     </vessel>
     <vessel name="JJ STAR" voyage="1341">
-      <port name="Shanghai; CN / 上 海">10/14</port>
-      <port name="Tokyo; JP / 東 京">10/17</port>
-      <port name="Tokyo; JP / 東 京">10/17</port>
-      <port name="Yokohama; JP / 横 浜">10/17</port>
-      <port name="Yokohama; JP / 横 浜">10/18</port>
-      <port name="Shanghai; CN / 上 海">10/20</port>
+      <port name="Shanghai; CN">10/14</port>
+      <port name="Tokyo; JP">10/17</port>
+      <port name="Yokohama; JP">-17</port>
+      <port name="Shanghai; CN">10/17</port>
+    </vessel>
+    <vessel name="JJ SKY" voyage="1340">
+      <port name="Shanghai; CN">10/18</port>
+      <port name="Tokyo; JP">10/21</port>
+      <port name="Yokohama; JP">-21</port>
+      <port name="Shanghai; CN">10/21</port>
+    </vessel>
+    <vessel name="JJ STAR" voyage="1342">
+      <port name="Shanghai; CN">10/21</port>
+      <port name="Tokyo; JP">10/24</port>
+      <port name="Yokohama; JP">-24</port>
+      <port name="Shanghai; CN">10/24</port>
+    </vessel>
+    <vessel name="JJ SKY" voyage="1341">
+      <port name="Shanghai; CN">10/25</port>
+      <port name="Tokyo; JP">10/28</port>
+      <port name="Yokohama; JP">-28</port>
+      <port name="Shanghai; CN">10/28</port>
+    </vessel>
+    <vessel name="JJ STAR" voyage="1343">
+      <port name="Shanghai; CN">10/28</port>
+      <port name="Tokyo; JP">10/31</port>
+      <port name="Yokohama; JP">-31</port>
+      <port name="Shanghai; CN">10/31</port>
+    </vessel>
+    <vessel name="JJ SKY" voyage="1342">
+      <port name="Shanghai; CN">11/1</port>
+      <port name="Tokyo; JP">11/4</port>
+      <port name="Yokohama; JP">-4</port>
+      <port name="Shanghai; CN">11/4</port>
+    </vessel>
+    <vessel name="JJ STAR" voyage="1344">
+      <port name="Shanghai; CN">11/4</port>
+      <port name="Tokyo; JP">11/7</port>
+      <port name="Yokohama; JP">-7</port>
+      <port name="Shanghai; CN">11/7</port>
+    </vessel>
+    <vessel name="JJ SKY" voyage="1343">
+      <port name="Shanghai; CN">11/8</port>
+      <port name="Tokyo; JP">11/11</port>
+      <port name="Yokohama; JP">-11</port>
+      <port name="Shanghai; CN">11/11</port>
+    </vessel>
+    <vessel name="JJ STAR" voyage="1345">
+      <port name="Shanghai; CN">11/11</port>
+      <port name="Tokyo; JP">11/14</port>
+      <port name="Yokohama; JP">-14</port>
+      <port name="Shanghai; CN">11/14</port>
     </vessel>
   </schedule>
 </schedules>

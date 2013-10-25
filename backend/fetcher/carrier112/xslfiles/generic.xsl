@@ -63,7 +63,8 @@
             </xsl:call-template>
         </xsl:variable>
 
-        <xsl:if test="$vname != ''">
+        <xsl:if test="$vname!=''">
+
             <vessel name="{$vname}">
 
                 <xsl:attribute name="voyage">
@@ -198,62 +199,64 @@
         <xsl:param name="pname">TBA</xsl:param>
         <xsl:param name="pdate">Blank</xsl:param>
 
-        <xsl:variable name="pdate1" select="substring($pdate, 1, 5)" />
-        <xsl:variable name="pdate2" select="normalize-space(substring($pdate, 6))" />
+		<xsl:if test="$pname != ''">
+			<xsl:variable name="pdate1" select="substring($pdate, 1, 5)" />
+			<xsl:variable name="pdate2" select="normalize-space(substring($pdate, 6))" />
 
-        <port>
-            <xsl:attribute name="name">
-                <xsl:call-template name="fixportname">
-                    <xsl:with-param name="pname" select="$pname" />
-                </xsl:call-template>
-            </xsl:attribute>
-            
-            <xsl:value-of select="$pdate1" />
-        </port>
+			<port>
+				<xsl:attribute name="name">
+					<xsl:call-template name="fixportname">
+						<xsl:with-param name="pname" select="$pname" />
+					</xsl:call-template>
+				</xsl:attribute>
+				
+				<xsl:value-of select="$pdate1" />
+			</port>
 
-        <xsl:choose>
-            <xsl:when test="starts-with($pdate2, '-')">
-                <xsl:variable name="fmon" select="number(substring-before($pdate1, '/'))" />
-                <xsl:variable name="fday" select="number(substring-after($pdate1, '/'))" />
-                <xsl:variable name="sday" select="normalize-space(substring-after($pdate2, '-'))" />
+			<xsl:choose>
+				<xsl:when test="starts-with($pdate2, '-')">
+					<xsl:variable name="fmon" select="number(substring-before($pdate1, '/'))" />
+					<xsl:variable name="fday" select="number(substring-after($pdate1, '/'))" />
+					<xsl:variable name="sday" select="normalize-space(substring-after($pdate2, '-'))" />
 
-                <port>
-                    <xsl:attribute name="name">
-                        <xsl:call-template name="fixportname">
-                            <xsl:with-param name="pname" select="$pname" />
-                        </xsl:call-template>
-                    </xsl:attribute>
-                    
-                    <xsl:choose>
-                        <xsl:when test="number($sday) &gt;= $fday">
-                            <xsl:choose>
-                                <xsl:when test="$fmon &lt; 10"><xsl:value-of select="concat('0', $fmon, '/', $sday)" /></xsl:when>
-                                <xsl:otherwise><xsl:value-of select="concat($fmon, '/', $sday)" /></xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:choose>
-                                <xsl:when test="$fmon &lt; 9"><xsl:value-of select="concat('0', ($fmon + 1), '/', $sday)" /></xsl:when>
-                                <xsl:when test="$fmon &lt; 12"><xsl:value-of select="concat(($fmon + 1), '/', $sday)" /></xsl:when>
-                                <xsl:otherwise><xsl:value-of select="concat('01/', $sday)" /></xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </port>
-            </xsl:when>
+					<port>
+						<xsl:attribute name="name">
+							<xsl:call-template name="fixportname">
+								<xsl:with-param name="pname" select="$pname" />
+							</xsl:call-template>
+						</xsl:attribute>
+						
+						<xsl:choose>
+							<xsl:when test="number($sday) &gt;= $fday">
+								<xsl:choose>
+									<xsl:when test="$fmon &lt; 10"><xsl:value-of select="concat('0', $fmon, '/', $sday)" /></xsl:when>
+									<xsl:otherwise><xsl:value-of select="concat($fmon, '/', $sday)" /></xsl:otherwise>
+								</xsl:choose>
+							</xsl:when>
+							<xsl:otherwise>
+								<xsl:choose>
+									<xsl:when test="$fmon &lt; 9"><xsl:value-of select="concat('0', ($fmon + 1), '/', $sday)" /></xsl:when>
+									<xsl:when test="$fmon &lt; 12"><xsl:value-of select="concat(($fmon + 1), '/', $sday)" /></xsl:when>
+									<xsl:otherwise><xsl:value-of select="concat('01/', $sday)" /></xsl:otherwise>
+								</xsl:choose>
+							</xsl:otherwise>
+						</xsl:choose>
+					</port>
+				</xsl:when>
 
-            <xsl:when test="contains($pdate2, '/')">
-                <port>
-                    <xsl:attribute name="name">
-                        <xsl:call-template name="fixportname">
-                            <xsl:with-param name="pname" select="$pname" />
-                        </xsl:call-template>
-                    </xsl:attribute>
-                    
-                    <xsl:value-of select="$pdate2" />
-                </port>
-            </xsl:when>
-        </xsl:choose>
+				<xsl:when test="contains($pdate2, '/')">
+					<port>
+						<xsl:attribute name="name">
+							<xsl:call-template name="fixportname">
+								<xsl:with-param name="pname" select="$pname" />
+							</xsl:call-template>
+						</xsl:attribute>
+						
+						<xsl:value-of select="$pdate2" />
+					</port>
+				</xsl:when>
+			</xsl:choose>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template name="fixvesselname">
@@ -273,8 +276,10 @@
         <xsl:variable name="pname1" select="normalize-space(translate($pname,'&#160;&#12288;','  '))" />
         <xsl:variable name="pname2" select="translate($pname1,' ','')" />
 		<xsl:variable name="port-en" select="document('')//xsl:variable[@name='ports-en']/*[@name=$pname2]" />
-        <xsl:if test="$port-en"><xsl:value-of select="$port-en" /> / </xsl:if>
-        <xsl:value-of select="$pname2" />
+		<xsl:choose>
+			<xsl:when test="$port-en"><xsl:value-of select="$port-en" /></xsl:when>
+			<xsl:otherwise><xsl:value-of select="$pname2" /></xsl:otherwise>
+		</xsl:choose>
     </xsl:template>
 
     <xsl:template name="fixdatestring">

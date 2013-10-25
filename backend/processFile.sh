@@ -443,12 +443,7 @@ for htmlfile in *.html ; do
 			# find any specific Tidy config file
 			TIDYCFG="";
 			if [ -e ../tidy.config ]; then TIDYCFG="-config ../tidy.config "; fi;
-			# carrier112 file encoded with UTF-8:
-			unset TIDYENC
-			if [ "${CN}" == "112" ] ; then
-				TIDYENC="--input-encoding utf8"
-			fi
-			TMP=`tidy -asxhtml -f ${htmlfile/.html/.err} ${TIDYCFG} ${TIDYENC} ${htmlfile} > ${htmlfile/.html/.xhtml} 2> ${htmlfile/.html/.terr}`
+			TMP=`tidy -asxhtml -f ${htmlfile/.html/.err} ${TIDYCFG} ${htmlfile} > ${htmlfile/.html/.xhtml} 2> ${htmlfile/.html/.terr}`
 			if [[ $? == 2 && ! -f "${htmlfile/.html/.xhtml}" ]]; then
 				mailreport "${CN} Schedule Process Failed" "Tidy error for carrier ${CNUM} failed: ${htmlfile}"
 				calldb "update sched_fetch set fetched=0,scheduleChanged=1,processError=\"FAILED\" where id=${CN};" "update with tidy result"
