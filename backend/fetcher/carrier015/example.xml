@@ -1,0 +1,45 @@
+<schedules>
+  <schedule>
+    <route code="BEN">BENGAZI SHUTTLE SERVICE</route>
+    <vessel name="ASPENDOS M" voyage="LIB10S13">
+      <port name="IZMIR TRIZM"/>
+      <port name="IZMIR TRIZM"/>
+	  <port name="MARPORT TRMRD"/>
+	  <port name="MARPORT TRMRD"/>
+	  <port name="MARPORT TRMRM">09.08.2013</port>
+	  <port name="MARPORT TRMRM">09.08.2013</port>
+	  <port name="MARPORT TRMRD">09.08.2013</port>
+	  <port name="MARPORT TRMRD">10.08.2013</port>
+	  <port name="IZMIR TRIZM">11.08.2013</port>
+      <port name="IZMIR TRIZM">14.08.2013</port>
+	  <port name="BENGHAZI LYBEN">17.08.2013</port>
+      <port name="BENGHAZI LYBEN">21.08.2013</port>
+    </vessel>
+    <vessel name="ASPENDOS M" voyage="LIB10N13">
+	  <port name="BENGHAZI LYBEN">17.08.2013</port>
+      <port name="BENGHAZI LYBEN">21.08.2013</port>
+	  <port name="IZMIR TRIZM">23.08.2013</port>
+      <port name="IZMIR TRIZM">24.08.2013</port>
+	</vessel>
+    <vessel name="ASPENDOS M" voyage="LIB11S13">
+      <port name="IZMIR TRIZM">23.08.2013</port>
+      <port name="IZMIR TRIZM">24.08.2013</port>
+	  <port name="MARPORT TRMRD">24.08.2013</port>
+	  <port name="MARPORT TRMRD">24.08.2013</port>
+	  <port name="MARPORT TRMRM">25.08.2013</port>
+	  <port name="MARPORT TRMRM">26.08.2013</port>
+	  <port name="MARPORT TRMRD"/>
+	  <port name="MARPORT TRMRD"/>
+	  <port name="IZMIR TRIZM"/>
+      <port name="IZMIR TRIZM"/>
+	  <port name="BENGHAZI LYBEN">29.08.2013</port>
+      <port name="BENGHAZI LYBEN">02.09.2013</port>
+    </vessel>
+    <vessel name="ASPENDOS M" voyage="LIB11N13">
+	  <port name="BENGHAZI LYBEN">29.08.2013</port>
+      <port name="BENGHAZI LYBEN">02.09.2013</port>
+	  <port name="IZMIR TRIZM">05.09.2013</port>
+      <port name="IZMIR TRIZM">06.09.2013</port>
+	</vessel>	
+  </schedule>
+</schedules>
