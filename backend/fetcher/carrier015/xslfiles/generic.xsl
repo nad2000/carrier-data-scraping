@@ -20,13 +20,13 @@
                 </xsl:attribute>
                 <xsl:value-of select="normalize-space(head/title)" />
             </route>
-            <xsl:apply-templates select="body//table/tr[starts-with(normalize-space(th[1]), 'Vessel')]/th[position() &gt; 1]" />
+            <xsl:apply-templates select="//table[@class='ep_table']/thead/tr/th" />
         </schedule>
     </xsl:template>
 
     <xsl:template match="th">
         <xsl:variable name="xp" select="count(preceding-sibling::th)+1" />
-        <xsl:variable name="vesname" select="normalize-space(./text())" />
+        <xsl:variable name="vesname" select="normalize-space(.//span)" />
         <xsl:if test="$vesname != 'TBN'">
             <vessel>
                 <xsl:attribute name="name">
@@ -37,39 +37,35 @@
 
                 <xsl:attribute name="voyage">
                     <xsl:call-template name="fixvoyagestring">
-                        <xsl:with-param name="vstr" select="normalize-space(./descendant::node()[3])"/>
+                        <xsl:with-param name="vstr" select="normalize-space(./a[2])"/>
                     </xsl:call-template>
                 </xsl:attribute>
                 
-                <xsl:apply-templates select="../following-sibling::tr[1]">
+                <xsl:apply-templates select="../../following-sibling::tr" mode="port">
                     <xsl:with-param name="xp" select="$xp"/>
                 </xsl:apply-templates>
             </vessel>
         </xsl:if>
     </xsl:template>
 
-    <xsl:template match="tr">
+    <xsl:template match="tr" mode="port">
         <xsl:param name="xp">0</xsl:param>
-        <xsl:if test="not(th)">
-            <xsl:variable name="pdate" select="normalize-space(td[$xp])" />
-            <xsl:if test="$pdate != ''">
-                <port>
-                    <xsl:attribute name="name">
-                        <xsl:call-template name="fixportname">
-                            <xsl:with-param name="pname" select="td[1]"/>
-                        </xsl:call-template>
-                    </xsl:attribute>
 
-                    <xsl:call-template name="fixdatestring">
-                        <xsl:with-param name="dstr" select="$pdate"/>
-                    </xsl:call-template>
-                </port>
+		<!-- xsl:variable name="pdate" select="normalize-space(td[$xp+1]/span/span[1])" /-->
+		<xsl:variable name="pname">
+			<xsl:call-template name="fixportname">
+				<xsl:with-param name="pname" select="th[@scope='row']"/>
+			</xsl:call-template>
+		</xsl:variable>
+
+
+		<xsl:for-each select="td[$xp+1]/span/span" >
+			<xsl:variable name="pdate" select="normalize-space(.)" />
+            <xsl:if test="$pdate != '' and $pname != ''">
+                <port name="{$pname}"><xsl:value-of select="$pdate" /></port>
             </xsl:if>
+		</xsl:for-each>
 
-            <xsl:apply-templates select="./following-sibling::tr[1]">
-                <xsl:with-param name="xp" select="$xp" />
-            </xsl:apply-templates>
-        </xsl:if>
     </xsl:template>
 
     <xsl:template name="fixvesselname">
